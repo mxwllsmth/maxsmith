@@ -5,7 +5,7 @@
   margin: 45px 0 0 35px;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
+  background-image: linear-gradient(to right, white 0%, rgb(186, 131, 206) 40%, white 60%, rgb(186, 131, 206) 100%);
   color: transparent;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;

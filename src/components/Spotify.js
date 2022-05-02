@@ -3,9 +3,10 @@ import '../styles/Spotify.css';
 
 const Spotify = props => {
   return (
-    <div>
-      <h3>Spotify view</h3>
-      <p> This is the Spotify view pf SPA</p>
+    <div className="checkBackSoon">
+      <h2>C H E C K &nbsp; B A C K &nbsp; S O O N</h2>
+      <p>I haven't decided if I'm going to include this page yet!</p>
+      <p>I may incorporate Spotify's API here :)</p>
     </div>
   );
 };
