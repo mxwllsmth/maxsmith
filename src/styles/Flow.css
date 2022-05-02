@@ -1,0 +1,49 @@
+#flowTitle {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;-webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+      to right, white 0%, rgb(135, 18, 178) 33%, white 66%, rgb(135, 18, 178) 100%);
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+}
+@keyframes movingGradient {
+  from {background-position: 0 0;}
+  to {background-position: 100% 100%;}
+}
+#flowDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+#propList {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    flex-wrap: wrap;
+    margin: 50px 0 40px 0;
+    width: 650px;
+}
+#prop {
+    margin-right: 50px;
+}
+#pSpace {
+    margin-top: 50px;
+}
+#encourage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+.purpText {
+    color: rgb(197, 142, 217);
+}
+#instaFlow {
+    color: rgb(135, 18, 178);
+}

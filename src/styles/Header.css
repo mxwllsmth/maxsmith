@@ -1,0 +1,57 @@
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 2px;
+    border-image: linear-gradient(
+      to right, #db4f4fcd 0%, #66b8dbc0 33%, black 50%, #66b8dbc0 66%, #db4f4fcd 100%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #name {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+      to bottom, #48b6e6c0 25%, #e36363cd 50%, #59bce7c0 75%, #e96969cd 100%);
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 12.5s linear infinite alternate;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  #max {
+    margin: 5px;
+    padding: 0;
+    font-weight: 400;
+  }
+  @keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+  }
+  #header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+      to right, #48b6e6c0 25%, #e36363cd 50%, #59bce7c0 75%, #e96969cd 100%);
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+    font-size: 28px;
+    font-weight: normal;
+  }
+  #headerRight, #headerLeft {
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    justify-content: space-between;
+  }

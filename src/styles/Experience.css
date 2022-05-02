@@ -1,0 +1,93 @@
+#tSkills,
+#pExperience {
+  text-align: center;
+  width: 30vw;
+  margin: 45px 0 0 35px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+  font-style: italic;
+  font-size: 36.5px;
+  padding-bottom: 10px;
+}
+
+@keyframes movingGradient {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+#pExperience {
+  margin: 100px 0 0 0;
+  text-align: center;
+  width: 100vw;
+}
+
+#tSkillsContainer {
+  display: flex;
+  height: fit-content;
+  margin-top: 8%;
+}
+
+#techSkillsContainer {
+  display: flex;
+}
+
+#skillsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 4%;
+  font-size: 20px;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+#skill {
+  margin-top: 20px;
+  margin-right: 200px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(186, 131, 206) 40%, white 60%, rgb(186, 131, 206) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+}
+
+#brightStars {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  margin: 4% 0 3% 0;
+  border: solid 1.5px;
+  border-image: linear-gradient(to top left, black 10%, white 50%, black 90%) 1;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+  padding: 0 20px 20px 20px;
+}
+
+#brightStarsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#jobTitle {
+  border: none;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(186, 131, 206) 40%, white 60%, rgb(186, 131, 206) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 0;
+}

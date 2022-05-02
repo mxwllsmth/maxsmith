@@ -1,0 +1,49 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+#welcome {
+    font-size: 100px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+      to right, #48b6e6c0 2%, #48b6e6c0 30%, #e36363cd 50%, #48b6e6c0 70%, #48b6e6c0 98%);
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 10.5s linear infinite alternate;
+}
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+  }
+#logo {
+    height: 70px;
+    width: 70px;
+    margin: 30px;
+}
+#siteNav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin-top: 50px;
+}
+#homeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px;
+    padding: 5% 10% 5% 10%;
+    border-image: linear-gradient(
+      to top right, black 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, black 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, black 100%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+}

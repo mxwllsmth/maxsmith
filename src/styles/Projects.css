@@ -1,0 +1,81 @@
+#websiteContainer, #potholeContainer, #tenmoContainer, #vendingContainer {
+  display: flex;
+  align-items: center;
+}
+#websiteContainer {
+  justify-content: center;
+}
+#website {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 4% 0 2% 0;
+    border: solid 1.5px;
+    border-image: linear-gradient(
+      to right, black 0%, white 50%, black 100%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+    padding: 0 20px 20px 20px;
+    align-items: center;
+    height: fit-content;
+}
+#pothole, #vending {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 2% 4% 2% 0%;
+    border: solid 1.5px;
+    border-image: linear-gradient(
+      to top right, black 10%, white 50%, black 90%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+    padding: 0 20px 20px 20px;
+}
+#vending {
+  margin-bottom: 4%;
+}
+#skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:rgb(201, 111, 234);
+}
+#tenmo {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  margin: 2% 0 2% 4%;
+  border: solid 1.5px;
+  border-image: linear-gradient(
+    to top left, black 10%, white 50%, black 90%) 1;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+  padding: 0 20px 20px 20px;
+}
+#title {
+  -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+      to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+}
+@keyframes movingGradient {
+  from {background-position: 0 0;}
+  to {background-position: 100% 100%;}
+}
+#PTLogo {
+  height: 46%;
+  width: 46%;
+  margin-left: 25%;
+}
+#GHLogo {
+  height: 45%;
+  width: 45%;
+  margin-left: 28%;
+}
+#GHLogoVM {
+  height: 45%;
+  width: 45%;
+  margin-left: 25%;
+}

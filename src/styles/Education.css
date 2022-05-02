@@ -1,0 +1,94 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#stocktonU {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 5% 0 3% 4%;
+    border: solid 1.5px;
+    border-image: linear-gradient(
+      to top left, black 10%, white 50%, black 90%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+    padding: 0 20px 20px 20px;
+}
+#techE {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 2% 4% 4% 0%;
+    border: solid 1.5px;
+    border-image: linear-gradient(
+      to top right, black 10%, white 50%, black 90%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+    padding: 0 20px 20px 20px;
+}
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+  }
+#subHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    padding-right: 25px;
+}
+p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: normal;
+}
+#firstLine {
+    margin-bottom: 12px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 30px;
+    border-bottom: solid 1px;
+    border-image: linear-gradient(
+      to right, black 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, black 100%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+}
+h4 {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(223, 211, 227);
+}
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#list {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 750px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    margin-left: 25px;
+    margin-bottom: 14px;
+}
+#stocktonContainer, #teContainer {
+    display: flex;
+    align-items: center;
+}
+#stocktonLogo {
+    height: 45.5%;
+    width: 45.5%;
+    margin-left: 25%;
+}
+#teLogo {
+    height: 46%;
+    width: 46%;
+    margin-left: 25%;
+}
+#img {
+    width: 26%;
+}
+a {
+    text-decoration: none;
+}
