@@ -17,7 +17,7 @@ import Flow from './components/Flow';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header/>
         <div class="container">
           <Routes>
