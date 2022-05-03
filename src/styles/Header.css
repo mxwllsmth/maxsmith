@@ -16,10 +16,10 @@
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(
-      to bottom, #48b6e6c0 25%, #e36363cd 50%, #59bce7c0 75%, #e96969cd 100%);
+      to bottom, #48b6e6c0 0%, #48b6e6c0 25%, #e36363cd 50%, #48b6e6c0 75%, #59bce7c0 100%);
     color: transparent;
-    background-size: 200% 200%;
-    animation: movingGradient 12.5s linear infinite alternate;
+    background-size: 300% 300%;
+    animation: movingGradient 10s linear infinite reverse;
     justify-content: center;
     align-items: center;
     font-size: 28px;
@@ -39,13 +39,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(
-      to right, #48b6e6c0 25%, #e36363cd 50%, #59bce7c0 75%, #e96969cd 100%);
-    color: transparent;
-    background-size: 200% 200%;
-    animation: movingGradient 7.5s linear infinite alternate;
     font-size: 28px;
     font-weight: normal;
   }
@@ -54,4 +47,22 @@
     align-items: center;
     width: 35vw;
     justify-content: space-between;
+  }
+  .animate-left {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+      to right, #48b6e6c0 0%, #48b6e6c0 30%, #e36363cd 50%, #48b6e6c0 70%, #48b6e6c0 100%);
+    color: transparent;
+    background-size: 300% 300%;
+    animation: movingGradient 7.5s linear infinite reverse;
+  }
+  .animate-right {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+      to right, #48b6e6c0 0%, #48b6e6c0 30%, #e36363cd 50%, #48b6e6c0 70%, #48b6e6c0 100%);
+    color: transparent;
+    background-size: 300% 300%;
+    animation: movingGradient 7.5s linear infinite;
   }

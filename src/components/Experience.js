@@ -6,7 +6,7 @@ const Experience = props => {
     <div>
       <div id="techSkillsContainer">
         <div id="tSkillsContainer">
-          <h2 id="tSkills">Technical Skills</h2>
+          <h2 id="tSkills">T e c h n i c a l &nbsp; S k i l l s</h2>
         </div>
         <div id="skillsContainer">
             <p id="skill">Java</p>
@@ -28,7 +28,7 @@ const Experience = props => {
             <p id="skill">pgAdmin 4</p>
         </div>
       </div>
-      <h2 id="pExperience">Professional Experience</h2>
+      <h2 id="pExperience">P r o f e s s i o n a l &nbsp; E x p e r i e n c e</h2>
       <div id="brightStarsContainer">
         <div id="brightStars">
           <div id="subHeader">

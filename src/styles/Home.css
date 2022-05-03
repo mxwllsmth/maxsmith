@@ -16,8 +16,9 @@
     background-image: linear-gradient(
       to right, #48b6e6c0 2%, #48b6e6c0 30%, #e36363cd 50%, #48b6e6c0 70%, #48b6e6c0 98%);
     color: transparent;
-    background-size: 200% 200%;
-    animation: movingGradient 10.5s linear infinite alternate;
+    background-size: 300% 300%;
+    animation: movingGradient 10.5s linear infinite reverse;
+    animation-iteration-count: 1;
 }
 @keyframes movingGradient {
     from {background-position: 0 0;}

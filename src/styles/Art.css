@@ -1,0 +1,16 @@
+.artSubHeader {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    width: fit-content;
+    padding: 50px 400px 40px 400px;
+}
+.animated {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, white 0%, white 40%, black 65%, black 100%);
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 10s linear infinite alternate-reverse;
+    animation-iteration-count: 1;
+}
