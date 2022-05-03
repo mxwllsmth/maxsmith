@@ -13,12 +13,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(
-      to right, #48b6e6c0 2%, #48b6e6c0 30%, #e36363cd 50%, #48b6e6c0 70%, #48b6e6c0 98%);
+    background-image: linear-gradient(to right, black 0%, black 40%, white 55%, white 65%, black 80%, black 100%);
     color: transparent;
-    background-size: 300% 300%;
-    animation: movingGradient 10.5s linear infinite reverse;
+    background-size: 500% 200%;
+    animation: movingGradient 10s linear infinite alternate-reverse;
     animation-iteration-count: 1;
+    animation-delay: .5s;
 }
 @keyframes movingGradient {
     from {background-position: 0 0;}
@@ -42,9 +42,28 @@
     align-items: center;
     justify-content: center;
     border: solid 2px;
-    padding: 5% 10% 5% 10%;
+    padding: 5% 10% 1% 10%;
     border-image: linear-gradient(
       to top right, black 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, black 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, black 100%) 1;
-    background-size: 200% 200%;
-    animation: movingGradient 7.5s linear infinite alternate;
+    background-size: 100% 200%;
+    animation: movingGradient 7.5s linear infinite;
+}
+#homeAbout {
+  position: absolute;
+  margin-bottom: 180px;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, white 10%, transparent 50%, transparent 100%);
+  color: transparent;
+  background-size: 999% 999%;
+  animation: movingGradient 12.5s linear infinite reverse;
+  animation-iteration-count: 1;
+}
+.gimmeMainSpace {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#mainSpace {
+  padding-top: 16px;
 }
