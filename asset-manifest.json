@@ -1,7 +1,17 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.c0c05de4.css",
-    "main.js": "/maxsmith/static/js/main.b82f3447.js",
+    "main.css": "/maxsmith/static/css/main.afacd924.css",
+    "main.js": "/maxsmith/static/js/main.6a0dee7e.js",
+    "static/media/Baba Tequila Print.jpg": "/maxsmith/static/media/Baba Tequila Print.8a7febd73050cf66cd2c.jpg",
+    "static/media/P.L.U.R. Print.jpg": "/maxsmith/static/media/P.L.U.R. Print.62ccd64b707576945645.jpg",
+    "static/media/Mindscape 1 Print.jpg": "/maxsmith/static/media/Mindscape 1 Print.3c48c1efdde602cec8fe.jpg",
+    "static/media/Space Face Print.jpg": "/maxsmith/static/media/Space Face Print.16d5d9a0dd27eff63dc7.jpg",
+    "static/media/Cogito Print.jpg": "/maxsmith/static/media/Cogito Print.61147488d15312025702.jpg",
+    "static/media/Purple Rain Print.jpg": "/maxsmith/static/media/Purple Rain Print.b01653036d56d8bb723f.jpg",
+    "static/media/Hydrospace Print.jpg": "/maxsmith/static/media/Hydrospace Print.62fb76b64cfa7b1f8b75.jpg",
+    "static/media/Astro Faceic Print.jpg": "/maxsmith/static/media/Astro Faceic Print.2fff2e979f45a0209663.jpg",
+    "static/media/Void Print.jpg": "/maxsmith/static/media/Void Print.878f40d429d140276ee4.jpg",
+    "static/media/Portrait.jpg": "/maxsmith/static/media/Portrait.76a274e3a3d30939c43a.jpg",
     "static/media/TElogo-modified.png": "/maxsmith/static/media/TElogo-modified.4b59bb8503c588cd220d.png",
     "static/media/StocktonLogo-modified.png": "/maxsmith/static/media/StocktonLogo-modified.0fc2f5063c16e3d5389e.png",
     "static/media/GITHUBLOGO-modified.png": "/maxsmith/static/media/GITHUBLOGO-modified.55f03232962a6d3c5dd7.png",
@@ -10,11 +20,11 @@
     "static/media/githublogo2-modified.png": "/maxsmith/static/media/githublogo2-modified.e670dda710ecfae50f00.png",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.c0c05de4.css.map": "/maxsmith/static/css/main.c0c05de4.css.map",
-    "main.b82f3447.js.map": "/maxsmith/static/js/main.b82f3447.js.map"
+    "main.afacd924.css.map": "/maxsmith/static/css/main.afacd924.css.map",
+    "main.6a0dee7e.js.map": "/maxsmith/static/js/main.6a0dee7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c05de4.css",
-    "static/js/main.b82f3447.js"
+    "static/css/main.afacd924.css",
+    "static/js/main.6a0dee7e.js"
   ]
 }
