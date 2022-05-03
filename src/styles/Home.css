@@ -20,10 +20,6 @@
     animation-iteration-count: 1;
     animation-delay: .5s;
 }
-@keyframes movingGradient {
-    from {background-position: 0 0;}
-    to {background-position: 100% 100%;}
-  }
 #logo {
     height: 70px;
     width: 70px;

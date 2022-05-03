@@ -1,9 +1,11 @@
 .artSubHeader {
     display: flex;
     justify-content: center;
-    margin: 0 auto 0 auto;
+    margin: 50px auto 150px auto;
     width: fit-content;
     padding: 50px 400px 40px 400px;
+    font-size: 36px;
+    font-weight: normal;
 }
 .animated {
     -webkit-background-clip: text;
@@ -13,4 +15,75 @@
     background-size: 200% 200%;
     animation: movingGradient 10s linear infinite alternate-reverse;
     animation-iteration-count: 1;
+}
+.artwork {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.artTitle {
+    margin-bottom: 40px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+    font-size: 40px;
+    font-weight: normal;
+}
+.date {
+    margin-bottom: 200px;
+}
+#spaceFace {
+    max-width: 800px;
+    padding: 30px;
+    border: 5px solid white;
+    margin-top: 20px;
+}
+#cogito{
+    max-width: 700px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#hydrospace {
+    max-width: 900px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#astroFaceic {
+    max-width: 700px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#purpleRain {
+    max-height: 800px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#voidArt {
+    max-width: 850px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#portrait {
+    max-width: 750px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#babaTequila {
+    max-width: 850px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#one {
+    max-height: 1000px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#plur {
+    max-width: 900px;
+    padding: 30px;
+    border: 5px solid white;
 }

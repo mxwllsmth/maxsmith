@@ -11,10 +11,6 @@
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
 }
-@keyframes movingGradient {
-  from {background-position: 0 0;}
-  to {background-position: 100% 100%;}
-}
 #flowDescription {
     display: flex;
     flex-direction: column;
