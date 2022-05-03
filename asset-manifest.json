@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.7f065cc6.css",
-    "main.js": "/maxsmith/static/js/main.a06f9b83.js",
+    "main.css": "/maxsmith/static/css/main.c0c05de4.css",
+    "main.js": "/maxsmith/static/js/main.b82f3447.js",
     "static/media/TElogo-modified.png": "/maxsmith/static/media/TElogo-modified.4b59bb8503c588cd220d.png",
     "static/media/StocktonLogo-modified.png": "/maxsmith/static/media/StocktonLogo-modified.0fc2f5063c16e3d5389e.png",
     "static/media/GITHUBLOGO-modified.png": "/maxsmith/static/media/GITHUBLOGO-modified.55f03232962a6d3c5dd7.png",
@@ -10,11 +10,11 @@
     "static/media/githublogo2-modified.png": "/maxsmith/static/media/githublogo2-modified.e670dda710ecfae50f00.png",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.7f065cc6.css.map": "/maxsmith/static/css/main.7f065cc6.css.map",
-    "main.a06f9b83.js.map": "/maxsmith/static/js/main.a06f9b83.js.map"
+    "main.c0c05de4.css.map": "/maxsmith/static/css/main.c0c05de4.css.map",
+    "main.b82f3447.js.map": "/maxsmith/static/js/main.b82f3447.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f065cc6.css",
-    "static/js/main.a06f9b83.js"
+    "static/css/main.c0c05de4.css",
+    "static/js/main.b82f3447.js"
   ]
 }
