@@ -36,6 +36,9 @@
 .date {
     margin-bottom: 200px;
 }
+.artInfo {
+    text-align: center;
+}
 #spaceFace {
     max-width: 800px;
     padding: 30px;
@@ -86,4 +89,7 @@
     max-width: 900px;
     padding: 30px;
     border: 5px solid white;
+}
+#artPSpace {
+    margin-bottom: 40px;
 }

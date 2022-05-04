@@ -13,146 +13,136 @@ import voidArt from '../images/Void Print.jpg';
 
 const Art = props => {
   return (
-    <div className="checkBackSoon">
-      <h2>C H E C K &nbsp; B A C K &nbsp; S O O N</h2>
-      <p>I haven't finished working on this page yet!</p>
-    </div>
-
-
-    // <div>
-    //   <h2 className="artSubHeader animated">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
-
-    //   <div className="artwork">
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">S p a c e &nbsp; F a c e</h3>
-    //       <p className="date">????</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //     <div>
-    //       <img src={spaceFace} id="spaceFace" alt="Artwork"/>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div>
-    //       <img src={cogito} id="cogito" alt="Artwork"/>
-    //     </div>
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">C o g i t o</h3>
-    //       <p className="date">????</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">A s t r o &nbsp; F a c e i c</h3>
-    //       <p className="date">????</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //     <div>
-    //       <img src={astroFeceic} id="astroFaceic" alt="Artwork"/>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div>
-    //       <img src={hydrospace} id="hydrospace" alt="Artwork"/>
-    //     </div>
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">H y d r o s p a c e</h3>
-    //       <p className="date">????</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">U n t i t l e d</h3>
-    //       <p className="date">year</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //     <div>
-    //       <img src={portrait} id="portrait" alt="Artwork"/>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div>
-    //       <img src={voidArt} id="voidArt" alt="Artwork"/>
-    //     </div>
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">V o i d</h3>
-    //       <p className="date">????</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">P . L . U . R .</h3>
-    //       <p className="date">????</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //     <div>
-    //       <img src={plur} id="plur" alt="Artwork"/>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div>
-    //       <img src={babaTequila} id="babaTequila" alt="Artwork"/>
-    //     </div>
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">B a b a &nbsp; T e q u i l a</h3>
-    //       <p className="date">year</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">O n e</h3>
-    //       <p className="date">year</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //     <div>
-    //       <img src={one} id="one" alt="Artwork"/>
-    //     </div>
-    //   </div>
-
-    //   <div className="artwork">
-    //     <div>
-    //       <img src={purpleRain} id="purpleRain" alt="Artwork"/>
-    //     </div>
-    //     <div className="artInfo">
-    //       <h3 className="artTitle">P u r p l e &nbsp; R a i n</h3>
-    //       <p className="date">year</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //       <p>Description Description Description Description Description Description Description</p>
-    //     </div>
-    //   </div>
-
+    // <div className="checkBackSoon">
+    //   <h2>C H E C K &nbsp; B A C K &nbsp; S O O N</h2>
+    //   <p>I haven't finished working on this page yet!</p>
     // </div>
+
+
+    <div>
+      <h2 className="artSubHeader animated">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
+
+      <div className="artwork">
+        <div className="artInfo">
+          <h3 className="artTitle">S p a c e &nbsp; F a c e</h3>
+          <p className="date">- 2020 -</p>
+          <p id="artPSpace">16"h x 20"w x 1.5"</p>
+          <p id="artPSpace">Acrylic and resin on canvas</p>
+        </div>
+        <div>
+          <img src={spaceFace} id="spaceFace" alt="Artwork"/>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div>
+          <img src={cogito} id="cogito" alt="Artwork"/>
+        </div>
+        <div className="artInfo">
+          <h3 className="artTitle">C o g i t o</h3>
+          <p className="date">- 2019 -</p>
+          <p id="artPSpace">12"h x 12"w x 1"</p>
+          <p id="artPSpace">Mixed media, acrylic and resin on wood</p>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div className="artInfo">
+          <h3 className="artTitle">A s t r o &nbsp; F a c e i c</h3>
+          <p className="date">- 2020 -</p>
+          <p id="artPSpace">8"h x 8"w x 1.5"</p>
+          <p id="artPSpace">Mixed media, acrylic and resin on wood</p>
+        </div>
+        <div>
+          <img src={astroFeceic} id="astroFaceic" alt="Artwork"/>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div>
+          <img src={hydrospace} id="hydrospace" alt="Artwork"/>
+        </div>
+        <div className="artInfo">
+          <h3 className="artTitle">H y d r o s p a c e</h3>
+          <p className="date">- 2020 -</p>
+          <p id="artPSpace">12"h x 24"w x 1.5"</p>
+          <p id="artPSpace">Mixed media, acrylic and resin on wood</p>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div className="artInfo">
+          <h3 className="artTitle">U n t i t l e d</h3>
+          <p className="date">- 2016 -</p>
+          <p id="artPSpace">9"h x 12"w</p>
+          <p id="artPSpace">Watercolor on paper</p>
+        </div>
+        <div>
+          <img src={portrait} id="portrait" alt="Artwork"/>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div>
+          <img src={voidArt} id="voidArt" alt="Artwork"/>
+        </div>
+        <div className="artInfo">
+          <h3 className="artTitle">V o i d</h3>
+          <p className="date">- 2019 -</p>
+          <p id="artPSpace">10"h x 20"w x 1.5"</p>
+          <p id="artPSpace">Acrylic and resin on canvas</p>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div className="artInfo">
+          <h3 className="artTitle">P . L . U . R .</h3>
+          <p className="date">- 2019 -</p>
+          <p id="artPSpace">12"h x 24"w x 1"</p>
+          <p id="artPSpace">Acrylic on wood</p>
+        </div>
+        <div>
+          <img src={plur} id="plur" alt="Artwork"/>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div>
+          <img src={babaTequila} id="babaTequila" alt="Artwork"/>
+        </div>
+        <div className="artInfo">
+          <h3 className="artTitle">B a b a &nbsp; T e q u i l a</h3>
+          <p className="date">- 2020 -</p>
+          <p id="artPSpace">18"h x 24"w x 1.5"</p>
+          <p id="artPSpace">Acrylic and oil on canvas</p>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div className="artInfo">
+          <h3 className="artTitle">O n e</h3>
+          <p className="date">- 2020 -</p>
+          <p id="artPSpace">40"h x 20"w x 1.5"</p>
+          <p id="artPSpace">Acrylic and ink on canvas</p>
+        </div>
+        <div>
+          <img src={one} id="one" alt="Artwork"/>
+        </div>
+      </div>
+
+      <div className="artwork">
+        <div>
+          <img src={purpleRain} id="purpleRain" alt="Artwork"/>
+        </div>
+        <div className="artInfo">
+          <h3 className="artTitle">P u r p l e &nbsp; R a i n</h3>
+          <p className="date">- 2019 -</p>
+          <p id="artPSpace">24"h x 18"w x 1.5"</p>
+          <p id="artPSpace">Acrylic and resin on canvas</p>
+        </div>
+      </div>
+
+    </div>
   );
 };
 
