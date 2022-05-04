@@ -39,11 +39,16 @@
 .artInfo {
     text-align: center;
 }
-#spaceFace {
-    max-width: 800px;
+#selfPortrait {
+    max-width: 850px;
     padding: 30px;
     border: 5px solid white;
     margin-top: 20px;
+}
+#spaceFace {
+    max-width: 850px;
+    padding: 30px;
+    border: 5px solid white;
 }
 #cogito{
     max-width: 700px;
@@ -51,7 +56,7 @@
     border: 5px solid white;
 }
 #hydrospace {
-    max-width: 900px;
+    max-width: 950px;
     padding: 30px;
     border: 5px solid white;
 }
@@ -66,7 +71,7 @@
     border: 5px solid white;
 }
 #voidArt {
-    max-width: 850px;
+    max-width: 900px;
     padding: 30px;
     border: 5px solid white;
 }
@@ -76,7 +81,7 @@
     border: 5px solid white;
 }
 #babaTequila {
-    max-width: 850px;
+    max-width: 900px;
     padding: 30px;
     border: 5px solid white;
 }
@@ -86,7 +91,27 @@
     border: 5px solid white;
 }
 #plur {
+    max-width: 950px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#boundless {
     max-width: 900px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#motion {
+    max-width: 900px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#heads {
+    max-width: 900px;
+    padding: 30px;
+    border: 5px solid white;
+}
+#unicorn {
+    max-height: 850px;
     padding: 30px;
     border: 5px solid white;
 }

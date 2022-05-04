@@ -13,13 +13,13 @@ const Home = props => {
           <p className="gimmeMainSpace">I'm a former philosophy student and coach turned software developer, an artist, and a music lover.</p>
           <p className="gimmeMainSpace">I developed this website to showcase my resume and my art as well as to learn React.js</p>
           <p className="gimmeMainSpace" id="mainSpace">- You can contact me at -</p>
-          <p className="gimmeMainSpace">maxwell.bsmith0@gmail.com</p>
+          <p className="gimmeMainSpace" id="email">maxwell.bsmith0@gmail.com</p>
           <p className="gimmeMainSpace" id="mainSpace">or by following any of the links bellow to my social media</p>
         </div>
         <div id="siteNav">
-          <a href="https://github.com/mxwllsmth"><img src={githubLogo2} id="logo" alt="Github Logo"/></a>
-          <a href="https://www.linkedin.com/in/maxwell-b-smith/"><img src={linkedinLogo} id="logo" alt="Linkedin Logo"/></a>
-          <a href="https://www.instagram.com/mxwllsmth/"><img src={instagramLogo} id="logo" alt="Instagram Logo"/></a>
+          <a href="https://github.com/mxwllsmth" target="_blank" rel="noopener noreferrer"><img src={githubLogo2} id="logo" alt="Github Logo"/></a>
+          <a href="https://www.linkedin.com/in/maxwell-b-smith/" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} id="logo" alt="Linkedin Logo"/></a>
+          <a href="https://www.instagram.com/mxwllsmth/" target="_blank" rel="noopener noreferrer"><img src={instagramLogo} id="logo" alt="Instagram Logo"/></a>
         </div>
       </div>
     </div>

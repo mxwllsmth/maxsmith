@@ -9,7 +9,7 @@ const Education = props => {
       <div id="stocktonContainer">
         <div id="stocktonU">
           <div id="subHeader">
-          <a href="https://stockton.edu/"><h2 id="title">Stockton University</h2></a>
+          <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><h2 id="title">Stockton University</h2></a>
             <h4>2018 - 2020</h4>
           </div>
           <p id="firstLine">I attended Stockton University for three years in pursuit of a carer that felt right for me. Over my time there, I changed my major three times.</p>
@@ -21,16 +21,16 @@ const Education = props => {
           <p>at Stockton, and I couldn't be happier to see my past experience coming through in my work.</p>
         </div>
         <div> 
-        <a href="https://stockton.edu/"><img src={StocktonLogo} id="stocktonLogo" alt="Stockton University Emblem"/></a>
+        <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><img src={StocktonLogo} id="stocktonLogo" alt="Stockton University Emblem"/></a>
         </div>
       </div>
       <div id="teContainer">
         <div id="img"> 
-        <a href="https://www.techelevator.com/"><img src={TELogo} id="teLogo" alt="Tech Elevator Emblem"/></a>
+        <a href="https://www.techelevator.com/" target="_blank" rel="noopener noreferrer"><img src={TELogo} id="teLogo" alt="Tech Elevator Emblem"/></a>
         </div>
         <div id="techE">
           <div id="subHeader">
-            <a href="https://www.techelevator.com/"><h2 id="title">Tech Elevator</h2></a>
+            <a href="https://www.techelevator.com/" target="_blank" rel="noopener noreferrer"><h2 id="title">Tech Elevator</h2></a>
             <h4>01/22 - 04/22</h4>
           </div>
           <p>Tech Elevator is a full stack coding bootcamp that teaches students to create dynamic web based software systems.</p>

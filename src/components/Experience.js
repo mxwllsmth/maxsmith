@@ -32,7 +32,7 @@ const Experience = props => {
       <div id="brightStarsContainer">
         <div id="brightStars">
           <div id="subHeader">
-            <a href="https://brightstarsgym.com/"><h2 id="title">Bright Stars Gymnastics Academy</h2></a>
+            <a href="https://brightstarsgym.com/" target="_blank" rel="noopener noreferrer"><h2 id="title">Bright Stars Gymnastics Academy</h2></a>
             <h4>2016 - 2021</h4>
           </div>
           <h2 id="jobTitle">Gymnastics Instructor / Program Director</h2>

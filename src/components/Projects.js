@@ -18,11 +18,11 @@ const Projects = props => {
       </div>
       <div id="potholeContainer">
         <div id="img">
-          <a href="https://github.com/mxwllsmth/Pothole-Tracker-Full-Stack-Web-Application"><img src={PTLogo} id="PTLogo" alt="Pothole Tracker App Logo"/></a>
+          <a href="https://github.com/mxwllsmth/Pothole-Tracker-Full-Stack-Web-Application" target="_blank" rel="noopener noreferrer"><img src={PTLogo} id="PTLogo" alt="Pothole Tracker App Logo"/></a>
         </div>
         <div id="pothole">
           <div id="subHeader">
-            <a href="https://github.com/mxwllsmth/Pothole-Tracker-Full-Stack-Web-Application"><h2 id="title">Pothole Tracker Web Application</h2></a>
+            <a href="https://github.com/mxwllsmth/Pothole-Tracker-Full-Stack-Web-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">Pothole Tracker Web Application</h2></a>
             <h4>04/2022</h4>
           </div>
           <p>Mob programmed a dynamic full stack web application in a team of five to meet requirements set by a product owner.</p>
@@ -40,7 +40,7 @@ const Projects = props => {
       <div id="tenmoContainer">
         <div id="tenmo">
           <div id="subHeader">
-            <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application"><h2 id="title">TEnmo - Venmo mimic application</h2></a>
+            <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">TEnmo - Venmo mimic application</h2></a>
             <h4>03/2022</h4>
           </div>
           <p>Pair programmed a command line application to mimic the functionality of venmo.</p>
@@ -53,16 +53,16 @@ const Projects = props => {
           <p>My teams code for this project includes a RESTful API server and a backend client.</p>
         </div>
         <div id="img">
-          <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application"><img src={githubLogo} id="GHLogo" alt="Github Logo"/></a>
+          <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application" target="_blank" rel="noopener noreferrer"><img src={githubLogo} id="GHLogo" alt="Github Logo"/></a>
         </div>
       </div>
       <div id="vendingContainer">
         <div id="img">
-          <a href="https://github.com/mxwllsmth/Vending-Machine-Command-Line-Application"><img src={githubLogo} id="GHLogoVM" alt="Github Logo"/></a>
+          <a href="https://github.com/mxwllsmth/Vending-Machine-Command-Line-Application" target="_blank" rel="noopener noreferrer"><img src={githubLogo} id="GHLogoVM" alt="Github Logo"/></a>
         </div>
         <div id="vending">
           <div id="subHeader">
-            <a href="https://github.com/mxwllsmth/Vending-Machine-Command-Line-Application"><h2 id="title">Vending Machine Application</h2></a>
+            <a href="https://github.com/mxwllsmth/Vending-Machine-Command-Line-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">Vending Machine Application</h2></a>
             <h4>02/2022</h4>
           </div>
           <p>Pair programmed a command line application to emulate a vending machine.</p>

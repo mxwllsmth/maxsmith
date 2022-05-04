@@ -16,7 +16,7 @@
     background-image: linear-gradient(to right, black 0%, black 40%, white 55%, white 65%, black 80%, black 100%);
     color: transparent;
     background-size: 500% 200%;
-    animation: movingGradient 10s linear infinite alternate-reverse;
+    animation: movingGradient 9.5s linear infinite alternate-reverse;
     animation-iteration-count: 1;
     animation-delay: .5s;
 }
@@ -62,4 +62,13 @@
 }
 #mainSpace {
   padding-top: 16px;
+}
+#email {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(168, 83, 199) 0%, rgb(168, 83, 199) 10%, transparent 50%, transparent 100%);
+  color: transparent;
+  background-size: 999% 999%;
+  animation: movingGradient 12.5s linear infinite reverse;
+  animation-iteration-count: 1;
 }

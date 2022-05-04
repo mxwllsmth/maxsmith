@@ -32,7 +32,7 @@ const Flow = props => {
           <p>social media, searching for #flowart or #(the name of a specific prop) will show many accounts and videos to check out to try and see what props you might be interested in.</p>
         </div>
         <p></p>
-        <p className="purpText" id="closingFlow">Personally, my favorite props are hoops and poi! You can find videos of my flow on my flow art instagram account <a href="https://www.instagram.com/maxwell.hoopswell/" id="instaFlow">@maxwell.hoopswell</a>!</p>
+        <p className="purpText" id="closingFlow">Personally, my favorite props are hoops and poi! You can find videos of my flow on my flow art instagram account <a href="https://www.instagram.com/maxwell.hoopswell/" target="_blank" rel="noopener noreferrer" id="instaFlow">@maxwell.hoopswell</a>!</p>
       </div>
     </div>
   );
