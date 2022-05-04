@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.afacd924.css",
-    "main.js": "/maxsmith/static/js/main.6a0dee7e.js",
+    "main.css": "/maxsmith/static/css/main.d1564129.css",
+    "main.js": "/maxsmith/static/js/main.bf0816b0.js",
     "static/media/Baba Tequila Print.jpg": "/maxsmith/static/media/Baba Tequila Print.8a7febd73050cf66cd2c.jpg",
     "static/media/P.L.U.R. Print.jpg": "/maxsmith/static/media/P.L.U.R. Print.62ccd64b707576945645.jpg",
     "static/media/Mindscape 1 Print.jpg": "/maxsmith/static/media/Mindscape 1 Print.3c48c1efdde602cec8fe.jpg",
@@ -20,11 +20,11 @@
     "static/media/githublogo2-modified.png": "/maxsmith/static/media/githublogo2-modified.e670dda710ecfae50f00.png",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.afacd924.css.map": "/maxsmith/static/css/main.afacd924.css.map",
-    "main.6a0dee7e.js.map": "/maxsmith/static/js/main.6a0dee7e.js.map"
+    "main.d1564129.css.map": "/maxsmith/static/css/main.d1564129.css.map",
+    "main.bf0816b0.js.map": "/maxsmith/static/js/main.bf0816b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.afacd924.css",
-    "static/js/main.6a0dee7e.js"
+    "static/css/main.d1564129.css",
+    "static/js/main.bf0816b0.js"
   ]
 }
