@@ -30,7 +30,7 @@
     background-image: linear-gradient(
       to bottom, grey 0%, grey 35%, white 50%, grey 65%, grey 100%);
   }
-  #max {
+  #max, #smith {
     margin: 5px;
     padding: 0;
     font-weight: 400;
@@ -73,4 +73,34 @@
   .animate-right:hover {
     background-image: linear-gradient(
       to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
+  }
+
+  @media only screen and (max-width: 900px) {
+    #container {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0 10px 0;
+      width: 100vw;
+    }
+    #header-nav {
+      font-size: 18px;
+      width: 100vw;
+    }
+    #name {
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    #max {
+      margin-right: 10px;
+    }
+    #smith {
+      padding-left: 10px;
+    }
+    #headerRight, #headerLeft {
+      width: 100vw;
+    }
   }

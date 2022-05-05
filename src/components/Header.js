@@ -14,7 +14,7 @@ function Header() {
           </div>
           <Link to="/" id="name">
             <h1 id="max">M a x w e l l</h1>
-            <h1 id="max">S m i t h</h1>
+            <h1 id="smith">S m i t h</h1>
           </Link>
           <div id="headerRight">
             <Link to="Flow" id="header-nav" className="animate-right">Flow Arts</Link>

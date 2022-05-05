@@ -77,3 +77,36 @@
   animation: movingGradient 12.5s linear infinite reverse;
   animation-iteration-count: 1;
 }
+
+@media only screen and (max-width: 900px) {
+  #homeContainer {
+    margin-top: 10%;
+    height: 75vh;
+    width: 70vw;
+  }
+  #homeAbout {
+    margin-top: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    width: 70vw;
+  }
+  #welcome {
+    font-size: 40px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    padding: 0 0 60px 0;
+    margin: 0;
+  }
+  #logo {
+    height: 40px;
+    width: 40px;
+  }
+  #siteNav {
+    margin-top: 120%;
+    position: absolute;
+    width: 100vw;
+  }
+}
