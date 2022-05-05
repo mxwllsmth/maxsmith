@@ -82,6 +82,15 @@ li {
     width: 46%;
     margin-left: 25%;
 }
+#stocktonLogo:hover {
+    border: solid 2px white;
+    border-radius: 50%;
+}
+#teLogo:hover {
+    border: solid 2px white;
+    border-radius: 50%;
+    margin-left: 24.5%;
+}
 #img {
     width: 26%;
 }

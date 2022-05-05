@@ -26,6 +26,10 @@
     margin-right: 25px;
     margin-left: 25px;
   }
+  #name:hover {
+    background-image: linear-gradient(
+      to bottom, grey 0%, grey 35%, white 50%, grey 65%, grey 100%);
+  }
   #max {
     margin: 5px;
     padding: 0;
@@ -61,4 +65,12 @@
     color: transparent;
     background-size: 300% 300%;
     animation: movingGradient 7.5s linear infinite;
+  }
+  .animate-left:hover {
+    background-image: linear-gradient(
+      to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
+  }
+  .animate-right:hover {
+    background-image: linear-gradient(
+      to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
   }

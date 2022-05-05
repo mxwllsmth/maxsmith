@@ -25,6 +25,11 @@
     width: 70px;
     margin: 30px;
 }
+#logo:hover {
+  border: solid 2px white;
+  border-radius: 50%;
+  margin: 28px;
+}
 #siteNav {
     display: flex;
     justify-content: space-evenly;

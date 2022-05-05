@@ -9,7 +9,7 @@ const Projects = props => {
       <div id="websiteContainer">
         <div id="website">
           <div id="subHeader">
-            <h2 id="title">This website!</h2>
+            <h2 id="title-website">This website!</h2>
           </div>
           <p>I developed this website to showcase my resume in a fun way where I can include a little more about myself, as well as to learn to use React.</p>
           <p>This site was completed using the following technologies: </p>
