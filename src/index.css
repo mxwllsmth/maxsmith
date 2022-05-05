@@ -25,3 +25,33 @@ code {
     background-position: 100% 100%;
   }
 }
+h2 {
+  font-weight: normal;
+  font-size: 30px;
+  border-bottom: solid 1px;
+  border-image: linear-gradient(
+    to right, black 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, black 100%) 1;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+}
+h4 {
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(223, 211, 227);
+}
+li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: normal;
+  line-height: 35px;
+}
+.smallLine {
+  line-height: 25px;
+}
+#img {
+  width: 26%;
+}

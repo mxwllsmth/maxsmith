@@ -32,31 +32,8 @@
     font-style: italic;
     padding-right: 25px;
 }
-p {
-    margin-top: 6px;
-    margin-bottom: 6px;
-    font-weight: normal;
-}
 #firstLine {
     margin-bottom: 12px;
-}
-h2 {
-    font-weight: normal;
-    font-size: 30px;
-    border-bottom: solid 1px;
-    border-image: linear-gradient(
-      to right, black 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, black 100%) 1;
-    background-size: 200% 200%;
-    animation: movingGradient 7.5s linear infinite alternate;
-}
-h4 {
-    font-size: 16px;
-    font-style: italic;
-    color: rgb(223, 211, 227);
-}
-li {
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 #list {
     display: flex;
@@ -85,14 +62,12 @@ li {
 #stocktonLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
+    margin-left: 24.5%;
 }
 #teLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
     margin-left: 24.5%;
-}
-#img {
-    width: 26%;
 }
 a {
     text-decoration: none;

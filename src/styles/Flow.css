@@ -23,7 +23,7 @@
     flex-direction: column;
     height: 100px;
     flex-wrap: wrap;
-    margin: 50px 0 40px 0;
+    margin: 40px 0 40px 0;
     width: 650px;
 }
 #prop {
@@ -37,6 +37,22 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 0 50px 0;
+    width: 80vw;
+    text-align: center;
+}
+#flowWhy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    text-align: center;
+}
+#flowStart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    text-align: center;
 }
 .purpText {
     color: rgb(197, 142, 217);
