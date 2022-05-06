@@ -11,9 +11,13 @@ const Home = props => {
         <h1 id="welcome">W e l c o m e</h1>
         <div id="homeAbout">
           <p className="gimmeMainSpace smallLine">I'm a former philosophy student and coach turned software developer, an artist, and a music lover.</p>
+          <br/>
           <p className="gimmeMainSpace smallLine">I developed this website to showcase my resume and my art, as well as to learn React.js</p>
+          <br/>
           <p className="gimmeMainSpace smallLine" id="mainSpace">- You can contact me at -</p>
+          <br/>
           <p className="gimmeMainSpace smallLine" id="email">maxwell.bsmith0@gmail.com</p>
+          <br/>
           <p className="gimmeMainSpace smallLine" id="mainSpace">or by following any of the links below to my social media</p>
         </div>
         <div id="siteNav">
