@@ -67,3 +67,52 @@
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 300px 10px 300px;
 }
+
+
+@media only screen and (max-width: 900px) {
+    #flowTitle {
+        font-size: 22px;
+        padding: 10px;
+        margin: 20px 10px 10px 10px;
+    }
+    #flowStart, #flowWhy, #encourage {
+        font-size: 13.5px;
+        width: 88vw;
+        color: white;
+    }
+    #flowWhy, #encourage {
+        text-align: left;
+    }
+    .propForm {
+        font-size: 13px;
+    }
+    #encourage {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #pSpace {
+        margin-top: 20px;
+    }
+    #propList {
+        display: block;
+        width: 88vw;
+        overflow-y: scroll;
+        white-space: pre;
+        margin-top: 14px;
+        margin-left: 15px;
+        margin-bottom: 14px;
+        border: solid 1px;
+        border-image: linear-gradient(
+        to right, black 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, black 100%) 1;
+        background-size: 200% 200%;
+        animation: movingGradient 7.5s linear infinite alternate;
+    }
+    #closingFlow {
+        width: 88vw;
+        text-align: center;
+        font-size: 13.5px;
+    }
+    #flowDescription {
+        margin-bottom: 10px;
+    }
+}

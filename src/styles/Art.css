@@ -1,3 +1,6 @@
+#phoneArtDisplay {
+    display: none;
+}
 .artSubHeader {
     display: flex;
     justify-content: center;
@@ -13,7 +16,7 @@
     background-image: linear-gradient(to right, white 0%, white 40%, black 65%, black 100%);
     color: transparent;
     background-size: 200% 200%;
-    animation: movingGradient 10s linear infinite alternate-reverse;
+    animation: movingGradient 8s linear infinite alternate-reverse;
     animation-iteration-count: 1;
 }
 .artwork {
@@ -117,4 +120,123 @@
 }
 #artPSpace {
     margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #mainArtDisplay {
+        display: none;
+    }
+    #phoneArtDisplay {
+        display: block;
+    }
+    .artSubHeader {
+        width: 88vw;
+        padding: 0 0 10px 0;
+        font-size: 22px;
+        margin: 40px auto 40px auto;
+        text-align: center;
+    }
+    .animated {
+        background-image: linear-gradient(to right, white 0%, white 40%, black 55%, black 100%);
+        background-size: 200% 200%;
+        animation: movingGradient 4s linear infinite alternate-reverse;
+        animation-iteration-count: 1;
+    }
+    .artwork {
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 50px;
+    }
+    .artInfo {
+        width: 88vw;
+        font-size: 13px;
+    }
+    .artTitle {
+        font-size: 22px;
+        margin: 0 0 10px 0;
+    }
+    #selfPortrait {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+        margin-top: 20px;
+    }
+    #spaceFace {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #cogito{
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #hydrospace {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #astroFaceic {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #purpleRain {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #voidArt {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #portrait {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #babaTequila {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #one {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #plur {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #boundless {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #motion {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #heads {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #unicorn {
+        max-width: 88vw;
+        padding: 15px;
+        border: 2px solid white;
+    }
+    #artPSpace {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .date {
+        margin-bottom: 10px;
+    }
 }

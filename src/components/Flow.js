@@ -10,7 +10,7 @@ const Flow = props => {
       <div id="flowDescription">
         <p className="purpText" id="flowStart">Flow art is a movement based art form that incorporates dance and creative expression with prop manipulation. Each flow prop varies hugely and within each prop, there are
         many possible styles of movement. Flow is highly individual, and thus, what one person does with a prop may be entirely different that what another person does with it.</p>
-        <p id="pSpace" className="purpText">Flow props take on many different forms including . . .</p>
+        <p id="pSpace" className="purpText propForm">Flow props take on many different forms including . . .</p>
         <div id="propList" className="purpText">
           <li id="prop">Hoops</li>
           <li id="prop">Poi</li>
@@ -34,7 +34,7 @@ const Flow = props => {
           social media, searching for #flowart or #(the name of a specific prop) will show many accounts and videos to check out to try and see what props you might be interested in.</p>
         </div>
         <p></p>
-        <p className="purpText" id="closingFlow">Personally, my favorite props are hoops and poi! You can find videos of my flow on my flow art instagram account <a href="https://www.instagram.com/maxwell.hoopswell/" target="_blank" rel="noopener noreferrer" id="instaFlow">@maxwell.hoopswell</a>!</p>
+        <p className="purpText" id="closingFlow">Personally, my favorite props are hoops and poi! You can find videos of my flow on my flow art Instagram account <a href="https://www.instagram.com/maxwell.hoopswell/" target="_blank" rel="noopener noreferrer" id="instaFlow">@maxwell.hoopswell</a>!</p>
       </div>
     </div>
   );
