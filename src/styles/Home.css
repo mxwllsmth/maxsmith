@@ -80,12 +80,12 @@
 
 @media only screen and (max-width: 1400px) {
   #homeContainer {
-    margin-top: 8%;
-    height: 74vh;
+    margin-top: 0;
+    height: 60vh;
     width: 70vw;
   }
   #homeAbout {
-    margin-top: 30%;
+    margin-top: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -106,7 +106,17 @@
     width: 40px;
   }
   #siteNav {
-    margin-top: 120%;
+    margin-top: 50vh;
+    position: absolute;
+    width: 100vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #homeContainer {
+    margin-top: 8%;
+    height: 74vh;
+  }
+  #siteNav {
     position: absolute;
     width: 100vw;
   }
