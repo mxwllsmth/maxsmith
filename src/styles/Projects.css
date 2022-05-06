@@ -100,19 +100,28 @@
   width: 45%;
   margin-left: 25%;
 }
+
+
+
 @media only screen and (max-width: 900px) {
   #projectsPage {
     width: 100vw;
   }
   #website, #pothole, #tenmo, #vending {
-    width: 90vw;
+    width: 88vw;
     margin: 5px;
   }
+  #website {
+    padding-bottom: 0;
+  }
   #websiteContainer, #potholeContainer, #tenmoContainer, #vendingContainer {
-    font-size: 12px;
+    font-size: 13px;
     width: 100vw;
     justify-content: center;
     flex-direction: column;
+  }
+  #websiteContainer {
+    margin-top: 20px;
   }
   #title-website, #title {
     font-size: 22px;
@@ -120,14 +129,20 @@
   #completedUsing {
     text-align: center;
     padding-top: 5px;
+    font-size: 12px;
   }
   #PTLogo, #GHLogo, #GHLogoVM {
     display: none;
   }
   #skills {
+    display: block;
+    width: 88vw;
+    overflow-x: scroll;
+    white-space: pre;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 5px;
+    font-size: 12px;
   }
   .projectDate {
     font-size: 12px;

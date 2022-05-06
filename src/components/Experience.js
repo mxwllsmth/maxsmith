@@ -23,8 +23,8 @@ const Experience = props => {
             <p id="skill">JSON</p>
             <p id="skill">React.js</p>
             <p id="skill">Vue.js</p>
-            <p id="skill">Git</p>
             <p id="skill">Version Control</p>
+            <p id="skill">Git</p>
             <p id="skill">IntelliJ</p>
             <p id="skill">VS Code</p>
             <p id="skill">Postman</p>
@@ -34,11 +34,12 @@ const Experience = props => {
       </div>
 
       <h2 id="pExperience">P r o f e s s i o n a l &nbsp; E x p e r i e n c e</h2>
+      <h2 id="pExperiencePhone">P r o f e s s i o n a l<br/>E x p e r i e n c e</h2>
       <div id="brightStarsContainer">
         <div id="brightStars">
-          <div id="subHeader">
-            <a href="https://brightstarsgym.com/" target="_blank" rel="noopener noreferrer"><h2 id="title">Bright Stars Gymnastics Academy</h2></a>
-            <h4>2016 - 2021</h4>
+          <div id="subHeader" className="bsgaHeader">
+            <a href="https://brightstarsgym.com/" target="_blank" rel="noopener noreferrer"><h2 id="title" className="bsgaTitle">Bright Stars Gymnastics Academy</h2></a>
+            <h4 id="dateBSGA">2016 - 2021</h4>
           </div>
           <h2 id="jobTitle">Gymnastics Instructor / Program Director</h2>
           <p>Over the five years that I worked at Bright Stars I was able to grow tremendously as a person and as an employee. Working in a fast paced and demanding
@@ -49,9 +50,9 @@ const Experience = props => {
           <p></p>
           <p>During my time at Bright Stars I :</p>
           <p></p>
-          <li>Taught the top recreational gymnastics classes in the area and offered a great amount of care, knowledge, and guidance to my students.</li>
-          <li>Influenced all gym classes by creating new drills and sharing the ideas and methods that made my own classes so successful.</li>
-          <li>Left a blueprint for how classes should be taught, including practicing proper/ safe progressions, and being a safe and effective coach.</li>
+          <p>- Taught the top recreational gymnastics classes in the area and offered a great amount of care, knowledge, and guidance to my students.</p>
+          <p>- Influenced all gym classes by creating new drills and sharing the ideas and methods that made my own classes so successful.</p>
+          <p>- Left a blueprint for how classes should be taught, including practicing proper/ safe progressions, and being a safe and effective coach.</p>
         </div>
       </div>
       

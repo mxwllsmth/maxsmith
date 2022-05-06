@@ -73,3 +73,38 @@
 a {
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 900px) {
+    #teLogo, #stocktonLogo {
+        display: none;
+    }
+    #techE, #stocktonU {
+        width: 88vw;
+        margin: 5px;
+    }
+    #teContainer, #stocktonContainer {
+        font-size: 13px;
+        width: 100vw;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #teContainer {
+        margin-top: 20px;
+    }
+    #list {
+        display: block;
+        width: 88vw;
+        overflow-y: scroll;
+        white-space: pre;
+        margin-top: 14px;
+        margin-left: 15px;
+        margin-bottom: 14px;
+        border: solid 1px;
+        border-image: linear-gradient(
+        to right, black 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, black 100%) 1;
+        background-size: 200% 200%;
+        animation: movingGradient 7.5s linear infinite alternate;
+        padding: 0;
+    }
+}
