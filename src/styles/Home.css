@@ -78,7 +78,7 @@
   animation-iteration-count: 1;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1400px) {
   #homeContainer {
     margin-top: 8%;
     height: 74vh;

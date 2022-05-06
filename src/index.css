@@ -55,7 +55,7 @@ p {
 #img {
   width: 26%;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1400px) {
   p {
     margin-top: 2px;
     margin-bottom: 2px;

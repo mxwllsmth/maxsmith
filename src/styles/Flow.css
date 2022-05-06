@@ -69,7 +69,7 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1400px) {
     #flowTitle {
         font-size: 22px;
         padding: 10px;

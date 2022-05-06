@@ -80,7 +80,7 @@
       to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1400px) {
     #container {
       flex-direction: column;
       justify-content: space-between;

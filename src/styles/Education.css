@@ -75,7 +75,7 @@ a {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1400px) {
     #teLogo, #stocktonLogo {
         display: none;
     }

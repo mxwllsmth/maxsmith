@@ -87,7 +87,7 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1400px) {
   #techSkillsContainer {
     flex-direction: column;
   }
