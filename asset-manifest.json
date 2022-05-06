@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.411a1c45.css",
-    "main.js": "/maxsmith/static/js/main.d2e75349.js",
+    "main.css": "/maxsmith/static/css/main.b69eb64d.css",
+    "main.js": "/maxsmith/static/js/main.48d61c58.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
     "static/media/Mindscape 1 Print.JPG": "/maxsmith/static/media/Mindscape 1 Print.6b7a1fb4a6ea741ddf5d.JPG",
@@ -25,11 +25,11 @@
     "static/media/githublogo2-modified.png": "/maxsmith/static/media/githublogo2-modified.e670dda710ecfae50f00.png",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.411a1c45.css.map": "/maxsmith/static/css/main.411a1c45.css.map",
-    "main.d2e75349.js.map": "/maxsmith/static/js/main.d2e75349.js.map"
+    "main.b69eb64d.css.map": "/maxsmith/static/css/main.b69eb64d.css.map",
+    "main.48d61c58.js.map": "/maxsmith/static/js/main.48d61c58.js.map"
   },
   "entrypoints": [
-    "static/css/main.411a1c45.css",
-    "static/js/main.d2e75349.js"
+    "static/css/main.b69eb64d.css",
+    "static/js/main.48d61c58.js"
   ]
 }
