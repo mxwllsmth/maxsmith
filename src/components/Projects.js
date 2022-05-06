@@ -5,7 +5,7 @@ import githubLogo from '../images/GITHUBLOGO-modified.png'
 
 const Projects = props => {
   return (
-    <div>
+    <div id="projectsPage">
 
       <div id="websiteContainer">
         <div id="website">
@@ -13,7 +13,7 @@ const Projects = props => {
             <h2 id="title-website">This website!</h2>
           </div>
           <p>I developed this website to showcase my resume in a fun way where I can include a little more about myself, as well as to learn to use React.</p>
-          <p className="smallLine">This site was completed using the following technologies: </p>
+          <p className="smallLine" id="completedUsing">This site was completed using the following technologies: </p>
           <p id="skills">React.js&nbsp;&nbsp;|&nbsp;&nbsp;JSX&nbsp;&nbsp;|&nbsp;&nbsp;HTML&nbsp;&nbsp;|&nbsp;&nbsp;CSS&nbsp;&nbsp;|&nbsp;&nbsp;VS Code</p>
         </div>
       </div>
@@ -25,12 +25,12 @@ const Projects = props => {
         <div id="pothole">
           <div id="subHeader">
             <a href="https://github.com/mxwllsmth/Pothole-Tracker-Full-Stack-Web-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">Pothole Tracker Web Application</h2></a>
-            <h4>04/2022</h4>
+            <h4 className="projectDate">04/2022</h4>
           </div>
           <p>Mob programmed a dynamic full stack web application in a team of five to meet requirements set by a product owner.</p>
-          <p className="smallLine">This applicaton was completed using the following technologies: </p>
-          <p id="skills">PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;Java&nbsp;&nbsp;|&nbsp;&nbsp;Vue.js&nbsp;&nbsp;|&nbsp;&nbsp;JavaScript&nbsp;&nbsp;|&nbsp;&nbsp;HTML&nbsp;&nbsp;|&nbsp;&nbsp;CSS&nbsp;&nbsp;|
-            &nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;VS Code&nbsp;&nbsp;|&nbsp;&nbsp;MapBox - third party API&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
+          <p className="smallLine" id="completedUsing">This app was completed using the following technologies: </p>
+          <p id="skills" className="longSkills">PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;Java&nbsp;&nbsp;|&nbsp;&nbsp;Vue.js&nbsp;&nbsp;|&nbsp;&nbsp;JavaScript&nbsp;&nbsp;|&nbsp;&nbsp;HTML&nbsp;&nbsp;|&nbsp;&nbsp;CSS&nbsp;&nbsp;|
+            &nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;VS Code&nbsp;&nbsp;|&nbsp;&nbsp;MapBox API&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
           <p>The goal of this project was to create a utility application for the city of Philadelphia to manage their potholes. Any person can create an account and 
           report a pothole, any person with or without an account can view reported potholes and track their repair status, and an employee/ Admin user can
           update potholes to input severity and date inspected and/or repaired, and delete potholes when neccesary.</p>
@@ -44,11 +44,11 @@ const Projects = props => {
       <div id="tenmoContainer">
         <div id="tenmo">
           <div id="subHeader">
-            <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">TEnmo - Venmo mimic application</h2></a>
-            <h4>03/2022</h4>
+            <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">TEnmo - Venmo Mimic Application</h2></a>
+            <h4 className="projectDate">03/2022</h4>
           </div>
           <p>Pair programmed a command line application to mimic the functionality of venmo.</p>
-          <p className="smallLine">This applicaton was completed using the following technologies: </p>
+          <p className="smallLine" id="completedUsing">This app was completed using the following technologies: </p>
           <p id="skills">PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;Java&nbsp;&nbsp;|&nbsp;&nbsp;JUnit&nbsp;&nbsp;|&nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
           <p>The goal of this project was to mimic the functionality of venmo by creating a service where a user can request or send money, their transaction will be
           recorded in a database, and their account balances will be updated accordingly.</p>
@@ -69,10 +69,10 @@ const Projects = props => {
         <div id="vending">
           <div id="subHeader">
             <a href="https://github.com/mxwllsmth/Vending-Machine-Command-Line-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">Vending Machine Application</h2></a>
-            <h4>02/2022</h4>
+            <h4 className="projectDate">02/2022</h4>
           </div>
           <p>Pair programmed a command line application to emulate a vending machine.</p>
-          <p className="smallLine">This applicaton was completed using the following technologies: </p>
+          <p className="smallLine" id="completedUsing">This app was completed using the following technologies: </p>
           <p id="skills">Java&nbsp;&nbsp;|&nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;JUnit</p>
           <p>The goal of this project was to make a fully functional virtual vending machine that behaves just like a real one. The vending machine needed to be
           able to take money and track the users balance, verify purchases for inventory and balance, give change in number of each coin type, and log all
