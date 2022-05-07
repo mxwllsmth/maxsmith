@@ -43,13 +43,13 @@
   margin-top: 4%;
   font-size: 20px;
   flex-wrap: wrap;
-  height: 30vh;
+  height: 38vh;
   width: 60vw;
 }
 
 #skill {
   margin-top: 20px;
-  margin-right: 150px;
+  margin-right: 5vw;
   -webkit-background-clip: text;
   background-clip: text;
   background-image: linear-gradient(to right, white 0%, rgb(186, 131, 206) 40%, white 60%, rgb(186, 131, 206) 100%);
