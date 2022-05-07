@@ -4,9 +4,9 @@
 .artSubHeader {
     display: flex;
     justify-content: center;
-    margin: 50px auto 150px auto;
+    margin: 8vh auto 150px auto;
     width: fit-content;
-    padding: 50px 400px 40px 400px;
+    padding: 50px 5vw 40px 5vw;
     font-size: 36px;
     font-weight: normal;
 }
@@ -133,8 +133,8 @@
     .artSubHeader {
         width: 88vw;
         padding: 0 0 10px 0;
-        font-size: 22px;
-        margin: 40px auto 40px auto;
+        font-size: 30px;
+        margin: 8.5vh auto 40px auto;
         text-align: center;
     }
     .animated {
@@ -238,5 +238,33 @@
     }
     .date {
         margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .artSubHeader {
+        margin-top: 3.5vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .artSubHeader {
+        font-size: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .artSubHeader {
+        width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .artSubHeader {
+        left: 0;
+        right: 0;
+        width: 260px;
     }
 }

@@ -32,16 +32,19 @@
 
 #techSkillsContainer {
   display: flex;
+  justify-content: space-evenly;
+  margin-top: 4vh;
 }
 
 #skillsContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
+  margin-left: 8vw;
   margin-top: 4%;
   font-size: 20px;
   flex-wrap: wrap;
-  height: 300px;
+  height: 30vh;
+  width: 60vw;
 }
 
 #skill {
@@ -86,10 +89,23 @@
   margin-top: 0;
 }
 
+@media only screen and (max-width: 1600px) {
+  #skill {
+    margin-right: 100px;
+  }
+}
 
 @media only screen and (max-width: 1400px) {
+  #tSkills {
+    width: 20vw;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
   #techSkillsContainer {
     flex-direction: column;
+    margin-top: 0;
   }
   #tSkillsContainer {
     width: 100vw;
@@ -114,12 +130,20 @@
   }
   #skillsContainer {
     font-size: 14px;
-    margin: 10px 10px 10px 30px;
+    margin: 10px auto 10px auto;
     height: 220px;
+    left: 0;
+    right: 0;
+    justify-content: space-evenly;
   }
   #skill {
-    margin-right: 8px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top:8px;
+    width: fit-content;
+    flex: 1;
+    left: 0;
+    right: 0;
   }
   #brightStarsContainer {
     font-size: 13px;

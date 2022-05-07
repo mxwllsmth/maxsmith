@@ -1,54 +1,59 @@
 #mainContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
 }
+
 #welcome {
-    font-size: 100px;
-    font-weight: normal;
-    margin: 5px;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(to right, black 0%, black 40%, white 55%, white 65%, black 80%, black 100%);
-    color: transparent;
-    background-size: 500% 200%;
-    animation: movingGradient 9.5s linear infinite alternate-reverse;
-    animation-iteration-count: 1;
-    animation-delay: .5s;
+  font-size: 100px;
+  font-weight: normal;
+  margin: 5px;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, black 0%, black 40%, white 55%, white 65%, black 80%, black 100%);
+  color: transparent;
+  background-size: 500% 200%;
+  animation: movingGradient 9.5s linear infinite alternate-reverse;
+  animation-iteration-count: 1;
+  animation-delay: .5s;
 }
+
 #logo {
-    height: 70px;
-    width: 70px;
-    margin: 30px;
+  height: 70px;
+  width: 70px;
+  margin: 30px;
 }
+
 #logo:hover {
   border: solid 2px white;
   border-radius: 50%;
   margin: 28px;
 }
+
 #siteNav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 1000px;
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin-top: 50px;
 }
+
 #homeContainer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 35%;
-    align-items: center;
-    justify-content: center;
-    border: solid 2px;
-    padding: 5% 10% 1% 10%;
-    border-image: linear-gradient(
-      to top right, black 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, black 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, black 100%) 1;
-    background-size: 100% 200%;
-    animation: movingGradient 7.5s linear infinite;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px;
+  padding: 5% 10% 1% 10%;
+  border-image: linear-gradient(to top right, black 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, black 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, black 100%) 1;
+  background-size: 100% 200%;
+  animation: movingGradient 7.5s linear infinite;
 }
+
 #homeAbout {
   position: absolute;
   margin-bottom: 180px;
@@ -61,13 +66,16 @@
   animation: movingGradient 12.5s linear infinite reverse;
   animation-iteration-count: 1;
 }
+
 .gimmeMainSpace {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+
 #mainSpace {
   padding-top: 16px;
 }
+
 #email {
   -webkit-background-clip: text;
   background-clip: text;
@@ -78,20 +86,23 @@
   animation-iteration-count: 1;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   #homeContainer {
     margin-top: 0;
-    height: 60vh;
+    height: 40vh;
     width: 70vw;
   }
+}
+
+@media only screen and (max-width: 1400px) {
   #homeAbout {
-    margin-top: 10vh;
+    margin-top: 8vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 14px;
     width: 70vw;
   }
+
   #welcome {
     font-size: 40px;
     display: flex;
@@ -101,23 +112,40 @@
     padding: 0 0 60px 0;
     margin: 0;
   }
-  #logo {
-    height: 40px;
-    width: 40px;
-  }
+
   #siteNav {
-    margin-top: 50vh;
+    margin-top: 30vh;
     position: absolute;
     width: 100vw;
   }
 }
-@media only screen and (max-width: 900px) {
-  #homeContainer {
-    margin-top: 8%;
-    height: 74vh;
+
+
+@media only screen and (max-width: 1200px) {
+  #logo {
+    height: 40px;
+    width: 40px;
   }
+}
+
+
+@media only screen and (max-width: 900px) {
   #siteNav {
     position: absolute;
     width: 100vw;
+  }
+  #homeAbout {
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  #homeContainer {
+    margin-top: 8%;
+    height: 74vh;
+  }  
+  #siteNav {
+    margin-top: 45vh;
   }
 }

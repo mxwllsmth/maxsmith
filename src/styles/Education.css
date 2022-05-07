@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     width: 65vw;
-    margin: 5% 0 3% 4%;
+    margin: 10vh 0 3% 4%;
     border: solid 1.5px;
     border-image: linear-gradient(
       to top right, black 10%, white 50%, black 90%) 1;
@@ -75,7 +75,7 @@ a {
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
     #teLogo, #stocktonLogo {
         display: none;
     }

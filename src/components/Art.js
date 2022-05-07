@@ -209,7 +209,7 @@ const Art = props => {
 
 
       <div id="phoneArtDisplay">
-        <h2 className="artSubHeader animated">M y &nbsp; a r t &nbsp; g a l l e r y</h2>
+        <h2 className="artSubHeader animated">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
 
         <div className="artwork">
           <div className="artInfo">

@@ -1,5 +1,5 @@
 #flowTitle {
-    padding-top: 50px;
+    margin-top: 10vh;
     padding-bottom: 50px;
     align-items: center;
     display: flex;
@@ -58,19 +58,30 @@
     color: rgb(197, 142, 217);
 }
 #instaFlow {
-    color: rgb(135, 18, 178);
+    color: rgb(182, 24, 239);
+}
+#instaFlow:hover {
+    text-decoration: underline;
 }
 #closingFlow {
     border-bottom: solid 1px;
     border-image: linear-gradient(to right, black 10%, rgb(197, 142, 217) 50%, black 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
+    text-align: center;
     padding: 0 300px 10px 300px;
 }
 
-
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
     #flowTitle {
+        margin-top: 4vh;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #flowTitle {
+        margin-top: 8vh;
         font-size: 22px;
         padding: 10px;
         margin: 20px 10px 10px 10px;
