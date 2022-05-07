@@ -23,7 +23,6 @@ const Experience = props => {
             <p id="skill">JSON</p>
             <p id="skill">React.js</p>
             <p id="skill">Vue.js</p>
-            <p id="skill">Version Control</p>
             <p id="skill">Git</p>
             <p id="skill">IntelliJ</p>
             <p id="skill">VS Code</p>

@@ -27,7 +27,7 @@
 #tSkillsContainer {
   display: flex;
   height: fit-content;
-  margin-top: 8%;
+  margin-top: 10%;
 }
 
 #techSkillsContainer {
@@ -40,11 +40,12 @@
   display: flex;
   flex-direction: column;
   margin-left: 8vw;
-  margin-top: 4%;
+  margin-top: 6%;
   font-size: 20px;
   flex-wrap: wrap;
-  height: 38vh;
-  width: 60vw;
+  height: 25vh;
+  width: 55vw;
+  overflow-x: scroll;
 }
 
 #skill {
