@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.3e360065.css",
+    "main.css": "/maxsmith/static/css/main.0876e397.css",
     "main.js": "/maxsmith/static/js/main.911f7b50.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
@@ -25,11 +25,11 @@
     "static/media/githublogo2-modified.png": "/maxsmith/static/media/githublogo2-modified.e670dda710ecfae50f00.png",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.3e360065.css.map": "/maxsmith/static/css/main.3e360065.css.map",
+    "main.0876e397.css.map": "/maxsmith/static/css/main.0876e397.css.map",
     "main.911f7b50.js.map": "/maxsmith/static/js/main.911f7b50.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e360065.css",
+    "static/css/main.0876e397.css",
     "static/js/main.911f7b50.js"
   ]
 }
