@@ -35,7 +35,7 @@ const Projects = props => {
           report a pothole, any person with or without an account can view reported potholes and track their repair status, and an employee/ Admin user can
           update potholes to input severity and date inspected and/or repaired, and delete potholes when neccesary.</p>
           <p className="smallLine"></p>
-          <p className="smallLine">- This project was completed with a ten-day time restriction and our team took an Agile approach to split the project into managable sections of work.</p>
+          <p className="smallLine">- This project was completed with a ten-day time restriction and our team took an Agile approach to split the project into manageable sections of work.</p>
           <p className="smallLine"></p>
           <p className="smallLine">- My teams code for this project includes a RESTful API server, a front end client in Vue.js, a normalized database, and a third-party API from MapBox.</p>
         </div>
@@ -47,10 +47,10 @@ const Projects = props => {
             <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">TEnmo - Venmo Mimic Application</h2></a>
             <h4 className="projectDate">03/2022</h4>
           </div>
-          <p>Pair programmed a command line application to mimic the functionality of venmo.</p>
+          <p>Pair programmed a command line application to mimic the functionality of Venmo.</p>
           <p className="smallLine" id="completedUsing">This app was completed using the following technologies: </p>
           <p id="skills">PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;Java&nbsp;&nbsp;|&nbsp;&nbsp;JUnit&nbsp;&nbsp;|&nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
-          <p>The goal of this project was to mimic the functionality of venmo by creating a service where a user can request or send money, their transaction will be
+          <p>The goal of this project was to mimic the functionality of Venmo by creating a service where a user can request or send money, their transaction will be
           recorded in a database, and their account balances will be updated accordingly.</p>
           <p className="smallLine"></p>
           <p className="smallLine">- This project was completed with a five-day time restriction in a team of two.</p>

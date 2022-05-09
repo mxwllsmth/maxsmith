@@ -14,7 +14,7 @@ const Education = props => {
             <h4>01/22 - 04/22</h4>
           </div>
           <p className="smallLine">Tech Elevator is a full stack coding bootcamp that teaches students to create dynamic web based software systems.</p>
-          <p className="smallLine">This 14-week program provides around 700 hours of developmental education and application in the following thechnologies:</p>
+          <p className="smallLine">This 14-week program provides around 700 hours of developmental education and application in the following technologies:</p>
           <div id="list">
             <li>Java</li>
             <li>PostgreSQL</li>
