@@ -18,7 +18,6 @@ import ScrollToTop from './OpenAtTop';
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
       <BrowserRouter basename="/maxsmith">
         <div id="headerContainerDiv">
           <Header/>
