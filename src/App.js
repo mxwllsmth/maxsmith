@@ -13,6 +13,7 @@ import Spotify from './components/Spotify';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Flow from './components/Flow';
+import ScrollToTop from './OpenAtTop';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Header/>
         </div>
         <div class="container">
+          <ScrollToTop />
           <Routes>
             <Route path="/" element ={<Home/>}/>
             <Route path="/Spotify" element={<Spotify/>} />
