@@ -33,7 +33,7 @@ const Projects = props => {
           &nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;VS Code&nbsp;&nbsp;|&nbsp;&nbsp;MapBox API&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
           <p>The goal of this project was to create a utility application for the city of Philadelphia to manage their potholes. Any person can create an account and 
           report a pothole, any person with or without an account can view reported potholes and track their repair status, and an employee/ Admin user can
-          update potholes to input severity and date inspected and/or repaired, and delete potholes when neccesary.</p>
+          update potholes to input severity and date inspected and/or repaired, and delete potholes when necessary.</p>
           <p className="smallLine"></p>
           <p className="smallLine">- This project was completed with a ten-day time restriction and our team took an Agile approach to split the project into manageable sections of work.</p>
           <p className="smallLine"></p>

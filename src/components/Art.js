@@ -1,5 +1,9 @@
 import React from 'react';
+
 import '../styles/Art.css';
+
+import '../ScrollAnimate';
+
 import spaceFace from '../images/Space Face Print.JPG';
 import astroFeceic from '../images/Astro Faceic Print.JPG';
 import babaTequila from '../images/Baba Tequila Print.JPG';
@@ -13,10 +17,12 @@ import voidArt from '../images/Void Print.JPG';
 import unicorn from '../images/unicorn.JPG';
 import selfPortrait from '../images/SelfPortrait.JPG';
 import boundless from '../images/Boundless Print.JPG';
-import motion from '../images/motion.JPG';
+import motionImg from '../images/motion.JPG';
 import heads from '../images/Heads.JPG';
 
+
 const Art = props => {
+
   return (
 
     <div>
@@ -43,13 +49,13 @@ const Art = props => {
             <p id="artPSpace">16" h x 20" w x 1.5"</p>
             <p id="artPSpace">Acrylic, ink and resin on canvas</p>
           </div>
-          <div>
+          <div className="reveal fade-right">
             <img src={spaceFace} id="spaceFace" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div>
+          <div className="reveal fade-left">
             <img src={cogito} id="cogito" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -67,13 +73,13 @@ const Art = props => {
             <p id="artPSpace">8" h x 8" w x 1.5"</p>
             <p id="artPSpace">Mixed media, ink, acrylic and resin on wood</p>
           </div>
-          <div>
+          <div className="reveal fade-right">
             <img src={astroFeceic} id="astroFaceic" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div>
+          <div className="reveal fade-left">
             <img src={hydrospace} id="hydrospace" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -91,13 +97,13 @@ const Art = props => {
             <p id="artPSpace">9" h x 12" w</p>
             <p id="artPSpace">Watercolor on paper</p>
           </div>
-          <div>
+          <div className="reveal fade-right">
             <img src={portrait} id="portrait" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div>
+          <div className="reveal fade-left">
             <img src={voidArt} id="voidArt" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -115,13 +121,13 @@ const Art = props => {
             <p id="artPSpace">20" h x 16" w x 1.5"</p>
             <p id="artPSpace">Mixed media, acrylic and resin on wood</p>
           </div>
-          <div>
+          <div className="reveal fade-right">
             <img src={unicorn} id="unicorn" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div>
+          <div className="reveal fade-left">
             <img src={heads} id="heads" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -139,13 +145,13 @@ const Art = props => {
             <p id="artPSpace">12" h x 24" w x 1"</p>
             <p id="artPSpace">Acrylic on wood</p>
           </div>
-          <div>
+          <div className="reveal fade-right">
             <img src={plur} id="plur" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div>
+          <div className="reveal fade-left">
             <img src={babaTequila} id="babaTequila" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -163,14 +169,14 @@ const Art = props => {
             <p id="artPSpace">24" h x 48" w x 1.5"</p>
             <p id="artPSpace">Mixed media, acrylic and resin on canvas</p>
           </div>
-          <div>
+          <div className="reveal fade-right">
             <img src={boundless} id="boundless" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div>
-            <img src={motion} id="motion" alt="Artwork"/>
+          <div className="reveal fade-left">
+            <img src={motionImg} id="motion" alt="Artwork"/>
           </div>
           <div className="artInfo">
             <h3 className="artTitle">M o t i o n</h3>
@@ -187,13 +193,13 @@ const Art = props => {
             <p id="artPSpace">40" h x 20" w x 1.5"</p>
             <p id="artPSpace">Acrylic and ink on canvas</p>
           </div>
-          <div>
+          <div className="reveal fade-right">
             <img src={one} id="one" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div>
+          <div className="reveal fade-left">
             <img src={purpleRain} id="purpleRain" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -363,7 +369,7 @@ const Art = props => {
             <p id="artPSpace">Acrylic and resin on wood</p>
           </div>
           <div>
-            <img src={motion} id="motion" alt="Artwork"/>
+            <img src={motionImg} id="motion" alt="Artwork"/>
           </div>
         </div>
 
