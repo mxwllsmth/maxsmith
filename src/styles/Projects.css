@@ -73,34 +73,27 @@
 #PTLogo {
   height: 46%;
   width: 46%;
-  margin-left: 25%;
 }
 #PTLogo:hover {
-  margin-left: 24.5%;
   border: solid 2px white;
   border-radius: 50%;
 }
 #GHLogo:hover {
-  margin-left: 27.5%;
   border: solid 2px white;
   border-radius: 50%;
 }
 #GHLogoVM:hover {
-  margin-left: 24.5%;
   border: solid 2px white;
   border-radius: 50%;
 }
 #GHLogo {
   height: 45%;
   width: 45%;
-  margin-left: 28%;
 }
 #GHLogoVM {
   height: 45%;
   width: 45%;
-  margin-left: 25%;
 }
-
 
 
 @media only screen and (max-width: 1400px) {

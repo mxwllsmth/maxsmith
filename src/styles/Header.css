@@ -9,7 +9,7 @@
     justify-content: space-evenly;
     border-bottom: solid 2px;
     border-image: linear-gradient(
-      to right, #db4f4fcd 0%, #66b8dbc0 33%, black 50%, #66b8dbc0 66%, #db4f4fcd 100%) 1;
+      to right, rgb(135, 18, 178) 0%, rgb(191, 123, 215) 33%, black 50%, rgb(191, 123, 215) 66%, rgb(135, 18, 178) 100%) 1; /* #db4f4fcd 0%, #66b8dbc0 33%, black 50%, #66b8dbc0 66%, #db4f4fcd 100% */
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding-bottom: 30px;
@@ -22,10 +22,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(
-      to bottom, #48b6e6c0 0%, #48b6e6c0 25%, #e36363cd 50%, #48b6e6c0 75%, #59bce7c0 100%);
+      to bottom, rgb(135, 18, 178) 0%, rgb(135, 18, 178) 25%, white 50%, rgb(135, 18, 178) 75%, rgb(135, 18, 178) 100%);
     color: transparent;
     background-size: 300% 300%;
-    animation: movingGradient 10s linear infinite reverse;
+    animation: movingGradient 8s linear infinite reverse;
+    animation-delay:initial;
     justify-content: center;
     align-items: center;
     font-size: 28px;
@@ -35,6 +36,7 @@
   #name:hover {
     background-image: linear-gradient(
       to bottom, grey 0%, grey 35%, white 50%, grey 65%, grey 100%);
+    animation: movingGradient 2s linear infinite reverse;
   }
   #max, #smith {
     margin: 5px;
@@ -58,27 +60,29 @@
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(
-      to right, #48b6e6c0 0%, #48b6e6c0 30%, #e36363cd 50%, #48b6e6c0 70%, #48b6e6c0 100%);
+      to right, rgb(140, 73, 165) 0%, rgb(140, 73, 165) 35%, white 50%, rgb(140, 73, 165) 65%, rgb(140, 73, 165) 100%);
     color: transparent;
     background-size: 300% 300%;
-    animation: movingGradient 7.5s linear infinite reverse;
+    animation: movingGradient 5s linear infinite reverse;
   }
   .animate-right {
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(
-      to right, #48b6e6c0 0%, #48b6e6c0 30%, #e36363cd 50%, #48b6e6c0 70%, #48b6e6c0 100%);
+      to right, rgb(140, 73, 165) 0%, rgb(140, 73, 165) 35%, white 50%, rgb(140, 73, 165) 65%, rgb(140, 73, 165) 100%);
     color: transparent;
     background-size: 300% 300%;
-    animation: movingGradient 7.5s linear infinite;
+    animation: movingGradient 5s linear infinite;
   }
   .animate-left:hover {
     background-image: linear-gradient(
       to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
+    animation: movingGradient 2s linear infinite reverse;
   }
   .animate-right:hover {
     background-image: linear-gradient(
       to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
+    animation: movingGradient 2s linear infinite reverse;
   }
 
   @media only screen and (max-width: 1200px) {

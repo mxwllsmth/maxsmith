@@ -48,27 +48,24 @@
 #stocktonContainer, #teContainer {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 #stocktonLogo {
     height: 46%;
     width: 46%;
-    margin-left: 25%;
 }
 #teLogo {
     height: 46%;
     width: 46%;
-    margin-left: 25%;
     margin-top: 7%;
 }
 #stocktonLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
-    margin-left: 24.5%;
 }
 #teLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
-    margin-left: 24.5%;
 }
 a {
     text-decoration: none;

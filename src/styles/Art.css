@@ -1,45 +1,6 @@
 #phoneArtDisplay {
     display: none;
 }
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 2s all ease;
-  }
-  .reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
-  .active.fade-left {
-    animation: fade-left 1s ease-in;
-  }
-  .active.fade-right {
-    animation: fade-right 1s ease-in;
-  }
-
-  @keyframes fade-left {
-    0% {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-right {
-    0% {
-      transform: translateX(100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-
 .artSubHeader {
     display: flex;
     justify-content: center;
@@ -52,9 +13,9 @@
 .animated {
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, white 0%, white 40%, black 65%, black 100%);
+    background-image: linear-gradient(to right, white 0%, white 30%, black 65%, black 100%);
     color: transparent;
-    background-size: 200% 200%;
+    background-size: 300% 200%;
     animation: movingGradient 8s linear infinite alternate-reverse;
     animation-iteration-count: 1;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/Home.css';
-import linkedinLogo from '../images/linkedinLogo.png'
-import instagramLogo from '../images/instagramLogo.png'
-import githubLogo2 from '../images/githublogo2-modified.png'
+import linkedinLogo from '../images/linkedinLogo.png';
+import instagramLogo from '../images/instagramLogo.png';
+import githubLogo2 from '../images/githublogo2-modified.png';
 
 const Home = props => {
   return (
@@ -14,11 +14,11 @@ const Home = props => {
           <br/>
           I developed this website to showcase my resume and my art, as well as to learn React.js
           <br/>
-          - You can contact me at -
+          - You can contact me at -</p>
           <br/>
           <p className="gimmeMainSpace smallLine" id="email">maxwell.bsmith0@gmail.com</p>
           <br/>
-          or by following any of the links below to my social media</p>
+          <p id="followLink">or by following any of the links below to my social media</p>
         </div>
         <div id="siteNav">
           <a href="https://github.com/mxwllsmth" target="_blank" rel="noopener noreferrer"><img src={githubLogo2} id="logo" alt="Github Logo"/></a>
