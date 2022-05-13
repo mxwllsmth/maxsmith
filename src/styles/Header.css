@@ -3,8 +3,6 @@
   width: 100vw;
   background-color: black;
   z-index: 1000;
-  animation-delay: 10.5s !important;
-  animation-fill-mode: both !important;
 }
 #container {
     display: flex;
