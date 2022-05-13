@@ -5,6 +5,12 @@
   display: flex;
   align-items: center;
 }
+#potholeContainer,
+#tenmoContainer,
+#vendingContainer {
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
 
 #websiteContainer {
   justify-content: center;

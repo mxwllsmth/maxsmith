@@ -7,34 +7,34 @@ const Experience = props => {
 
       <div id="techSkillsContainer">
 
-        <div id="tSkillsContainer">
+        <div id="tSkillsContainer" className="reveal fade-in-three active">
           <h2 id="tSkills">T e c h n i c a l &nbsp; S k i l l s</h2>
         </div>
 
         <div id="skillsContainer">
-            <p id="skill">Java</p>
-            <p id="skill">Unit Testing</p>
-            <p id="skill">JavaScript</p>
-            <p id="skill">JSX</p>
-            <p id="skill">PostgreSQL</p>
-            <p id="skill">HTML</p>
-            <p id="skill">CSS</p>
-            <p id="skill">Spring Boot</p>
-            <p id="skill">JSON</p>
-            <p id="skill">React.js</p>
-            <p id="skill">Vue.js</p>
-            <p id="skill">Git</p>
-            <p id="skill">IntelliJ</p>
-            <p id="skill">VS Code</p>
-            <p id="skill">Postman</p>
-            <p id="skill">pgAdmin 4</p>
+            <div className="skillJAVA reveal fade-in-two active"><p id="skill">Java</p></div>
+            <div className="skillUNIT reveal fade-in-two active"><p id="skill">Unit Testing</p></div>
+            <div className="skillJS reveal fade-in-two active"><p id="skill">JavaScript</p></div>
+            <div className="skillJSX reveal fade-in-two active"><p id="skill">JSX</p></div>
+            <div className="skillPSQL reveal fade-in-two active"><p id="skill">PostgreSQL</p></div>
+            <div className="skillHTML reveal fade-in-two active"><p id="skill">HTML</p></div>
+            <div className="skillCSS reveal fade-in-two active"><p id="skill">CSS</p></div>
+            <div className="skillSPRING reveal fade-in-two active"><p id="skill">Spring Boot</p></div>
+            <div className="skillJSON reveal fade-in-two active"><p id="skill">JSON</p></div>
+            <div className="skillREACT reveal fade-in-two active"><p id="skill">React.js</p></div>
+            <div className="skillVUE reveal fade-in-two active"><p id="skill">Vue.js</p></div>
+            <div className="skillGIT reveal fade-in-two active"><p id="skill">Git</p></div>
+            <div className="skillINTELLIJ reveal fade-in-two active"><p id="skill">IntelliJ</p></div>
+            <div className="skillVSCODE reveal fade-in-two active"><p id="skill">VS Code</p></div>
+            <div className="skillPOSTMAN reveal fade-in-two active"><p id="skill">Postman</p></div>
+            <div className="skillPGADMIN reveal fade-in-two active"><p id="skill">pgAdmin 4</p></div>
         </div>
 
       </div>
 
-      <h2 id="pExperience">P r o f e s s i o n a l &nbsp; E x p e r i e n c e</h2>
-      <h2 id="pExperiencePhone">P r o f e s s i o n a l<br/>E x p e r i e n c e</h2>
-      <div id="brightStarsContainer">
+      <div className="profExperience reveal fade-in-three active"><h2 id="pExperience">P r o f e s s i o n a l &nbsp; E x p e r i e n c e</h2></div>
+      <div className="profExperience reveal fade-in-three active"><h2 id="pExperiencePhone">P r o f e s s i o n a l<br/>E x p e r i e n c e</h2></div>
+      <div id="brightStarsContainer" className="reveal fade-in-three active">
         <div id="brightStars">
           <div id="subHeader" className="bsgaHeader">
             <a href="https://brightstarsgym.com/" target="_blank" rel="noopener noreferrer"><h2 id="title" className="bsgaTitle">Bright Stars Gymnastics Academy</h2></a>

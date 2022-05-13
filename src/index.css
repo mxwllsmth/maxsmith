@@ -62,7 +62,14 @@ p {
   opacity: 0;
   transition: 2s all ease;
 }
-.reveal.active{
+.revealWithScroll{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.revealWithScroll.active,
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
@@ -76,10 +83,16 @@ p {
   animation: fade-up 1.5s ease-in;
 }
 .active.fade-down {
-  animation: fade-down 1.5s ease-in;
+  animation: fade-down 1s ease-in;
 }
 .active.fade-in {
   animation: fade-in 2s ease-in;
+}
+.active.fade-in-two {
+  animation: fade-in .5s ease-in;
+}
+.active.fade-in-three {
+  animation: fade-in 1.5s ease-in;
 }
 @keyframes fade-left {
   0% {
@@ -113,7 +126,7 @@ p {
 }
 @keyframes fade-down {
   0% {
-    transform: translateY(400px);
+    transform: translateY(100px);
     opacity: 0;
   }
   100% {

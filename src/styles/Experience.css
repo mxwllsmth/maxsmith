@@ -20,6 +20,11 @@
   width: 100vw;
 }
 
+.profExperience {
+  animation-delay: 5s !important;
+  animation-fill-mode: both !important;
+}
+
 #pExperiencePhone {
   display: none;
 }
@@ -75,6 +80,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation-delay: 6s !important;
+  animation-fill-mode: both !important;
 }
 
 #jobTitle {
@@ -88,6 +95,70 @@
   font-style: italic;
   font-size: 20px;
   margin-top: 0;
+}
+.skillJAVA {
+  animation-delay: 1s !important;
+  animation-fill-mode: both !important;
+}
+.skillUNIT {
+  animation-delay: 1.25s !important;
+  animation-fill-mode: both !important;
+}
+.skillJS {
+  animation-delay: 1.5s !important;
+  animation-fill-mode: both !important;
+}
+.skillJSX {
+  animation-delay: 1.75s !important;
+  animation-fill-mode: both !important;
+}
+.skillPSQL {
+  animation-delay: 2s !important;
+  animation-fill-mode: both !important;
+}
+.skillHTML {
+  animation-delay: 2.25s !important;
+  animation-fill-mode: both !important;
+}
+.skillCSS {
+  animation-delay: 2.5s !important;
+  animation-fill-mode: both !important;
+}
+.skillSPRING {
+  animation-delay: 2.75s !important;
+  animation-fill-mode: both !important;
+}
+.skillJSON {
+  animation-delay: 3s !important;
+  animation-fill-mode: both !important;
+}
+.skillREACT {
+  animation-delay: 3.25s !important;
+  animation-fill-mode: both !important;
+}
+.skillVUE {
+  animation-delay: 3.5s !important;
+  animation-fill-mode: both !important;
+}
+.skillGIT {
+  animation-delay: 3.75s !important;
+  animation-fill-mode: both !important;
+}
+.skillINTELLIJ {
+  animation-delay: 4s !important;
+  animation-fill-mode: both !important;
+}
+.skillVSCODE {
+  animation-delay: 4.25s !important;
+  animation-fill-mode: both !important;
+}
+.skillPOSTMAN {
+  animation-delay: 4.5s !important;
+  animation-fill-mode: both !important;
+}
+.skillPGADMIN {
+  animation-delay: 4.75s !important;
+  animation-fill-mode: both !important;
 }
 
 @media only screen and (max-width: 1600px) {

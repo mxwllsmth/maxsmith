@@ -28,7 +28,7 @@ const Art = props => {
     <div>
 
       <div id="mainArtDisplay">
-        <h2 className="artSubHeader animated">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
+        <h2 className="artSubHeader animated reveal fade-in active">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
 
         <div className="artwork">
           <div className="reveal fade-left active" id="spDelay">
@@ -49,13 +49,13 @@ const Art = props => {
             <p id="artPSpace">16" h x 20" w x 1.5"</p>
             <p id="artPSpace">Acrylic, ink and resin on canvas</p>
           </div>
-          <div className="reveal fade-right">
+          <div className="revealWithScroll fade-right">
             <img src={spaceFace} id="spaceFace" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div className="reveal fade-left">
+          <div className="revealWithScroll fade-left">
             <img src={cogito} id="cogito" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -73,13 +73,13 @@ const Art = props => {
             <p id="artPSpace">8" h x 8" w x 1.5"</p>
             <p id="artPSpace">Mixed media, ink, acrylic and resin on wood</p>
           </div>
-          <div className="reveal fade-right">
+          <div className="revealWithScroll fade-right">
             <img src={astroFeceic} id="astroFaceic" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div className="reveal fade-left">
+          <div className="revealWithScroll fade-left">
             <img src={hydrospace} id="hydrospace" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -97,13 +97,13 @@ const Art = props => {
             <p id="artPSpace">9" h x 12" w</p>
             <p id="artPSpace">Watercolor on paper</p>
           </div>
-          <div className="reveal fade-right">
+          <div className="revealWithScroll fade-right">
             <img src={portrait} id="portrait" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div className="reveal fade-left">
+          <div className="revealWithScroll fade-left">
             <img src={voidArt} id="voidArt" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -121,13 +121,13 @@ const Art = props => {
             <p id="artPSpace">20" h x 16" w x 1.5"</p>
             <p id="artPSpace">Mixed media, acrylic and resin on wood</p>
           </div>
-          <div className="reveal fade-right">
+          <div className="revealWithScroll fade-right">
             <img src={unicorn} id="unicorn" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div className="reveal fade-left">
+          <div className="revealWithScroll fade-left">
             <img src={heads} id="heads" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -145,13 +145,13 @@ const Art = props => {
             <p id="artPSpace">12" h x 24" w x 1"</p>
             <p id="artPSpace">Acrylic on wood</p>
           </div>
-          <div className="reveal fade-right">
+          <div className="revealWithScroll fade-right">
             <img src={plur} id="plur" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div className="reveal fade-left">
+          <div className="revealWithScroll fade-left">
             <img src={babaTequila} id="babaTequila" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -169,13 +169,13 @@ const Art = props => {
             <p id="artPSpace">24" h x 48" w x 1.5"</p>
             <p id="artPSpace">Mixed media, acrylic and resin on canvas</p>
           </div>
-          <div className="reveal fade-right">
+          <div className="revealWithScroll fade-right">
             <img src={boundless} id="boundless" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div className="reveal fade-left">
+          <div className="revealWithScroll fade-left">
             <img src={motionImg} id="motion" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -193,13 +193,13 @@ const Art = props => {
             <p id="artPSpace">40" h x 20" w x 1.5"</p>
             <p id="artPSpace">Acrylic and ink on canvas</p>
           </div>
-          <div className="reveal fade-right">
+          <div className="revealWithScroll fade-right">
             <img src={one} id="one" alt="Artwork"/>
           </div>
         </div>
 
         <div className="artwork">
-          <div className="reveal fade-left">
+          <div className="revealWithScroll fade-left">
             <img src={purpleRain} id="purpleRain" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -215,7 +215,7 @@ const Art = props => {
 
 
       <div id="phoneArtDisplay">
-        <h2 className="artSubHeader animated phoneArtSubHead">W e l c o m e &nbsp; t o &nbsp; m y<br/>a r t &nbsp; g a l l e r y</h2>
+        <h2 className="artSubHeader animated phoneArtSubHead reveal fade-in active">W e l c o m e &nbsp; t o &nbsp; m y<br/>a r t &nbsp; g a l l e r y</h2>
 
         <div className="artwork">
           <div className="artInfo">

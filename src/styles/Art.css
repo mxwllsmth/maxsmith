@@ -16,7 +16,7 @@
 .animated {
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, white 0%, white 30%, black 65%, black 100%);
+    background-image: linear-gradient(to right, white 0%, white 30%, white 65%, white 100%);
     color: transparent;
     background-size: 300% 200%;
     animation: movingGradient 8s linear infinite alternate-reverse;
@@ -52,7 +52,7 @@
     margin-top: 20px;
 }
 #spDelay {
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     animation-fill-mode: both;
 }
 #spaceFace {

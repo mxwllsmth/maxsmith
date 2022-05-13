@@ -59,6 +59,10 @@
     width: 46%;
     margin-top: 7%;
 }
+.eduImage {
+    animation-delay: 1s !important;
+    animation-fill-mode: both !important;
+}
 #stocktonLogo:hover {
     border: solid 2px white;
     border-radius: 50%;

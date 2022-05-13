@@ -7,7 +7,7 @@ const Projects = props => {
   return (
     <div id="projectsPage">
 
-      <div id="websiteContainer">
+      <div id="websiteContainer" className="reveal fade-in active">
         <div id="website">
           <div id="subHeader">
             <h2 id="title-website">This website!</h2>
@@ -18,7 +18,7 @@ const Projects = props => {
         </div>
       </div>
 
-      <div id="potholeContainer">
+      <div id="potholeContainer" className="reveal fade-in active">
         <div id="img">
           <a href="https://github.com/mxwllsmth/Pothole-Tracker-Full-Stack-Web-Application" target="_blank" rel="noopener noreferrer"><img src={PTLogo} id="PTLogo" alt="Pothole Tracker App Logo"/></a>
         </div>
@@ -41,7 +41,7 @@ const Projects = props => {
         </div>
       </div>
 
-      <div id="tenmoContainer">
+      <div id="tenmoContainer" className="reveal fade-in active">
         <div id="tenmo">
           <div id="subHeader">
             <a href="https://github.com/mxwllsmth/TEnmo-Venmo-Mimic-Command-Line-Application" target="_blank" rel="noopener noreferrer"><h2 id="title">TEnmo - Venmo Mimic Application</h2></a>
@@ -62,7 +62,7 @@ const Projects = props => {
         </div>
       </div>
 
-      <div id="vendingContainer">
+      <div id="vendingContainer" className="reveal fade-in active">
         <div id="img">
           <a href="https://github.com/mxwllsmth/Vending-Machine-Command-Line-Application" target="_blank" rel="noopener noreferrer"><img src={githubLogo} id="GHLogoVM" alt="Github Logo"/></a>
         </div>
