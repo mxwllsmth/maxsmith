@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="Header reveal fade-up active">
       <header className="App-header">
         <nav id="container">
           <div id="headerLeft">

@@ -10,6 +10,9 @@
     font-size: 36px;
     font-weight: normal;
 }
+.phoneArtSubHead {
+    background-size: 300% 200% !important;
+}
 .animated {
     -webkit-background-clip: text;
     background-clip: text;
@@ -47,6 +50,10 @@
     padding: 30px;
     border: 5px solid white;
     margin-top: 20px;
+}
+#spDelay {
+    animation-delay: 1s;
+    animation-fill-mode: both;
 }
 #spaceFace {
     max-width: 850px;

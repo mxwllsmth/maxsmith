@@ -31,7 +31,7 @@ const Art = props => {
         <h2 className="artSubHeader animated">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
 
         <div className="artwork">
-          <div className="reveal fade-left active">
+          <div className="reveal fade-left active" id="spDelay">
             <img src={selfPortrait} id="selfPortrait" alt="Artwork"/>
           </div>
           <div className="artInfo">
@@ -215,7 +215,7 @@ const Art = props => {
 
 
       <div id="phoneArtDisplay">
-        <h2 className="artSubHeader animated">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
+        <h2 className="artSubHeader animated phoneArtSubHead">W e l c o m e &nbsp; t o &nbsp; m y<br/>a r t &nbsp; g a l l e r y</h2>
 
         <div className="artwork">
           <div className="artInfo">
