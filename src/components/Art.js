@@ -34,7 +34,7 @@ const Art = props => {
           <div className="reveal fade-left active" id="spDelay">
             <img src={selfPortrait} id="selfPortrait" alt="Artwork"/>
           </div>
-          <div className="artInfo">
+          <div className="artInfo reveal fade-in active" id="spDelay">
             <h3 className="artTitle">S e l f &nbsp; P o r t r a i t</h3>
             <p className="date">- &nbsp;2 0 2 0&nbsp; -</p>
             <p id="artPSpace">12.5" h x 19.5" w</p>
