@@ -1,13 +1,15 @@
 #websiteContainer,
 #potholeContainer,
 #tenmoContainer,
-#vendingContainer {
+#vendingContainer,
+#leetContainer {
   display: flex;
   align-items: center;
 }
 #potholeContainer,
 #tenmoContainer,
-#vendingContainer {
+#vendingContainer,
+#leetContainer {
   animation-delay: 1s;
   animation-fill-mode: both;
 }
@@ -43,7 +45,8 @@
   padding: 0 20px 20px 20px;
 }
 
-#vending {
+/* Change this selector for whichever project is at the bottom of the page! */
+#leet {
   margin-bottom: 4%;
 }
 
@@ -53,7 +56,8 @@
   color: rgb(201, 111, 234);
 }
 
-#tenmo {
+#tenmo,
+#leet {
   display: flex;
   flex-direction: column;
   width: 65vw;
@@ -106,14 +110,14 @@
   #projectsPage {
     width: 100vw;
   }
-  #website, #pothole, #tenmo, #vending {
+  #website, #pothole, #tenmo, #vending, #leet {
     width: 88vw;
     margin: 5px;
   }
   #website {
     padding-bottom: 0;
   }
-  #websiteContainer, #potholeContainer, #tenmoContainer, #vendingContainer {
+  #websiteContainer, #potholeContainer, #tenmoContainer, #vendingContainer, #leetContainer {
     font-size: 13px;
     width: 100vw;
     justify-content: center;

@@ -14,7 +14,7 @@ const Projects = props => {
           </div>
           <p>I developed this website to showcase my resume in a fun way where I can include a little more about myself, as well as to learn to use React.</p>
           <p className="smallLine" id="completedUsing">This site was completed using the following technologies: </p>
-          <p id="skills">React.js&nbsp;&nbsp;|&nbsp;&nbsp;JSX&nbsp;&nbsp;|&nbsp;&nbsp;HTML&nbsp;&nbsp;|&nbsp;&nbsp;CSS&nbsp;&nbsp;|&nbsp;&nbsp;VS Code</p>
+          <p id="skills">React.js&nbsp;&nbsp;|&nbsp;&nbsp;JavaScript&nbsp;&nbsp;|&nbsp;&nbsp;JSX&nbsp;&nbsp;|&nbsp;&nbsp;HTML&nbsp;&nbsp;|&nbsp;&nbsp;CSS&nbsp;&nbsp;|&nbsp;&nbsp;VS Code</p>
         </div>
       </div>
 
@@ -79,6 +79,23 @@ const Projects = props => {
           transactions and events.</p>
           <p className="smallLine"></p>
           <p className="smallLine">- This project was completed with a four-day time restriction in a team of two.</p>
+        </div>
+      </div>
+
+      <div id="leetContainer" className="reveal fade-in active">
+        <div id="leet">
+          <div id="subHeader">
+            <a href="https://github.com/mxwllsmth/Java-Code-Challenges/tree/main/Exploring-Java/src/main/java/com/techelevator" target="_blank" rel="noopener noreferrer"><h2 id="title">Java Code Challenges</h2></a>
+            <h4 className="projectDate">04/2022</h4>
+          </div>
+          <p>Leetcode type coding challenges separated by difficulty <span id="skills">(Coded in Java)</span>.</p>
+          <p className="smallLine"></p>
+          <p>I periodically add to this repository as I complete more challenges. I started doing coding challenges to practice for interviews but kept doing them because they're fun!</p>
+          <p className="smallLine"></p>
+          <p>My favorite one that I've worked on (so far) is the zig-zag message encoder :)</p>
+        </div>
+        <div id="img">
+          <a href="https://github.com/mxwllsmth/Java-Code-Challenges/tree/main/Exploring-Java/src/main/java/com/techelevator" target="_blank" rel="noopener noreferrer"><img src={githubLogo} id="GHLogo" alt="Github Logo"/></a>
         </div>
       </div>
       
