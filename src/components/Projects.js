@@ -88,7 +88,7 @@ const Projects = props => {
             <a href="https://github.com/mxwllsmth/Java-Code-Challenges/tree/main/Exploring-Java/src/main/java/com/techelevator" target="_blank" rel="noopener noreferrer"><h2 id="title">Java Code Challenges</h2></a>
             <h4 className="projectDate">04/2022</h4>
           </div>
-          <p>Leetcode type coding challenges separated by difficulty <span id="skills">(Coded in Java)</span>.</p>
+          <p>Leetcode type coding challenges separated by difficulty <span id="skills">(Coded in Java)</span></p>
           <p className="smallLine"></p>
           <p>I periodically add to this repository as I complete more challenges. I started doing coding challenges to practice for interviews but kept doing them because they're fun!</p>
           <p className="smallLine"></p>

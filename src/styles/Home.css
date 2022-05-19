@@ -18,9 +18,9 @@
   background-image: linear-gradient(to right, black 0%, black 40%, white 55%, white 65%, black 80%, black 100%);
   color: transparent;
   background-size: 500% 200%;
-  animation: movingGradient 9.5s linear infinite alternate-reverse;
+  animation: movingGradient 7s linear infinite alternate-reverse;
   animation-iteration-count: 1;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 #logo {
@@ -31,20 +31,25 @@
 .homeGHLogo {
   animation-delay: 8s !important;
   animation-fill-mode: both !important;
+  border-radius: 50%;
 }
 .homeLiLogo {
   animation-delay: 8.5s !important;
   animation-fill-mode: both !important;
+  border-radius: 50%;
 }
 .homeInstaLogo {
   animation-delay: 9s !important;
   animation-fill-mode: both !important;
+  border-radius: 50%;
 }
 
 #logo:hover {
   border: solid 2px white;
   border-radius: 50%;
   margin: 28px;
+  padding: 10px;
+  margin: 8px;
 }
 
 #siteNav {
@@ -71,14 +76,7 @@
   position: absolute;
   margin-bottom: 180px;
   text-align: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(to right, white 0%, white 10%, transparent 50%, transparent 100%);
-  color: transparent;
-  background-size: 999% 999%;
-  animation: movingGradient 12.5s linear infinite reverse;
-  animation-iteration-count: 1;
-  animation-delay: 1s;
+  animation-delay: 5s;
   animation-fill-mode: both;
 }
 
@@ -92,13 +90,8 @@
 }
 
 #email {
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(to right, rgb(168, 83, 199) 0%, rgb(168, 83, 199) 10%, transparent 50%, transparent 100%);
-  color: transparent;
-  background-size: 999% 999%;
-  animation: movingGradient 12.5s linear infinite reverse;
-  animation-iteration-count: 1;
+  width: 100vw;
+  color:  rgb(192, 100, 225);
   padding-bottom: 0;
   padding-top: 0;
   margin-top: 0;

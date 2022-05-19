@@ -66,10 +66,12 @@
 #stocktonLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
+    padding: 5px;
 }
 #teLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
+    padding: 5px;
 }
 a {
     text-decoration: none;

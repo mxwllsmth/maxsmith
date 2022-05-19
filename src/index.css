@@ -94,6 +94,9 @@ p {
 .active.fade-in-three {
   animation: fade-in 1.5s ease-in;
 }
+.active.fade-in-four {
+  animation: fade-in 5s ease-in;
+}
 @keyframes fade-left {
   0% {
     transform: translateX(-100px);

@@ -9,7 +9,7 @@ const Home = props => {
     <div id="mainContainer" className="reveal fade-in active">
       <div id="homeContainer">
         <h1 id="welcome">W e l c o m e</h1>
-        <div id="homeAbout">
+        <div id="homeAbout" className="reveal fade-in-four active">
           <p className="gimmeMainSpace">I'm a former philosophy student and coach turned software developer, an artist, and a music lover.
           <br/>
           I developed this website to showcase my resume and my art, as well as to learn React.js
