@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import {
@@ -14,26 +14,41 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Flow from './components/Flow';
 import ScrollToTop from './OpenAtTop';
+import Loader from './loader';
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+  
+    setTimeout(() => setLoading(false), 3800);
+  });
+
   return (
     <div className="App">
       <BrowserRouter basename="/maxsmith">
-        <div id="headerContainerDiv">
-          <Header/>
+        {loading === true ? (
+          <Loader />
+        ) : (
+        <div>
+          <div id="headerContainerDiv">
+            <Header/>
+          </div>
+          <div class="container">
+            <ScrollToTop />
+            <Routes>
+              <Route path="/" element ={<Home/>}/>
+              <Route path="/Spotify" element={<Spotify/>} />
+              <Route path="/Art" element={<Art/>} />
+              <Route path="/Education" element={<Education/>} />
+              <Route path="/Experience" element={<Experience/>} />
+              <Route path="/Projects" element={<Projects/>} />
+              <Route path="/Flow" element={<Flow/>} />
+            </Routes>
+          </div>
         </div>
-        <div class="container">
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element ={<Home/>}/>
-            <Route path="/Spotify" element={<Spotify/>} />
-            <Route path="/Art" element={<Art/>} />
-            <Route path="/Education" element={<Education/>} />
-            <Route path="/Experience" element={<Experience/>} />
-            <Route path="/Projects" element={<Projects/>} />
-            <Route path="/Flow" element={<Flow/>} />
-          </Routes>
-        </div>
+        )}
       </BrowserRouter>
     </div>
   );
