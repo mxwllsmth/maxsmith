@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.f257520a.css",
-    "main.js": "/maxsmith/static/js/main.43aa7086.js",
+    "main.css": "/maxsmith/static/css/main.34e5eec6.css",
+    "main.js": "/maxsmith/static/js/main.2cfaf786.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
     "static/media/Mindscape 1 Print.JPG": "/maxsmith/static/media/Mindscape 1 Print.6b7a1fb4a6ea741ddf5d.JPG",
@@ -16,6 +16,7 @@
     "static/media/unicorn.JPG": "/maxsmith/static/media/unicorn.775c8771d91a453dd61d.JPG",
     "static/media/motion.JPG": "/maxsmith/static/media/motion.8248af1ee32f98a21036.JPG",
     "static/media/SelfPortrait.JPG": "/maxsmith/static/media/SelfPortrait.fb577894bf0fccc8ed98.JPG",
+    "static/media/loadingGif4Site.gif": "/maxsmith/static/media/loadingGif4Site.c81581a993a8494ee0b3.gif",
     "static/media/Portrait.JPG": "/maxsmith/static/media/Portrait.f70fe7f941cb4add4f8d.JPG",
     "static/media/TElogo-modified.png": "/maxsmith/static/media/TElogo-modified.4b59bb8503c588cd220d.png",
     "static/media/StocktonLogo-modified.png": "/maxsmith/static/media/StocktonLogo-modified.0fc2f5063c16e3d5389e.png",
@@ -23,13 +24,14 @@
     "static/media/PotholeTrackerLogo.png": "/maxsmith/static/media/PotholeTrackerLogo.3e56e0a98fc061b3ae7f.png",
     "static/media/instagramLogo.png": "/maxsmith/static/media/instagramLogo.4e7ab06c21fc3c4922ab.png",
     "static/media/githublogo2-modified.png": "/maxsmith/static/media/githublogo2-modified.e670dda710ecfae50f00.png",
+    "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.c7ee377640e0ea3850d0.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.f257520a.css.map": "/maxsmith/static/css/main.f257520a.css.map",
-    "main.43aa7086.js.map": "/maxsmith/static/js/main.43aa7086.js.map"
+    "main.34e5eec6.css.map": "/maxsmith/static/css/main.34e5eec6.css.map",
+    "main.2cfaf786.js.map": "/maxsmith/static/js/main.2cfaf786.js.map"
   },
   "entrypoints": [
-    "static/css/main.f257520a.css",
-    "static/js/main.43aa7086.js"
+    "static/css/main.34e5eec6.css",
+    "static/js/main.2cfaf786.js"
   ]
 }
