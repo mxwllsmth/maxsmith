@@ -6,7 +6,7 @@
   top: 0;
   width: 100vw;
   background-color: black;
-  z-index: 1000;
+  z-index: 1000000;
   padding: 0;
 }
 #container {
@@ -55,6 +55,9 @@
     font-size: 28px;
     font-weight: normal;
   }
+  #headerNavigation {
+    background-color: black;
+  }
   #headerRight, #headerLeft {
     display: flex;
     align-items: center;
@@ -93,6 +96,7 @@
   @media only screen and (max-width: 1200px) {
     #smallHeader {
       display: contents;
+      position: absolute;
     }
     #mainHeader {
       display: none;
@@ -103,6 +107,7 @@
       align-items: center;
       padding: 10px 0 10px 0;
       width: 100vw;
+      position: relative;
     }
     .animate-left, .animate-right {
         -webkit-background-clip: text;
@@ -119,21 +124,29 @@
     .dropdown {
       display: inline-block;
       position: relative;
+      right: 0;
+      z-index: 999999999999999;
+      border: none;
     }
     .dropdown-content {
       display: none;
-      position: absolute;
+      position: relative;
       width: 100%;
       overflow: auto;
-      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.622);
+      z-index: 1000000000000000;
     }
-    .dropdown:hover .dropdown-content {
+    .dropdown:hover .dropdown{
       display: block;
+      position: relative;
+      z-index: 1000000000000000;
+      
     }
     .dropdown:hover #headerNavigation {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+      z-index: 1000000000000000;
+
     }
     .dropdown-content Link {
       display: block;
@@ -142,10 +155,11 @@
       text-decoration: none;
     }
     #threeBar {
-      background-color: black;
+      background-color: transparent;
       color: white;
       font-size: 50px;
       margin: 0 2vw 0 0;
+      border: none;
     }
     #threeBar:hover {
       color:rgb(191, 123, 215);
@@ -153,12 +167,14 @@
     #headerNavigation {
       position: absolute;
       right: 0;
-      height: 88vh;
-      padding-top: auto;
+      top: 0;
+      width: 100vw;
+      padding-top: 10vh;
       padding-bottom: auto;
-      width: 25vw;
       line-height: 200%;
-      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.853);
+      z-index: 1000000000000000;
+      height: 40vh;
     }
     #header-nav {
       font-size: 22px;
@@ -195,5 +211,8 @@
     }
     #threeBar {
       font-size: 30px;
+    }
+    #aboutMe {
+      margin-top: 55vh !important;
     }
   }

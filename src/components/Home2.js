@@ -55,7 +55,7 @@ const Home2 = props => {
 
 
   return (
-    <div>
+    <div id="allHome">
 
       <div id="fadeOutWelcome" className="reveal active fade-out">
 

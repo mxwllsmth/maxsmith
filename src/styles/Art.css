@@ -7,8 +7,9 @@
     position: absolute;
     right: 0;
     left: 0;
-    margin-top: 8vh;
     padding-top: 2vh;
+    z-index: -1;
+    
 }
 .artSubHeader {
     display: flex;
@@ -311,7 +312,7 @@
         width: 100vw;
     }
     #artPage {
-        margin-top: 6vh;
+        
         padding-top: 4vh;
     }
 }

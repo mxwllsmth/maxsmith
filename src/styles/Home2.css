@@ -1,3 +1,11 @@
+#allHome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+}
 #mainContainer {
     display: flex;
     flex-direction: column;
@@ -5,7 +13,6 @@
     justify-content: center;
     height: 88vh;
     animation-fill-mode: both;
-    margin-top: 8vh;
 }
 
 #welcome {
@@ -36,11 +43,9 @@
 }
 
 #fadeInHomeView {
-    display: flex;
-    position: fixed;
+    position: absolute;
     top: 0;
-    margin-top: 8vh;
-    height: 90vh;
+    height: 100%;
     width: 100vw;
     z-index: 20;
     animation-delay: 5s;
@@ -56,8 +61,10 @@
 #landingImg {
     position: absolute;
     right: 0;
+    top: 0;
     width: 100vw;
-    height: 92vh;
+    height: 100%;
+    z-index: -1;
 }
 
 #homeFooter {
@@ -71,7 +78,7 @@
 #iAmA {
     position: absolute;
     left: 0;
-    margin: 15vh 0 0 10vw;
+    margin: 25vh 0 0 10vw;
     line-height: 200%;
     letter-spacing: 2.5px;
 }
@@ -79,7 +86,7 @@
 #aboutMe {
     position: absolute;
     left: 0;
-    margin: 50vh 0 0 10vw;
+    margin: 60vh 0 0 10vw;
     letter-spacing: 1px;
 }
 
@@ -95,6 +102,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-right: 5vw;
+    margin-top: 10vh;
 }
 
 #logo {
@@ -144,13 +152,6 @@
 }
 
 @media only screen and (max-width: 1400px) {
-    #homeAbout {
-        margin-top: 8vh;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 70vw;
-    }
 
     #welcome {
         display: flex;
@@ -170,7 +171,7 @@
         margin-bottom: 0;
     }
     #iAmA {
-        margin: 15vh 0 0 5vw;
+        margin: 25vh 0 0 5vw;
         font-size: 20px;
     }
     #aboutMe {

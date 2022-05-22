@@ -38,13 +38,13 @@ function App() {
           <div class="container">
             <ScrollToTop />
             <Routes>
-              <Route path="/" element ={<Home2/>}/>
               <Route path="/Spotify" element={<Spotify/>} />
               <Route path="/Art" element={<Art/>} />
               <Route path="/Education" element={<Education/>} />
               <Route path="/Experience" element={<Experience/>} />
               <Route path="/Projects" element={<Projects/>} />
               <Route path="/Flow" element={<Flow/>} />
+              <Route path="/" element ={<Home2/>}/>
             </Routes>
           </div>
         </div>

@@ -5,9 +5,9 @@
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 8vh;
   height: fit-content;
   padding-bottom: 2vh;
+  z-index: -1;
 }
 
 #tSkills,
@@ -260,7 +260,6 @@
 @media only screen and (max-width: 800px) {
   #expPage {
     background-size: contain;
-    margin-top: 6vh;
     padding-top: 2vh;
     height: fit-content;
   }

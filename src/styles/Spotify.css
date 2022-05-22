@@ -13,6 +13,7 @@
     padding-right: 5vw;
     padding-left: 5vw;
     text-align: center;
+    z-index: -1;
 }
 
 @media only screen and (max-width: 1400px) {
