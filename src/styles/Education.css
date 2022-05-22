@@ -2,14 +2,15 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #eduPage {
-    background-image: url('../images/Screenshot (26).png');
+    background: url('../images/Screenshot (26).png');
     background-repeat: repeat;
     background-size: cover;
     position: absolute;
-    left: 0;
     right: 0;
-    height: 92vh;
+    left: 0;
     margin-top: 8vh;
+    padding-top: 2vh;
+    height: 92%;
 }
 #stocktonU {
     display: flex;
@@ -89,14 +90,36 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 1600px) {
+    #stocktonU {
+        margin-bottom: 0;
+    }
+    #eduPage {
+        padding-bottom: 2%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #eduPage {
+        padding-bottom: 0;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
+    #techE {
+        margin-top: 8vh;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
     #teLogo, #stocktonLogo {
         display: none;
     }
     #techE, #stocktonU {
         width: 88vw;
-        margin: 5px;
+        margin: 8vh 5px 5% 5px;
     }
     #teContainer, #stocktonContainer {
         font-size: 13px;
@@ -121,5 +144,18 @@ a {
         background-size: 200% 200%;
         animation: movingGradient 7.5s linear infinite alternate;
         padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #eduPage {
+        background-size: contain;
+        margin-top: 6vh;
+        padding-top: 2vh;
+        height: fit-content;
+    }
+    #stocktonU {
+        margin-bottom: 8vh;
     }
 }

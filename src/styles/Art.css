@@ -8,6 +8,7 @@
     right: 0;
     left: 0;
     margin-top: 8vh;
+    padding-top: 2vh;
 }
 .artSubHeader {
     display: flex;
@@ -195,10 +196,10 @@
     }
     .artInfo {
         width: 88vw;
-        font-size: 13px;
+        font-size: 15px;
     }
     .artTitle {
-        font-size: 22px;
+        font-size: 24px;
         margin: 0 0 10px 0;
     }
     #selfPortrait {
@@ -296,12 +297,22 @@
     .artSubHeader {
         font-size: 22px;
     }
+    .artInfo {
+        font-size: 13px;
+    }
+    .artTitle {
+        font-size: 22px;
+    }
 }
 
 
 @media only screen and (max-width: 600px) {
     .artSubHeader {
         width: 100vw;
+    }
+    #artPage {
+        margin-top: 6vh;
+        padding-top: 4vh;
     }
 }
 

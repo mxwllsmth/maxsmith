@@ -6,6 +6,7 @@
   left: 0;
   right: 0;
   margin-top: 8vh;
+  padding-top: 2vh;
 }
 
 #websiteContainer,
@@ -52,10 +53,14 @@
   padding: 0 20px 20px 20px;
 }
 
+
+
 /* Change this selector for whichever project is at the bottom of the page! */
 #leet {
   margin-bottom: 4%;
 }
+
+
 
 #skills {
   padding-top: 10px;
@@ -125,11 +130,10 @@
   }
   #website, #pothole, #tenmo, #vending, #leet {
     width: 88vw;
-    margin: 5px;
+    margin: 2% 0 4% 0;
   }
   #website {
     padding-bottom: 0;
-    margin-top: 4%;
   }
   #websiteContainer, #potholeContainer, #tenmoContainer, #vendingContainer, #leetContainer {
     font-size: 13px;
@@ -163,5 +167,21 @@
   }
   .projectDate {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #websiteDesc {
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #projectsPage {
+    padding-top: 4vh;
+    margin-top: 6vh;
+  }
+  #websiteDesc {
+    width: 86vw;
   }
 }
