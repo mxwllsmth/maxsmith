@@ -1,3 +1,13 @@
+#projectsPage {
+  background-image: url('../images/Screenshot (26).png');
+  background-repeat: repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 8vh;
+}
+
 #websiteContainer,
 #potholeContainer,
 #tenmoContainer,
@@ -5,13 +15,6 @@
 #leetContainer {
   display: flex;
   align-items: center;
-}
-#potholeContainer,
-#tenmoContainer,
-#vendingContainer,
-#leetContainer {
-  animation-delay: 1s;
-  animation-fill-mode: both;
 }
 
 #websiteContainer {
@@ -24,12 +27,16 @@
   width: 70vw;
   margin: 4% 0 2% 0;
   border: solid 1.5px;
-  border-image: linear-gradient(to right, black 0%, white 50%, black 100%) 1;
+  border-image: linear-gradient(to right, transparent 0%, white 50%, transparent 100%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
   align-items: center;
   height: fit-content;
+}
+
+#websiteDesc {
+  width: 60vw;
 }
 
 #pothole,
@@ -39,7 +46,7 @@
   width: 65vw;
   margin: 2% 4% 2% 0%;
   border: solid 1.5px;
-  border-image: linear-gradient(to top right, black 10%, white 50%, black 90%) 1;
+  border-image: linear-gradient(to top right, transparent 10%, white 50%, transparent 90%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
@@ -63,7 +70,7 @@
   width: 65vw;
   margin: 2% 0 2% 4%;
   border: solid 1.5px;
-  border-image: linear-gradient(to top left, black 10%, white 50%, black 90%) 1;
+  border-image: linear-gradient(to top left, transparent 10%, white 50%, transparent 90%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
@@ -106,6 +113,9 @@
 #GHLogoVM {
   height: 45%;
   width: 45%;
+}
+#website, #pothole, #tenmo, #vending, #leet {
+  background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
 }
 
 

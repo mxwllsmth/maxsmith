@@ -1,3 +1,14 @@
+#expPage {
+  background-image: url('../images/Screenshot (26).png');
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 8vh;
+  height: 100%;
+}
+
 #tSkills,
 #pExperience, #pExperiencePhone {
   text-align: center;
@@ -38,7 +49,7 @@
 #techSkillsContainer {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 4vh;
+  margin-top: 0;
 }
 
 #skillsContainer {
@@ -70,10 +81,11 @@
   width: 65vw;
   margin: 4% 0 3% 0;
   border: solid 1.5px;
-  border-image: linear-gradient(to top left, black 10%, white 50%, black 90%) 1;
+  border-image: linear-gradient(to top left, transparent 10%, white 50%, transparent 90%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
+  background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
 }
 
 #brightStarsContainer {

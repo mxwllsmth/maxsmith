@@ -1,8 +1,13 @@
+#smallHeader {
+  display: none;
+}
 .Header {
-  position: fixed;
+  position: absolute;
+  top: 0;
   width: 100vw;
   background-color: black;
   z-index: 1000;
+  padding: 0;
 }
 #container {
     display: flex;
@@ -12,8 +17,8 @@
       to right, rgb(135, 18, 178) 0%, rgb(191, 123, 215) 33%, black 50%, rgb(191, 123, 215) 66%, rgb(135, 18, 178) 100%) 1; /* #db4f4fcd 0%, #66b8dbc0 33%, black 50%, #66b8dbc0 66%, #db4f4fcd 100% */
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   #name {
     display: flex;
@@ -86,23 +91,92 @@
   }
 
   @media only screen and (max-width: 1200px) {
+    #smallHeader {
+      display: contents;
+    }
+    #mainHeader {
+      display: none;
+    }
     #container {
-      flex-direction: column;
+      flex-direction: row;
       justify-content: space-between;
       align-items: center;
       padding: 10px 0 10px 0;
       width: 100vw;
     }
+    .animate-left, .animate-right {
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(
+          to right, rgb(140, 73, 165) 0%, rgb(140, 73, 165) 35%, rgb(140, 106, 152) 50%, rgb(140, 73, 165) 65%, rgb(140, 73, 165) 100%);
+        color: transparent;
+        background-size: 300% 300%;
+        animation: movingGradient 5s linear infinite reverse;
+    }
+    .animate-right:hover, .animate-left:hover {
+      animation: movingGradient 4s linear infinite reverse;
+    }
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      width: 100%;
+      overflow: auto;
+      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.622);
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover #headerNavigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .dropdown-content Link {
+      display: block;
+      color: #000000;
+      padding: 5px;
+      text-decoration: none;
+    }
+    #threeBar {
+      background-color: black;
+      color: white;
+      font-size: 50px;
+      margin: 0 2vw 0 0;
+    }
+    #threeBar:hover {
+      color:rgb(191, 123, 215);
+    }
+    #headerNavigation {
+      position: absolute;
+      right: 0;
+      height: 90vh;
+      padding-top: auto;
+      padding-bottom: auto;
+      width: 25vw;
+      line-height: 200%;
+      background-color: rgb(0, 0, 0);
+    }
     #header-nav {
-      font-size: 18px;
-      width: 100vw;
+      font-size: 22px;
+      font-weight: normal;
     }
     #name {
       font-size: 20px;
-      margin: 0;
+      margin: 0 0 0 2vw;
       padding: 0;
       flex-direction: row;
       justify-content: space-evenly;
+      background-image: linear-gradient(
+      to right, rgb(135, 18, 178) 0%, rgb(135, 18, 178) 25%, white 50%, rgb(135, 18, 178) 75%, rgb(135, 18, 178) 100%);
+      background-size: 300% 400%;
+    }
+    #name:hover {
+      background-image: linear-gradient(
+        to right, grey 0%, grey 35%, white 50%, grey 65%, grey 100%);
     }
     #max {
       margin-right: 10px;
@@ -110,7 +184,16 @@
     #smith {
       padding-left: 10px;
     }
-    #headerRight, #headerLeft {
-      width: 100vw;
+  }
+
+  @media only screen and (max-width: 650px) {
+    #header-nav {
+      font-size: 14px;
+    }
+    #name {
+      font-size: 16px;
+    }
+    #threeBar {
+      font-size: 30px;
     }
   }

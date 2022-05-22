@@ -3,7 +3,8 @@ import '../styles/Flow.css';
 
 const Flow = props => {
   return (
-    <div>
+    <div id="flowPage">
+      <div id="flowPageTop">
 
       <h2 id="flowTitle">F l o w &nbsp; A r t ?</h2>
       
@@ -35,6 +36,7 @@ const Flow = props => {
         </div>
         <p></p>
         <p className="purpText" id="closingFlow">Personally, my favorite props are hoops and poi! You can find videos of my flow on my flow art Instagram account <a href="https://www.instagram.com/maxwell.hoopswell/" target="_blank" rel="noopener noreferrer" id="instaFlow">@maxwell.hoopswell</a>!</p>
+      </div>
       </div>
     </div>
   );

@@ -1,5 +1,15 @@
+#flowPage {
+    background: url('../images/Screenshot (26).png') repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 8vh;
+    height: 92vh;
+}
 #flowTitle {
-    margin-top: 10vh;
+    margin-top: 6vh;
+    margin-bottom: 0;
     padding-bottom: 50px;
     align-items: center;
     display: flex;
@@ -55,10 +65,10 @@
     text-align: center;
 }
 .purpText {
-    color: rgb(197, 142, 217);
+    color: rgb(219, 160, 240);
 }
 #instaFlow {
-    color: rgb(182, 24, 239);
+    color: rgb(192, 73, 236);
 }
 #instaFlow:hover {
     text-decoration: underline;

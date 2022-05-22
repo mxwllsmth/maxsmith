@@ -5,10 +5,10 @@ import TELogo from '../images/TElogo-modified.png'
 
 const Education = props => {
   return (
-    <div>
+    <div id="eduPage">
 
       <div id="teContainer">
-        <div className="reveal fade-left active">
+        <div className="reveal fade-in active">
           <div id="techE">
             <div id="subHeader">
               <a href="https://www.techelevator.com/" target="_blank" rel="noopener noreferrer"><h2 id="title">Tech Elevator</h2></a>
@@ -44,7 +44,7 @@ const Education = props => {
         <div id="img" className="eduImage reveal fade-in active"> 
         <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><img src={StocktonLogo} id="stocktonLogo" alt="Stockton University Emblem"/></a>
         </div>
-        <div className="reveal fade-right active">
+        <div className="reveal fade-in active">
           <div id="stocktonU">
             <div id="subHeader">
             <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><h2 id="title">Stockton University</h2></a>

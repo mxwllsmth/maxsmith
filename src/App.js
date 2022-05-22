@@ -10,7 +10,7 @@ import Art from './components/Art';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Spotify from './components/Spotify';
-import Home from './components/Home';
+import Home2 from './components/Home2';
 import Projects from './components/Projects';
 import Flow from './components/Flow';
 import ScrollToTop from './OpenAtTop';
@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
   
-    setTimeout(() => setLoading(false), 3800);
+    setTimeout(() => setLoading(false), 3200);
   });
 
   return (
@@ -38,7 +38,7 @@ function App() {
           <div class="container">
             <ScrollToTop />
             <Routes>
-              <Route path="/" element ={<Home/>}/>
+              <Route path="/" element ={<Home2/>}/>
               <Route path="/Spotify" element={<Spotify/>} />
               <Route path="/Art" element={<Art/>} />
               <Route path="/Education" element={<Education/>} />

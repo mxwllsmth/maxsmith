@@ -1,6 +1,16 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#eduPage {
+    background-image: url('../images/Screenshot (26).png');
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 92vh;
+    margin-top: 8vh;
+}
 #stocktonU {
     display: flex;
     flex-direction: column;
@@ -8,22 +18,24 @@
     margin: 2% 4% 4% 0%;
     border: solid 1.5px;
     border-image: linear-gradient(
-      to top left, black 10%, white 50%, black 90%) 1;
+      to top left, transparent 10%, white 50%, transparent 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;
+    background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
 }
 #techE {
     display: flex;
     flex-direction: column;
     width: 65vw;
-    margin: 10vh 0 3% 4%;
+    margin: 13vh 0 3% 4%;
     border: solid 1.5px;
     border-image: linear-gradient(
-      to top right, black 10%, white 50%, black 90%) 1;
+      to top right, transparent 10%, white 50%, transparent 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;
+    background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
 }
 #subHeader {
     display: flex;

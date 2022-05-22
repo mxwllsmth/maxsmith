@@ -1,0 +1,233 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    animation-fill-mode: both;
+    margin-top: 8vh;
+}
+
+#welcome {
+    font-size: 100px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    animation-fill-mode: both;
+}
+
+#fadeOutWelcome {
+    animation-delay: .1s;
+    animation-fill-mode: both;
+}
+
+#homeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px;
+    padding: 5% 10% 5% 10%;
+    border-image: linear-gradient(to top right, black 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, black 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, black 100%) 1;
+    background-size: 100% 200%;
+    animation: movingGradient 7.5s linear infinite;
+}
+
+#fadeInHomeView {
+    display: flex;
+    position: fixed;
+    top: 0;
+    margin-top: 10vh;
+    height: 90vh;
+    width: 100vw;
+    z-index: 20;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+
+#homeMain {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#landingImg {
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 90vh;
+}
+
+#homeFooter {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#iAmA {
+    position: absolute;
+    left: 0;
+    margin: 15vh 0 0 10vw;
+    line-height: 200%;
+    letter-spacing: 2.5px;
+}
+
+#aboutMe {
+    position: absolute;
+    left: 0;
+    margin: 50vh 0 0 10vw;
+    letter-spacing: 1px;
+}
+
+#makeItPurple {
+    color: rgb(135, 18, 178);
+}
+
+#siteNav {
+    position: absolute;
+    right: 0;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 5vw;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+    animation-delay: 5.5s !important;
+    animation-fill-mode: both !important;
+    border-radius: 50%;
+}
+
+#logo:hover {
+    border: solid 2px white;
+    border-radius: 50%;
+    margin: 28px;
+    padding: 10px;
+    margin: 8px;
+}
+
+#viewResume {
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#viewResume:hover {
+    color: rgb(192, 100, 225);
+}
+
+#email {
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1600px) {
+    #welcome {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #homeAbout {
+        margin-top: 8vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 70vw;
+    }
+
+    #welcome {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 60px 0;
+        margin: 0;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #welcome {
+        font-size: 40px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    #iAmA {
+        margin: 15vh 0 0 5vw;
+        font-size: 20px;
+    }
+    #aboutMe {
+        margin: 45vh 0 0 5vw;
+        font-size: 14px;
+    }
+    #siteNav {
+        margin-right: 2vw;
+    }
+    #logo {
+        height: 40px;
+        width: 40px;
+    }
+    #viewResume {
+        font-size: 12px;
+    }
+    #email {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    #homeContainer {
+        margin-top: 8%;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #iAmA {
+        font-size: 18px;
+        width: 70vw;
+    }
+    #aboutMe {
+        width: 70vw;
+        font-size: 12px;
+    }
+    #logo {
+        height: 30px;
+        width: 30px;
+    }
+    #viewResume {
+        font-size: 11px;
+        width: 50vw;
+        text-align: center;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+    }
+    #email {
+        font-size: 11px;
+        width: 50vw;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}

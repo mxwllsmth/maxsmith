@@ -25,7 +25,7 @@ const Art = props => {
 
   return (
 
-    <div>
+    <div id="artPage">
 
       <div id="mainArtDisplay">
         <h2 className="artSubHeader animated reveal fade-in active">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>

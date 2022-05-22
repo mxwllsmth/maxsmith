@@ -25,6 +25,11 @@ code {
     background-position: 100% 100%;
   }
 }
+#backgroundImage {
+  position: absolute;
+  top: 0;
+  background-repeat: repeat-y;
+}
 h2 {
   font-weight: normal;
   font-size: 30px;
@@ -97,6 +102,12 @@ p {
 .active.fade-in-four {
   animation: fade-in 5s ease-in;
 }
+.active.fade-in-five {
+  animation: fade-in 2.5s ease-in;
+}
+.active.fade-out {
+  animation: fade-out 5s ease-in;
+}
 @keyframes fade-left {
   0% {
     transform: translateX(-100px);
@@ -145,6 +156,16 @@ p {
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
   }
 }
 

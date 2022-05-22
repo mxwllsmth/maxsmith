@@ -1,6 +1,14 @@
 #phoneArtDisplay {
     display: none;
 }
+#artPage {
+    background: url('../images/Screenshot (26).png') repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 8vh;
+}
 .artSubHeader {
     display: flex;
     justify-content: center;
@@ -50,6 +58,8 @@
     padding: 30px;
     border: 5px solid white;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #spDelay {
     animation-delay: 1.5s;
@@ -59,71 +69,99 @@
     max-width: 850px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #cogito{
     max-width: 700px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #hydrospace {
     max-width: 950px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #astroFaceic {
     max-width: 700px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #purpleRain {
     max-height: 800px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #voidArt {
     max-width: 900px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #portrait {
     max-width: 750px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #babaTequila {
     max-width: 900px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #one {
     max-height: 1000px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #plur {
     max-width: 950px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #boundless {
     max-width: 900px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #motion {
     max-width: 900px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #heads {
     max-width: 900px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #unicorn {
     max-height: 850px;
     padding: 30px;
     border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    background-clip: padding-box;
 }
 #artPSpace {
     margin-bottom: 40px;

@@ -3,7 +3,7 @@ import '../styles/Experience.css';
 
 const Experience = props => {
   return (
-    <div>
+    <div id="expPage">
 
       <div id="techSkillsContainer">
 
@@ -41,7 +41,7 @@ const Experience = props => {
             <h4 id="dateBSGA">2016 - 2021</h4>
           </div>
           <h2 id="jobTitle">Gymnastics Instructor / Program Director</h2>
-          <p>Over the five years that I worked at Bright Stars I was able to grow tremendously as a person and as an employee. Working in a fast paced and demanding
+          <p>Over the six years that I worked at Bright Stars I was able to grow tremendously as a person and as an employee. Working in a fast paced and demanding
           environment had a lot to offer me, and through my time there I became an increasingly efficient worker, a stong team leader, and overall, a valuable 
           addition to any team. My responsibilities ranged from coaching, where I would teach classes, communicate with parents, and train team members - to
           program management, where I would write lesson plans and lead our team of coaches - to customer service, where I dealt with some of our more
