@@ -1,5 +1,5 @@
-html {
-  background-color: black;
+#topLevel {
+  background-color: rgba(0, 0, 0, 0.368);
 }
 body {
   margin: 0;
