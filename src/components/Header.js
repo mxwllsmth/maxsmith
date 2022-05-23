@@ -42,7 +42,7 @@ function Header() {
         <header id="smallHeader" className="App-header">
           <nav id="container">
             <Link to="/" id="name">
-              <h1 id="max">M a x w e l l&nbsp;&nbsp;S m i t h</h1>
+              <h1 id="max">M a x w e l l&nbsp;&nbsp;&nbsp;S m i t h</h1>
             </Link>
             <div class="dropdown" id="dropdownIDSelector">
               <button id="threeBar" onClick={StartDisplay}>&#8801;</button>

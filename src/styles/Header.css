@@ -134,19 +134,27 @@
       overflow: auto;
       z-index: 1000000000000000;
     }
-
-    .dropdown:hover .dropdown{
+    .dropdown:focus-within .dropdown{
       display: block;
       position: relative;
       z-index: 1000000000000000;
-      
     }
-    .dropdown:hover #headerNavigation {
+    .dropdown:focus-within #headerNavigation {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       z-index: 1000000000000000;
-
+    }
+    .dropdown:focus-visible .dropdown{
+      display: block;
+      position: relative;
+      z-index: 1000000000000000;
+    }
+    .dropdown:focus-visible #headerNavigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      z-index: 1000000000000000;
     }
     .dropdown-content Link {
       display: block;
@@ -214,5 +222,16 @@
     }
     #aboutMe {
       margin-top: 55vh !important;
+    }
+    .dropdown:hover .dropdown{
+      display: block;
+      position: relative;
+      z-index: 1000000000000000;
+    }
+    .dropdown:hover #headerNavigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      z-index: 1000000000000000;
     }
   }
