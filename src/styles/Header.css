@@ -168,6 +168,7 @@
       font-size: 50px;
       margin: 0 2vw 0 0;
       border: none;
+      font-weight: 100;
     }
     #threeBar:hover {
       color:rgb(191, 123, 215);
@@ -179,13 +180,13 @@
       width: 100vw;
       padding-bottom: auto;
       line-height: 200%;
-      background-color: rgba(0, 0, 0, 0.853);
+      background-color: rgba(0, 0, 0, 0.878);
       z-index: 1000000000000000;
       height: 100vh;
 
     }
     #header-nav {
-      font-size: 22px;
+      font-size: 24px;
       font-weight: normal;
     }
     #name {

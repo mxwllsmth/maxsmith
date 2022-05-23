@@ -46,13 +46,13 @@ function Header() {
             </Link>
             <div class="dropdown" id="dropdownIDSelector">
               <button id="threeBar" onClick={StartDisplay}>&#8801;</button>
-              <div id="headerNavigation" class="dropdown-content dropdown-content-remove">
-                <Link to="Projects" id="header-nav" className="animate-left" onClick={StopDisplay}>Projects</Link>
-                <Link to="Education" id="header-nav" className="animate-left" onClick={StopDisplay}>Education</Link>
-                <Link to="Experience" id="header-nav" className="animate-left" onClick={StopDisplay}>Experience</Link>
-                <Link to="Flow" id="header-nav" className="animate-right" onClick={StopDisplay}>Flow Arts</Link>
-                <Link to="Art" id="header-nav" className="animate-right" onClick={StopDisplay}>Art Gallery</Link>
-                <Link to="Spotify" id="header-nav" className="animate-right" onClick={StopDisplay}>Spotify</Link>
+              <div id="headerNavigation" class="dropdown-content dropdown-content-remove" onClick={StopDisplay}>
+                <Link to="Projects" id="header-nav" className="animate-left">P r o j e c t s</Link>
+                <Link to="Education" id="header-nav" className="animate-left">E d u c a t i o n</Link>
+                <Link to="Experience" id="header-nav" className="animate-left">E x p e r i e n c e</Link>
+                <Link to="Flow" id="header-nav" className="animate-right">F l o w&nbsp;&nbsp;A r t s</Link>
+                <Link to="Art" id="header-nav" className="animate-right">A r t&nbsp;&nbsp;G a l l e r y</Link>
+                <Link to="Spotify" id="header-nav" className="animate-right">S p o t i f y</Link>
               </div>
             </div>
           </nav>
