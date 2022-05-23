@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.b237f9c5.css",
+    "main.css": "/maxsmith/static/css/main.31c65f2c.css",
     "main.js": "/maxsmith/static/js/main.85fd6ff3.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
@@ -30,11 +30,11 @@
     "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.c7ee377640e0ea3850d0.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.b237f9c5.css.map": "/maxsmith/static/css/main.b237f9c5.css.map",
+    "main.31c65f2c.css.map": "/maxsmith/static/css/main.31c65f2c.css.map",
     "main.85fd6ff3.js.map": "/maxsmith/static/js/main.85fd6ff3.js.map"
   },
   "entrypoints": [
-    "static/css/main.b237f9c5.css",
+    "static/css/main.31c65f2c.css",
     "static/js/main.85fd6ff3.js"
   ]
 }
