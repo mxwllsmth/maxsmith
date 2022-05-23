@@ -183,3 +183,10 @@ p {
     line-height: 25px;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  body {
+    background:none;
+    background-color: black;
+  }
+}
