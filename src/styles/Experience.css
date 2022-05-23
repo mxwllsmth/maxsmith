@@ -11,7 +11,8 @@
 }
 
 #tSkills,
-#pExperience, #pExperiencePhone {
+#pExperience,
+#pExperiencePhone {
   text-align: center;
   width: 30vw;
   margin: 45px 0 0 35px;
@@ -86,7 +87,7 @@
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
-  background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
+  background: linear-gradient(0.25turn, #00000000, #000000, #000000, #000000, #00000000);
 }
 
 #brightStarsContainer {
@@ -109,66 +110,82 @@
   font-size: 20px;
   margin-top: 0;
 }
+
 .skillJAVA {
   animation-delay: 1s !important;
   animation-fill-mode: both !important;
 }
+
 .skillUNIT {
   animation-delay: 1.25s !important;
   animation-fill-mode: both !important;
 }
+
 .skillJS {
   animation-delay: 1.5s !important;
   animation-fill-mode: both !important;
 }
+
 .skillJSX {
   animation-delay: 1.75s !important;
   animation-fill-mode: both !important;
 }
+
 .skillPSQL {
   animation-delay: 2s !important;
   animation-fill-mode: both !important;
 }
+
 .skillHTML {
   animation-delay: 2.25s !important;
   animation-fill-mode: both !important;
 }
+
 .skillCSS {
   animation-delay: 2.5s !important;
   animation-fill-mode: both !important;
 }
+
 .skillSPRING {
   animation-delay: 2.75s !important;
   animation-fill-mode: both !important;
 }
+
 .skillJSON {
   animation-delay: 3s !important;
   animation-fill-mode: both !important;
 }
+
 .skillREACT {
   animation-delay: 3.25s !important;
   animation-fill-mode: both !important;
 }
+
 .skillVUE {
   animation-delay: 3.5s !important;
   animation-fill-mode: both !important;
 }
+
 .skillGIT {
   animation-delay: 3.75s !important;
   animation-fill-mode: both !important;
 }
+
 .skillINTELLIJ {
   animation-delay: 4s !important;
   animation-fill-mode: both !important;
 }
+
 .skillVSCODE {
   animation-delay: 4.25s !important;
   animation-fill-mode: both !important;
 }
+
 .skillPOSTMAN {
   animation-delay: 4.5s !important;
   animation-fill-mode: both !important;
 }
+
 .skillPGADMIN {
   animation-delay: 4.75s !important;
   animation-fill-mode: both !important;
@@ -191,31 +208,28 @@
   #expPage {
     height: 100%;
   }
+
   #techSkillsContainer {
     flex-direction: column;
     margin-top: 0;
   }
+
   #tSkillsContainer {
     width: 100vw;
     margin: 0;
     padding: 0;
     align-items: center;
   }
-  #tSkills, #pExperiencePhone {
+
+  #tSkills,
+  #pExperience {
     margin: 35px auto 20px auto;
     padding: 0;
     width: 100vw;
     align-items: center;
     font-size: 22px;
   }
-  #pExperience {
-    display: none;
-  }
-  #pExperiencePhone {
-    display: block;
-    text-align: center;
-    margin: 10px auto 10px auto;
-  }
+
   #skillsContainer {
     font-size: 14px;
     width: 88vw;
@@ -225,36 +239,43 @@
     right: 0;
     justify-content: space-evenly;
   }
+
   #skill {
     margin-right: auto;
     margin-left: auto;
-    margin-top:8px;
+    margin-top: 8px;
     width: fit-content;
     flex: 1;
     left: 0;
     right: 0;
   }
+
   #brightStarsContainer {
     font-size: 13px;
     width: 100vw;
     flex-direction: column;
   }
+
   #brightStars {
     width: 88vw;
     margin: 5px;
   }
+
   #dateBSGA {
     font-size: 12px;
   }
+
   .bsgaHeader {
     flex-direction: column !important;
     padding: 0 !important;
     align-items: flex-start !important;
   }
+
   .bsgaTitle {
     font-size: 18.5px !important;
     margin-bottom: 0px !important;
   }
+
   #jobTitle {
     font-size: 16px;
   }
@@ -266,7 +287,29 @@
     padding-top: 2vh;
     height: fit-content;
   }
+
   #brightStars {
     margin-bottom: 4vh;
   }
+}
+
+@media only screen and (max-width: 600px) {
+
+  #pExperience {
+    display: none;
+  }
+
+  #pExperiencePhone {
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+  }
+  #pExperiencePhone {
+    margin: 35px auto 20px auto;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    font-size: 22px;
+  }
+
 }

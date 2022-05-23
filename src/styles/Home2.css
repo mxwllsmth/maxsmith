@@ -4,7 +4,13 @@
     left: 0;
     right: 0;
     height: 100%;
+    width: 100vw;
     z-index: -1;
+    overflow-x: hidden;
+    background-color: black;
+}
+.iAmAPhone {
+    display: none;
 }
 #mainContainer {
     display: flex;
@@ -32,12 +38,12 @@
 #homeContainer {
     display: flex;
     flex-wrap: wrap;
-    width: 40vw;
+    width: 35vw;
     align-items: center;
     justify-content: center;
-    border: solid 2px;
-    padding: 5% 10% 5% 10%;
-    border-image: linear-gradient(to top right, black 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, black 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, black 100%) 1;
+    border-bottom: solid 1px;
+    padding: 5% 10% 0 10%;
+    border-image: linear-gradient(to top right, transparent 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, transparent 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, transparent 100%) 1;
     background-size: 100% 200%;
     animation: movingGradient 7.5s linear infinite;
 }
@@ -195,6 +201,12 @@
 
 
 @media only screen and (max-width: 650px) {
+    .iAmAHome {
+        display: none;
+    }
+    .iAmAPhone {
+        display: contents;
+    }
     #homeContainer {
         margin-top: 8%;
         height: fit-content;
@@ -229,6 +241,20 @@
         width: 50vw;
         text-align: center;
         margin-bottom: 10px;
+    }
+    #homeFooter {
+        padding-bottom: 2vh;
+    }
+
+}
+
+@media only screen and (max-height: 600px) {
+
+    #iAmA {
+        margin: 20vh 0 0 5vw;
+    }
+    #aboutMe {
+        margin: 40vh 0 0 5vw;
     }
 
 }

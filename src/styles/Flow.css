@@ -77,7 +77,7 @@
 }
 #closingFlow {
     border-bottom: solid 1px;
-    border-image: linear-gradient(to right, black 10%, rgb(197, 142, 217) 50%, black 90%) 1;
+    border-image: linear-gradient(to right, transparent 10%, rgb(197, 142, 217) 50%, transparent 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     text-align: center;
@@ -126,7 +126,7 @@
         margin-bottom: 14px;
         border: solid 1px;
         border-image: linear-gradient(
-        to right, black 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, black 100%) 1;
+        to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
         background-size: 200% 200%;
         animation: movingGradient 7.5s linear infinite alternate;
     }

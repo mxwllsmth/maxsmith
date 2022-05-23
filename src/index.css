@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background: url('./images/Screenshot (26).dark.png');
+  background-size: cover;
   color: white;
 }
 
@@ -35,7 +36,7 @@ h2 {
   font-size: 30px;
   border-bottom: solid 1px;
   border-image: linear-gradient(
-    to right, black 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, black 100%) 1;
+    to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
 }

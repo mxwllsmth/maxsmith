@@ -5,7 +5,6 @@
   position: absolute;
   top: 0;
   width: 100vw;
-  background-color: black;
   z-index: 1000000;
   padding: 0;
 }
@@ -14,7 +13,7 @@
     justify-content: space-evenly;
     border-bottom: solid 2px;
     border-image: linear-gradient(
-      to right, rgb(135, 18, 178) 0%, rgb(191, 123, 215) 33%, black 50%, rgb(191, 123, 215) 66%, rgb(135, 18, 178) 100%) 1; /* #db4f4fcd 0%, #66b8dbc0 33%, black 50%, #66b8dbc0 66%, #db4f4fcd 100% */
+      to right, rgb(135, 18, 178) 0%, rgb(191, 123, 215) 33%, transparent 50%, rgb(191, 123, 215) 66%, rgb(135, 18, 178) 100%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding-bottom: 10px;
@@ -135,6 +134,7 @@
       overflow: auto;
       z-index: 1000000000000000;
     }
+
     .dropdown:hover .dropdown{
       display: block;
       position: relative;
@@ -169,12 +169,12 @@
       right: 0;
       top: 0;
       width: 100vw;
-      padding-top: 10vh;
       padding-bottom: auto;
       line-height: 200%;
       background-color: rgba(0, 0, 0, 0.853);
       z-index: 1000000000000000;
-      height: 40vh;
+      height: 100vh;
+
     }
     #header-nav {
       font-size: 22px;

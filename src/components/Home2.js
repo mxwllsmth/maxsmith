@@ -6,7 +6,7 @@ import githubLogo2 from '../images/githublogo2-modified.png';
 import resume from '../docs/Max Smith- Resume.pdf'
 import landingImg from '../images/backgroundImg.png';
 
-const words = [" ", " ", "", "", "", "Music Enthusiast", "Artist", "Software Developer."];
+const words = [" ", " ", "", "", "", "Music Lover", "Artist", "Software Developer."];
 
 
 const Home2 = props => {
@@ -80,7 +80,8 @@ const Home2 = props => {
           <div>
             <h1 id="iAmA">Hi,<br />
               My name is Max, <br />
-              and I'm a <span id="makeItPurple">{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</span>
+              and I'm a <span id="makeItPurple" className="iAmAHome">{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</span>
+              <span id="makeItPurple" className="iAmAPhone"><br/>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</span>
             </h1>
 
             <p id="aboutMe">Full-stack developer with a background in art and philosophy,<br/>
