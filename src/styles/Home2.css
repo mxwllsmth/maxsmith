@@ -38,7 +38,7 @@
 #homeContainer {
     display: flex;
     flex-wrap: wrap;
-    width: 35vw;
+    width: 40vw;
     align-items: center;
     justify-content: center;
     border-bottom: solid 1px;
@@ -164,7 +164,7 @@
         width: 100vw;
         align-items: center;
         justify-content: center;
-        padding: 0 0 60px 0;
+        padding: 0 0 0 0;
         margin: 0;
     }
 }
