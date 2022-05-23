@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.6ad336f0.css",
-    "main.js": "/maxsmith/static/js/main.08db9974.js",
+    "main.css": "/maxsmith/static/css/main.33ff5b9e.css",
+    "main.js": "/maxsmith/static/js/main.88e633a3.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
     "static/media/Mindscape 1 Print.JPG": "/maxsmith/static/media/Mindscape 1 Print.6b7a1fb4a6ea741ddf5d.JPG",
@@ -17,6 +17,7 @@
     "static/media/Screenshot (26).png": "/maxsmith/static/media/Screenshot (26).6f2666518fe9b4eeb67f.png",
     "static/media/motion.JPG": "/maxsmith/static/media/motion.8248af1ee32f98a21036.JPG",
     "static/media/SelfPortrait.JPG": "/maxsmith/static/media/SelfPortrait.fb577894bf0fccc8ed98.JPG",
+    "static/media/Screenshot (26).dark.png": "/maxsmith/static/media/Screenshot (26).dark.cd7a7d53fbe3e0445adf.png",
     "static/media/loadingGif4Site.gif": "/maxsmith/static/media/loadingGif4Site.c81581a993a8494ee0b3.gif",
     "static/media/Portrait.JPG": "/maxsmith/static/media/Portrait.f70fe7f941cb4add4f8d.JPG",
     "static/media/TElogo-modified.png": "/maxsmith/static/media/TElogo-modified.4b59bb8503c588cd220d.png",
@@ -29,11 +30,11 @@
     "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.c7ee377640e0ea3850d0.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.6ad336f0.css.map": "/maxsmith/static/css/main.6ad336f0.css.map",
-    "main.08db9974.js.map": "/maxsmith/static/js/main.08db9974.js.map"
+    "main.33ff5b9e.css.map": "/maxsmith/static/css/main.33ff5b9e.css.map",
+    "main.88e633a3.js.map": "/maxsmith/static/js/main.88e633a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ad336f0.css",
-    "static/js/main.08db9974.js"
+    "static/css/main.33ff5b9e.css",
+    "static/js/main.88e633a3.js"
   ]
 }
