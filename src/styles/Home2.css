@@ -23,10 +23,9 @@
 
 #welcome {
     font-size: 100px;
-    font-weight: normal;
+    font-weight: 100;
     margin: 5px;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     animation-fill-mode: both;
 }
 
@@ -87,6 +86,7 @@
     margin: 25vh 0 0 10vw;
     line-height: 200%;
     letter-spacing: 2.5px;
+    font-size: 38px;
 }
 
 #aboutMe {
@@ -94,6 +94,7 @@
     left: 0;
     margin: 60vh 0 0 10vw;
     letter-spacing: 1px;
+    font-size: 18px;
 }
 
 #makeItPurple {
@@ -178,11 +179,11 @@
     }
     #iAmA {
         margin: 25vh 0 0 5vw;
-        font-size: 20px;
+        font-size: 30px;
     }
     #aboutMe {
-        margin: 45vh 0 0 5vw;
-        font-size: 14px;
+        margin: 55vh 0 0 5vw;
+        font-size: 16px;
     }
     #siteNav {
         margin-right: 2vw;
@@ -200,7 +201,7 @@
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
     .iAmAHome {
         display: none;
     }

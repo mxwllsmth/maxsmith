@@ -81,7 +81,8 @@
   padding: 0 20px 20px 20px;
 }
 
-#title, #title-website {
+#title,
+#title-website {
   -webkit-background-clip: text;
   background-clip: text;
   background-image: linear-gradient(to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
@@ -89,38 +90,50 @@
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
 }
+
 #title:hover {
   background-image: linear-gradient(to right, white 0%, grey 40%, white 60%, grey 100%);
 }
+
 #PTLogo {
   height: 46%;
   width: 46%;
 }
+
 #PTLogo:hover {
   border: solid 2px white;
   border-radius: 50%;
   padding: 5px;
 }
+
 #GHLogo:hover {
   border: solid 2px white;
   border-radius: 50%;
   padding: 5px;
 }
+
 #GHLogoVM:hover {
   border: solid 2px white;
   border-radius: 50%;
   padding: 5px;
 }
+
 #GHLogo {
   height: 45%;
   width: 45%;
 }
+
 #GHLogoVM {
   height: 45%;
   width: 45%;
 }
-#website, #pothole, #tenmo, #vending, #leet {
-  background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
+
+#website,
+#pothole,
+#tenmo,
+#vending,
+#leet {
+  background: linear-gradient(0.25turn, #00000000, #000000, #000000, #000000, #00000000);
 }
 
 
@@ -128,33 +141,52 @@
   #projectsPage {
     width: 100vw;
   }
-  #website, #pothole, #tenmo, #vending, #leet {
+
+  #website,
+  #pothole,
+  #tenmo,
+  #vending,
+  #leet {
     width: 88vw;
     margin: 2% 0 4% 0;
   }
+
   #website {
     padding-bottom: 0;
   }
-  #websiteContainer, #potholeContainer, #tenmoContainer, #vendingContainer, #leetContainer {
-    font-size: 13px;
+
+  #websiteContainer,
+  #potholeContainer,
+  #tenmoContainer,
+  #vendingContainer,
+  #leetContainer {
     width: 100vw;
+    font-size: 15px;
     justify-content: center;
     flex-direction: column;
   }
+
   #websiteContainer {
     margin-top: 20px;
   }
-  #title-website, #title {
-    font-size: 22px;
+
+  #title-website,
+  #title {
+    font-size: 26px;
   }
+
   #completedUsing {
     text-align: center;
     padding-top: 5px;
-    font-size: 12px;
+    font-size: 13.5px;
   }
-  #PTLogo, #GHLogo, #GHLogoVM {
+
+  #PTLogo,
+  #GHLogo,
+  #GHLogoVM {
     display: none;
   }
+
   #skills {
     display: block;
     width: 88vw;
@@ -163,16 +195,38 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
-    font-size: 12px;
+    font-size: 13.5px;
   }
+
   .projectDate {
     font-size: 12px;
   }
-}
 
-@media only screen and (max-width: 1400px) {
   #websiteDesc {
     width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #websiteContainer,
+  #potholeContainer,
+  #tenmoContainer,
+  #vendingContainer,
+  #leetContainer {
+    font-size: 13px;
+  }
+  #skills {
+
+    font-size: 12px;
+  }
+
+  #title-website,
+  #title {
+    font-size: 22px;
+  }
+  #completedUsing {
+    font-size: 12px;
   }
 }
 
@@ -180,6 +234,7 @@
   #projectsPage {
     padding-top: 4vh;
   }
+
   #websiteDesc {
     width: 86vw;
   }

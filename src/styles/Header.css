@@ -22,7 +22,6 @@
   #name {
     display: flex;
     flex-direction: column;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(
@@ -34,6 +33,7 @@
     justify-content: center;
     align-items: center;
     font-size: 28px;
+    line-height: 110%;
     margin-right: 25px;
     margin-left: 25px;
   }
@@ -52,7 +52,7 @@
     align-items: center;
     justify-content: center;
     font-size: 28px;
-    font-weight: normal;
+    font-weight: 550;
   }
   #headerNavigation {
     background-color: black;
@@ -165,7 +165,7 @@
     #threeBar {
       background-color: transparent;
       color: white;
-      font-size: 50px;
+      font-size: 42px;
       margin: 0 2vw 0 0;
       border: none;
       font-weight: 100;
@@ -187,7 +187,8 @@
     }
     #header-nav {
       font-size: 26px;
-      font-weight: normal;
+      font-weight: 600;
+      letter-spacing: .1cm;
     }
     #name {
       font-size: 20px;
