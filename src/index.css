@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+   url("./fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
 #topLevel {
   background-color: rgba(0, 0, 0, 0.368);
   font-family: 'Nunito', sans-serif;
