@@ -1,13 +1,86 @@
 @font-face {
   font-family: "Nunito";
-  src: local("Nunito"),
-   url("./fonts/Nunito-Regular.ttf") format("truetype");
-  font-weight: bold;
-  }
+  src: url("./fonts/Nunito-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+}
+
 #topLevel {
   background-color: rgba(0, 0, 0, 0.368);
   font-family: 'Nunito', sans-serif;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -16,10 +89,12 @@ body {
   background-size: cover;
   color: white;
 }
+
 ::-webkit-scrollbar {
   color: black;
   width: 0;
 }
+
 @keyframes movingGradient {
   from {
     background-position: 0 0;
@@ -29,144 +104,175 @@ body {
     background-position: 100% 100%;
   }
 }
+
 #backgroundImage {
   position: absolute;
   top: 0;
   background-repeat: repeat-y;
 }
+
 h2 {
   font-weight: normal;
   font-size: 30px;
   border-bottom: solid 1px;
-  border-image: linear-gradient(
-    to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
+  border-image: linear-gradient(to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
 }
+
 h4 {
   font-size: 16px;
   font-style: italic;
   color: rgb(223, 211, 227);
 }
+
 li {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 p {
   margin-top: 4px;
   margin-bottom: 4px;
   font-weight: normal;
   line-height: 35px;
 }
+
 .smallLine {
   line-height: 25px;
 }
+
 #img {
   width: 26%;
   text-align: center;
 }
-.reveal{
+
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 2s all ease;
 }
-.revealWithScroll{
+
+.revealWithScroll {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 2s all ease;
 }
+
 .revealWithScroll.active,
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
+
 .active.fade-left {
   animation: fade-left 1s ease-in;
 }
+
 .active.fade-right {
   animation: fade-right 1s ease-in;
 }
+
 .active.fade-up {
   animation: fade-up 1.5s ease-in;
 }
+
 .active.fade-down {
   animation: fade-down 1s ease-in;
 }
+
 .active.fade-in {
   animation: fade-in 2s ease-in;
 }
+
 .active.fade-in-two {
   animation: fade-in .5s ease-in;
 }
+
 .active.fade-in-three {
   animation: fade-in 1.5s ease-in;
 }
+
 .active.fade-in-four {
   animation: fade-in 5s ease-in;
 }
+
 .active.fade-in-five {
   animation: fade-in 2.5s ease-in;
 }
+
 .active.fade-out {
   animation: fade-out 5s ease-in;
 }
+
 @keyframes fade-left {
   0% {
     transform: translateX(-100px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-right {
   0% {
     transform: translateX(100px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-up {
   0% {
     transform: translateY(-100px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-down {
   0% {
     transform: translateY(100px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     transform: translateY(0);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-out {
   0% {
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     transform: translateY(0);
     opacity: 0;
@@ -186,7 +292,7 @@ p {
 
 @media only screen and (max-width: 650px) {
   body {
-    background:none;
+    background: none;
     background-color: black;
   }
 }
