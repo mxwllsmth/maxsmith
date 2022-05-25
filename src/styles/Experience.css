@@ -23,7 +23,7 @@
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   font-style: italic;
-  font-size: 33px;
+  font-size: 36px;
   padding-bottom: 10px;
 }
 
@@ -88,6 +88,7 @@
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
   background: linear-gradient(0.25turn, #00000000, #000000, #000000, #000000, #00000000);
+  font-size: 16.5px;
 }
 
 #brightStarsContainer {
@@ -107,7 +108,7 @@
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   font-style: italic;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 0;
 }
 

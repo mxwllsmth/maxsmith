@@ -17,7 +17,7 @@
     margin: 8vh auto 150px auto;
     width: fit-content;
     padding: 50px 5vw 40px 5vw;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: normal;
 }
 .phoneArtSubHead {
@@ -46,14 +46,16 @@
     color: transparent;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: normal;
 }
 .date {
     margin-bottom: 200px;
+    font-size: 20px;
 }
 .artInfo {
     text-align: center;
+    font-size: 18px;
 }
 #selfPortrait {
     max-width: 850px;
@@ -170,7 +172,7 @@
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
     #mainArtDisplay {
         display: none;
     }

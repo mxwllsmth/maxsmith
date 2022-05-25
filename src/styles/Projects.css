@@ -16,6 +16,7 @@
 #leetContainer {
   display: flex;
   align-items: center;
+  font-size: 16.5px;
 }
 
 #websiteContainer {

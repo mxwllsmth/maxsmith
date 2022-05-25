@@ -8,11 +8,12 @@
     padding-top: 2vh;
     height: 100%;
     z-index: -1;
+    font-size: 16.5px;
 }
 #flowTitle {
     margin-top: 6vh;
-    margin-bottom: 0;
-    padding-bottom: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
     align-items: center;
     display: flex;
     justify-content: center;-webkit-background-clip: text;
@@ -22,6 +23,7 @@
     color: transparent;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
+    font-size: 38px;
 }
 #flowDescription {
     display: flex;
@@ -99,7 +101,7 @@
         margin: 20px 10px 10px 10px;
     }
     #flowStart, #flowWhy, #encourage {
-        font-size: 13.5px;
+        font-size: 15px;
         width: 88vw;
         color: white;
     }
@@ -107,7 +109,7 @@
         text-align: left;
     }
     .propForm {
-        font-size: 13px;
+        font-size: 14px;
     }
     #encourage {
         padding-top: 20px;
@@ -133,7 +135,7 @@
     #closingFlow {
         width: 88vw;
         text-align: center;
-        font-size: 13.5px;
+        font-size: 15px;
     }
     #flowDescription {
         margin-bottom: 10px;
