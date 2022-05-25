@@ -198,6 +198,15 @@
     padding-bottom: 5px;
     font-size: 13.5px;
   }
+  .longSkills::-webkit-scrollbar {
+    display: contents;
+    background-color: transparent;
+    height: 1px;
+  }
+  .longSkills::-webkit-scrollbar-thumb {
+    background-color: rgb(135, 18, 178);
+    border-radius: 50%;
+  }
 
   .projectDate {
     font-size: 12px;

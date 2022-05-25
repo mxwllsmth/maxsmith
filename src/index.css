@@ -55,8 +55,9 @@ body {
 }
 
 ::-webkit-scrollbar {
-  color: black;
-  width: 0;
+  /* color: black;
+  width: 0; */
+  display: none;
 }
 
 @keyframes movingGradient {

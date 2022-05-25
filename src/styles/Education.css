@@ -9,32 +9,33 @@
     height: 92%;
     z-index: -1;
 }
+
 #stocktonU {
     display: flex;
     flex-direction: column;
     width: 65vw;
     margin: 2% 4% 4% 0%;
     border: solid 1.5px;
-    border-image: linear-gradient(
-      to top left, transparent 10%, white 50%, transparent 90%) 1;
+    border-image: linear-gradient(to top left, transparent 10%, white 50%, transparent 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;
-    background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
+    background: linear-gradient(0.25turn, #00000000, #000000, #000000, #000000, #00000000);
 }
+
 #techE {
     display: flex;
     flex-direction: column;
     width: 65vw;
     margin: 10vh 0 3% 4%;
     border: solid 1.5px;
-    border-image: linear-gradient(
-      to top right, transparent 10%, white 50%, transparent 90%) 1;
+    border-image: linear-gradient(to top right, transparent 10%, white 50%, transparent 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;
-    background: linear-gradient(0.25turn, #00000000,  #000000, #000000,  #000000, #00000000);
+    background: linear-gradient(0.25turn, #00000000, #000000, #000000, #000000, #00000000);
 }
+
 #subHeader {
     display: flex;
     justify-content: space-between;
@@ -42,9 +43,11 @@
     font-style: italic;
     padding-right: 25px;
 }
+
 #firstLine {
     margin-bottom: 12px;
 }
+
 #list {
     display: flex;
     flex-direction: column;
@@ -55,35 +58,43 @@
     margin-left: 25px;
     margin-bottom: 14px;
 }
-#stocktonContainer, #teContainer {
+
+#stocktonContainer,
+#teContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16.5px;
 }
+
 #stocktonLogo {
     height: 46%;
     width: 46%;
 }
+
 #teLogo {
     height: 46%;
     width: 46%;
     margin-top: 7%;
 }
+
 .eduImage {
     animation-delay: 1s !important;
     animation-fill-mode: both !important;
 }
+
 #stocktonLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
     padding: 5px;
 }
+
 #teLogo:hover {
     border: solid 2px white;
     border-radius: 50%;
     padding: 5px;
 }
+
 a {
     text-decoration: none;
 }
@@ -92,6 +103,7 @@ a {
     #stocktonU {
         margin-bottom: 0;
     }
+
     #eduPage {
         padding-bottom: 2%;
         height: 100%;
@@ -108,40 +120,61 @@ a {
     #techE {
         margin-top: 8vh;
     }
+    #list {
+        height: 180px;
+    }
 }
 
 
 @media only screen and (max-width: 1000px) {
-    #teLogo, #stocktonLogo {
+
+    #teLogo,
+    #stocktonLogo {
         display: none;
     }
-    #techE, #stocktonU {
+
+    #techE,
+    #stocktonU {
         width: 88vw;
         margin: 8vh 5px 5% 5px;
     }
-    #teContainer, #stocktonContainer {
+
+    #teContainer,
+    #stocktonContainer {
         font-size: 13px;
         width: 100vw;
         justify-content: center;
         flex-direction: column;
     }
+
     #teContainer {
         margin-top: 20px;
     }
+
     #list {
         display: block;
-        width: 88vw;
+        width: 80vw;
         overflow-y: scroll;
         white-space: pre;
         margin-top: 14px;
         margin-left: 15px;
         margin-bottom: 14px;
         border: solid 1px;
-        border-image: linear-gradient(
-        to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
+        border-image: linear-gradient(to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
         background-size: 200% 200%;
         animation: movingGradient 7.5s linear infinite alternate;
         padding: 0;
+    }
+
+    #list::-webkit-scrollbar {
+        display: contents;
+        background-color: transparent;
+        width: 1px;
+    }
+
+    #list::-webkit-scrollbar-thumb {
+        background-color: rgb(135, 18, 178);
+        border-radius: 50%;
     }
 }
 
@@ -152,6 +185,7 @@ a {
         padding-top: 2vh;
         height: fit-content;
     }
+
     #stocktonU {
         margin-bottom: 8vh;
     }
