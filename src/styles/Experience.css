@@ -33,11 +33,6 @@
   width: 100vw;
 }
 
-.profExperience {
-  animation-delay: 5s !important;
-  animation-fill-mode: both !important;
-}
-
 #pExperiencePhone {
   display: none;
 }
@@ -95,8 +90,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation-delay: 6s !important;
-  animation-fill-mode: both !important;
 }
 
 #jobTitle {
@@ -113,82 +106,82 @@
 }
 
 .skillJAVA {
-  animation-delay: 1s !important;
-  animation-fill-mode: both !important;
-}
-
-.skillUNIT {
-  animation-delay: 1.25s !important;
-  animation-fill-mode: both !important;
-}
-
-.skillJS {
   animation-delay: 1.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillJSX {
+.skillUNIT {
   animation-delay: 1.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillPSQL {
+.skillJS {
   animation-delay: 2s !important;
   animation-fill-mode: both !important;
 }
 
-.skillHTML {
+.skillJSX {
   animation-delay: 2.25s !important;
   animation-fill-mode: both !important;
 }
 
-.skillCSS {
+.skillPSQL {
   animation-delay: 2.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillSPRING {
+.skillHTML {
   animation-delay: 2.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillJSON {
+.skillCSS {
   animation-delay: 3s !important;
   animation-fill-mode: both !important;
 }
 
-.skillREACT {
+.skillSPRING {
   animation-delay: 3.25s !important;
   animation-fill-mode: both !important;
 }
 
-.skillVUE {
+.skillJSON {
   animation-delay: 3.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillGIT {
+.skillREACT {
   animation-delay: 3.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillINTELLIJ {
+.skillVUE {
   animation-delay: 4s !important;
   animation-fill-mode: both !important;
 }
 
-.skillVSCODE {
+.skillGIT {
   animation-delay: 4.25s !important;
   animation-fill-mode: both !important;
 }
 
-.skillPOSTMAN {
+.skillINTELLIJ {
   animation-delay: 4.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillPGADMIN {
+.skillVSCODE {
   animation-delay: 4.75s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillPOSTMAN {
+  animation-delay: 5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillPGADMIN {
+  animation-delay: 5.25s !important;
   animation-fill-mode: both !important;
 }
 
