@@ -50,7 +50,7 @@ const Education = props => {
             <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><h2 id="title">Stockton University</h2></a>
               <h4>2018 - 2020</h4>
             </div>
-            <p className="smallLine">I attended Stockton University for three years in pursuit of a carer that felt right for me. Over my time there, I changed my major three times.</p>
+            <p className="smallLine">I attended Stockton University for three years in pursuit of a career that felt right for me. Over my time there, I changed my major three times.</p>
             <p>My first major was philosophy, and although I decided early on that I no longer wanted to pursue teaching at the collegiate level and changed my major,
             my interests in the subject persisted, and I took philosophy classes each semester throughout my time there. Over the next two years I took classes in
             environmental science, political science, and studio art in search of a field I was excited to work in, but as much as I loved learning about these subjects,
