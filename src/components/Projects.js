@@ -87,7 +87,7 @@ const Projects = props => {
       <div id="leetContainer" className="reveal fade-in active">
         <div id="leet">
           <div id="subHeader">
-            <a href="https://github.com/mxwllsmth/Java-Code-Challenges/tree/main/Exploring-Java/src/main/java/com/techelevator" target="_blank" rel="noopener noreferrer"><h2 id="title">Java Code Challenges</h2></a>
+            <a href="https://github.com/mxwllsmth/Code-Challenges/tree/main/Java%20Code%20Challenges/src/main/java" target="_blank" rel="noopener noreferrer"><h2 id="title">Java Code Challenges</h2></a>
             <h4 className="projectDate">04/2022</h4>
           </div>
           <p>Leetcode type coding challenges separated by difficulty <span id="skills">(Coded in Java)</span></p>
@@ -97,7 +97,7 @@ const Projects = props => {
           <p>My favorite one that I've worked on (so far) is the zig-zag message encoder :)</p>
         </div>
         <div id="img">
-          <a href="https://github.com/mxwllsmth/Java-Code-Challenges/tree/main/Exploring-Java/src/main/java/com/techelevator" target="_blank" rel="noopener noreferrer"><img src={githubLogo} id="GHLogo" alt="Github Logo" /></a>
+          <a href="https://github.com/mxwllsmth/Code-Challenges/tree/main/Java%20Code%20Challenges/src/main/java" target="_blank" rel="noopener noreferrer"><img src={githubLogo} id="GHLogo" alt="Github Logo" /></a>
         </div>
       </div>
 
