@@ -30,7 +30,7 @@
 }
 
 #fadeOutWelcome {
-    animation-delay: .1s;
+    animation-delay: 1.2s;
     animation-fill-mode: both;
 }
 
@@ -53,7 +53,7 @@
     height: 100%;
     width: 100vw;
     z-index: 20;
-    animation-delay: 5s;
+    animation-delay: 2.5s;
     animation-fill-mode: both;
 }
 

@@ -6,7 +6,7 @@ import githubLogo2 from '../images/githublogo2-modified.png';
 import resume from '../docs/Max Smith- Resume.pdf'
 import landingImg from '../images/backgroundImg.png';
 
-const words = ["", "", " ", "Music Lover", "Artist", "Software Developer."];
+const words = ["", " ", "Music Lover", "Artist", "Software Developer."];
 
 
 const Home2 = props => {
@@ -39,7 +39,7 @@ const Home2 = props => {
 
     const timeout = setTimeout(() => {
       setSubIndex((prev) => prev + (reverse ? -1 : 1));
-    }, Math.max(reverse ? 75 : subIndex === words[index].length ? 1800 :
+    }, Math.max(reverse ? 75 : subIndex === words[index].length ? 1400 :
       50, parseInt(Math.random() * 350)));
 
     return () => clearTimeout(timeout);
@@ -57,13 +57,13 @@ const Home2 = props => {
   return (
     <div id="allHome">
 
-      <div id="fadeOutWelcome" className="reveal active fade-out">
+      <div id="fadeOutWelcome" className="reveal active fade-out-two">
 
         <div id="mainContainer" className="reveal fade-in-five active">
 
           <div id="homeContainer">
 
-            <h1 id="welcome" className="reveal active fade-in-five">W e l c o m e</h1>
+            <h1 id="welcome" className="reveal active fade-in-three">W e l c o m e</h1>
 
           </div>
 

@@ -171,6 +171,9 @@ p {
 .active.fade-out {
   animation: fade-out 5s ease-in;
 }
+.active.fade-out-two {
+  animation: fade-out 1.5s ease-in;
+}
 
 @keyframes fade-left {
   0% {
