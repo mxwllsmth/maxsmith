@@ -110,37 +110,37 @@
   animation-fill-mode: both !important;
 }
 
-.skillUNIT {
+.skillJS {
   animation-delay: 1.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillJS {
+.skillJSX {
   animation-delay: 2s !important;
   animation-fill-mode: both !important;
 }
 
-.skillJSX {
+.skillPSQL {
   animation-delay: 2.25s !important;
   animation-fill-mode: both !important;
 }
 
-.skillPSQL {
+.skillREACT {
   animation-delay: 2.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillHTML {
+.skillVUE {
   animation-delay: 2.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillCSS {
+.skillHTML {
   animation-delay: 3s !important;
   animation-fill-mode: both !important;
 }
 
-.skillSPRING {
+.skillCSS {
   animation-delay: 3.25s !important;
   animation-fill-mode: both !important;
 }
@@ -150,17 +150,17 @@
   animation-fill-mode: both !important;
 }
 
-.skillREACT {
+.skillGIT {
   animation-delay: 3.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillVUE {
+.skillUNIT {
   animation-delay: 4s !important;
   animation-fill-mode: both !important;
 }
 
-.skillGIT {
+.skillSPRING {
   animation-delay: 4.25s !important;
   animation-fill-mode: both !important;
 }
@@ -175,12 +175,12 @@
   animation-fill-mode: both !important;
 }
 
-.skillPOSTMAN {
+.skillPGADMIN {
   animation-delay: 5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillPGADMIN {
+.skillPOSTMAN {
   animation-delay: 5.25s !important;
   animation-fill-mode: both !important;
 }
