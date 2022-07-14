@@ -42,10 +42,10 @@ const Experience = props => {
           </div>
           <h2 id="jobTitle">Gymnastics Instructor / Program Director</h2>
           <p>Over the six years that I worked at Bright Stars I was able to grow tremendously as a person and as an employee. Working in a fast paced and demanding
-          environment had a lot to offer me, and through my time there I became an increasingly efficient worker, a stong team leader, and overall, a valuable 
+          environment had a lot to offer me, and through my time there I became an increasingly efficient worker, a stong team leader, and a valuable 
           addition to any team. My responsibilities ranged from coaching, where I would teach classes, communicate with parents, and train team members - to
-          program management, where I would write lesson plans and lead our team of coaches - to customer service, where I dealt with some of our more
-          delicate situations and helped to ensure the gym was functioning in an organized and efficient mannor.</p> 
+          program management, where I would write lesson plans and lead our team of coaches - to customer service, where I dealt with delicate situations 
+          and helped to ensure the gym was functioning in an organized and efficient mannor.</p> 
           <p></p>
           <p>During my time at Bright Stars I :</p>
           <p></p>
