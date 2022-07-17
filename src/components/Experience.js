@@ -7,7 +7,7 @@ const Experience = props => {
 
       <div id="techSkillsContainer">
 
-        <div id="tSkillsContainer" className="reveal fade-in-three active">
+        <div id="tSkillsContainer">
           <h2 id="tSkills">T e c h n i c a l &nbsp; S k i l l s</h2>
         </div>
 
@@ -16,10 +16,13 @@ const Experience = props => {
             <div className="skillJS reveal fade-in-two active"><p id="skill">JavaScript</p></div>
             <div className="skillJSX reveal fade-in-two active"><p id="skill">JSX</p></div>
             <div className="skillPSQL reveal fade-in-two active"><p id="skill">PostgreSQL</p></div>
+            <div className="skillRESTAPI reveal fade-in-two active"><p id="skill">REST APIs</p></div>
+            <div className="skillOOP reveal fade-in-two active"><p id="skill">OOP</p></div>
             <div className="skillREACT reveal fade-in-two active"><p id="skill">React.js</p></div>
             <div className="skillVUE reveal fade-in-two active"><p id="skill">Vue.js</p></div>
             <div className="skillHTML reveal fade-in-two active"><p id="skill">HTML</p></div>
             <div className="skillCSS reveal fade-in-two active"><p id="skill">CSS</p></div>
+            <div className="skillRD reveal fade-in-two active"><p id="skill">Responsive Design</p></div>
             <div className="skillJSON reveal fade-in-two active"><p id="skill">JSON</p></div>
             <div className="skillGIT reveal fade-in-two active"><p id="skill">Git</p></div>
             <div className="skillUNIT reveal fade-in-two active"><p id="skill">Unit Testing</p></div>

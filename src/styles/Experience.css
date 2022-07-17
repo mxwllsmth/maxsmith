@@ -57,8 +57,8 @@
   font-size: 20px;
   flex-wrap: wrap;
   height: 28vh;
-  width: 55vw;
-  overflow-x: scroll;
+  width: 58vw;
+  overflow-x: hidden;
 }
 
 #skill {
@@ -125,69 +125,87 @@
   animation-fill-mode: both !important;
 }
 
-.skillREACT {
+.skillRESTAPI {
   animation-delay: 2.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillVUE {
+.skillOOP {
   animation-delay: 2.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillHTML {
+.skillREACT {
   animation-delay: 3s !important;
   animation-fill-mode: both !important;
 }
 
-.skillCSS {
+.skillVUE {
   animation-delay: 3.25s !important;
   animation-fill-mode: both !important;
 }
 
-.skillJSON {
+.skillHTML {
   animation-delay: 3.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillGIT {
+.skillCSS {
   animation-delay: 3.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillUNIT {
+.skillRD {
   animation-delay: 4s !important;
   animation-fill-mode: both !important;
 }
 
-.skillSPRING {
+.skillJSON {
   animation-delay: 4.25s !important;
   animation-fill-mode: both !important;
 }
 
-.skillINTELLIJ {
+.skillGIT {
   animation-delay: 4.5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillVSCODE {
+.skillUNIT {
   animation-delay: 4.75s !important;
   animation-fill-mode: both !important;
 }
 
-.skillPGADMIN {
+.skillSPRING {
   animation-delay: 5s !important;
   animation-fill-mode: both !important;
 }
 
-.skillPOSTMAN {
+.skillINTELLIJ {
   animation-delay: 5.25s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillVSCODE {
+  animation-delay: 5.5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillPGADMIN {
+  animation-delay: 5.75s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillPOSTMAN {
+  animation-delay: 6s !important;
   animation-fill-mode: both !important;
 }
 
 @media only screen and (max-width: 1600px) {
   #skill {
     margin-right: 100px;
+  }
+  #skillsContainer {
+    height: 32vh;
   }
 }
 
@@ -228,7 +246,7 @@
     font-size: 14px;
     width: 88vw;
     margin: 10px auto 10px auto;
-    height: 240px;
+    height: 260px;
     left: 0;
     right: 0;
     justify-content: space-evenly;
@@ -251,6 +269,7 @@
   }
 
   #brightStars {
+    font-size: 13px;
     width: 88vw;
     margin: 5px;
   }

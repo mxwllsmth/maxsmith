@@ -168,6 +168,10 @@ p {
   animation: fade-in 2.5s ease-in;
 }
 
+.active.fade-in-six {
+  animation: fade-in .2s ease-in;
+}
+
 .active.fade-out {
   animation: fade-out 5s ease-in;
 }
