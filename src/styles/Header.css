@@ -124,7 +124,7 @@
       overflow: auto;
       z-index: 1000000000000000;
     }
-    /* .dropdown:focus-within .dropdown{
+    .dropdown:focus-within .dropdown{
       display: block;
       position: relative;
       z-index: 1000000000000000;
@@ -145,7 +145,7 @@
       flex-direction: column;
       justify-content: space-evenly;
       z-index: 1000000000000000;
-    } */
+    }
     .dropdown-content Link {
       display: block;
       color: #000000;
