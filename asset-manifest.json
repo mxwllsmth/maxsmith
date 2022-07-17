@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.be8b7ed8.css",
-    "main.js": "/maxsmith/static/js/main.71ad0029.js",
+    "main.css": "/maxsmith/static/css/main.a952a4d4.css",
+    "main.js": "/maxsmith/static/js/main.f707437d.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
     "static/media/Mindscape 1 Print.JPG": "/maxsmith/static/media/Mindscape 1 Print.6b7a1fb4a6ea741ddf5d.JPG",
@@ -43,14 +43,14 @@
     "static/media/Nunito-ExtraBold.ttf": "/maxsmith/static/media/Nunito-ExtraBold.7a1db8e31dfc53e9af50.ttf",
     "static/media/Nunito-Black.ttf": "/maxsmith/static/media/Nunito-Black.0184cda5b38ee869cd39.ttf",
     "static/media/Nunito-ExtraLight.ttf": "/maxsmith/static/media/Nunito-ExtraLight.c8e6de987d8be9555f23.ttf",
-    "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.f382530f30130f856232.pdf",
+    "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.f75a967fab0f4ee2061c.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.be8b7ed8.css.map": "/maxsmith/static/css/main.be8b7ed8.css.map",
-    "main.71ad0029.js.map": "/maxsmith/static/js/main.71ad0029.js.map"
+    "main.a952a4d4.css.map": "/maxsmith/static/css/main.a952a4d4.css.map",
+    "main.f707437d.js.map": "/maxsmith/static/js/main.f707437d.js.map"
   },
   "entrypoints": [
-    "static/css/main.be8b7ed8.css",
-    "static/js/main.71ad0029.js"
+    "static/css/main.a952a4d4.css",
+    "static/js/main.f707437d.js"
   ]
 }
