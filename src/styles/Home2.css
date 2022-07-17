@@ -23,14 +23,14 @@
 
 #welcome {
     font-size: 100px;
-    font-weight: 100;
+    font-weight: 120;
     margin: 5px;
     padding: 0;
     animation-fill-mode: both;
 }
 
 #fadeOutWelcome {
-    animation-delay: 1.2s;
+    animation-delay: 1.3s;
     animation-fill-mode: both;
 }
 
@@ -116,7 +116,7 @@
     height: 70px;
     width: 70px;
     margin: 20px;
-    animation-delay: 5.5s !important;
+    animation-delay: 1.5s !important;
     animation-fill-mode: both !important;
     border-radius: 50%;
 }

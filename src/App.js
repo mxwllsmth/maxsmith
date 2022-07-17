@@ -9,7 +9,6 @@ import {
 import Art from './components/Art';
 import Education from './components/Education';
 import Experience from './components/Experience';
-import Spotify from './components/Spotify';
 import Home2 from './components/Home2';
 import Projects from './components/Projects';
 import Flow from './components/Flow';
@@ -38,7 +37,6 @@ function App() {
           <div class="container">
             <ScrollToTop />
             <Routes>
-              <Route path="/Spotify" element={<Spotify/>} />
               <Route path="/Art" element={<Art/>} />
               <Route path="/Education" element={<Education/>} />
               <Route path="/Experience" element={<Experience/>} />

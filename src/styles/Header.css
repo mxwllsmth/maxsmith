@@ -61,35 +61,21 @@
   #headerRight, #headerLeft {
     display: flex;
     align-items: center;
-    width: 35vw;
+    width: 70vw;
     justify-content: space-between;
-  }
-  .animate-left {
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(
-      to right, rgb(140, 73, 165) 0%, rgb(140, 73, 165) 35%, white 50%, rgb(140, 73, 165) 65%, rgb(140, 73, 165) 100%);
-    color: transparent;
-    background-size: 300% 300%;
-    animation: movingGradient 5s linear infinite reverse;
   }
   .animate-right {
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(
-      to right, rgb(140, 73, 165) 0%, rgb(140, 73, 165) 35%, white 50%, rgb(140, 73, 165) 65%, rgb(140, 73, 165) 100%);
+      to left, rgb(140, 73, 165) 0%, rgb(140, 73, 165) 35%, white 50%, rgb(140, 73, 165) 65%, rgb(140, 73, 165) 100%);
     color: transparent;
     background-size: 300% 300%;
-    animation: movingGradient 5s linear infinite;
-  }
-  .animate-left:hover {
-    background-image: linear-gradient(
-      to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
-    animation: movingGradient 2s linear infinite reverse;
+    animation: movingGradient 5s linear infinite reverse;
   }
   .animate-right:hover {
     background-image: linear-gradient(
-      to right, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
+      to left, grey 0%, grey 30%, white 50%, grey 70%, grey 100%);
     animation: movingGradient 2s linear infinite reverse;
   }
 
@@ -138,7 +124,7 @@
       overflow: auto;
       z-index: 1000000000000000;
     }
-    .dropdown:focus-within .dropdown{
+    /* .dropdown:focus-within .dropdown{
       display: block;
       position: relative;
       z-index: 1000000000000000;
@@ -159,7 +145,7 @@
       flex-direction: column;
       justify-content: space-evenly;
       z-index: 1000000000000000;
-    }
+    } */
     .dropdown-content Link {
       display: block;
       color: #000000;
@@ -168,14 +154,17 @@
     }
     #threeBar {
       background-color: transparent;
-      color: white;
+      -webkit-background-clip: text;
+      background-clip: text;
+      background-image: linear-gradient(
+        to right, rgb(135, 18, 178) 0%, rgb(135, 18, 178) 25%, white 50%, rgb(135, 18, 178) 75%, rgb(135, 18, 178) 100%);
+      color: transparent;
+      background-size: 400% 400%;
+      animation: movingGradient 3s linear infinite reverse;
       font-size: 30px;
       margin: 0 2vw 0 0;
       border: none;
       font-weight: 100;
-    }
-    #threeBar:hover {
-      color:rgb(191, 123, 215);
     }
     #headerNavigation {
       position: absolute;
