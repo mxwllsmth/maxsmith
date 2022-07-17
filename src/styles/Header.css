@@ -169,7 +169,7 @@
     #threeBar {
       background-color: transparent;
       color: white;
-      font-size: 42px;
+      font-size: 30px;
       margin: 0 2vw 0 0;
       border: none;
       font-weight: 100;
@@ -227,7 +227,7 @@
       font-size: 16px;
     }
     #threeBar {
-      font-size: 30px;
+      font-size: 24px;
     }
     #aboutMe {
       margin-top: 55vh !important;

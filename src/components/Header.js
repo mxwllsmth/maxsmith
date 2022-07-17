@@ -34,7 +34,7 @@ function Header() {
             <div id="headerRight">
               <Link to="Flow" id="header-nav" className="animate-right">Flow Arts</Link>
               <Link to="Art" id="header-nav" className="animate-right">Art Gallery</Link>
-              <Link to="Spotify" id="header-nav" className="animate-right">Spotify</Link>
+              <Link to="Spotify" id="header-nav" className="animate-right">&nbsp;~~~&nbsp;</Link>
             </div>
           </nav>
         </header>
@@ -45,14 +45,14 @@ function Header() {
               <h1 id="max">M a x w e l l&nbsp;&nbsp;&nbsp;S m i t h</h1>
             </Link>
             <div class="dropdown" id="dropdownIDSelector">
-              <button id="threeBar" onClick={StartDisplay}>&#8801;</button>
+              <button id="threeBar" className="animate-right" onClick={StartDisplay}>• • •</button>
               <div id="headerNavigation" class="dropdown-content dropdown-content-remove" onClick={StopDisplay}>
                 <Link to="Projects" id="header-nav" className="animate-left">P r o j e c t s</Link>
                 <Link to="Education" id="header-nav" className="animate-left">E d u c a t i o n</Link>
                 <Link to="Experience" id="header-nav" className="animate-left">E x p e r i e n c e</Link>
                 <Link to="Flow" id="header-nav" className="animate-right">F l o w&nbsp;&nbsp;A r t s</Link>
                 <Link to="Art" id="header-nav" className="animate-right">A r t&nbsp;&nbsp;G a l l e r y</Link>
-                <Link to="Spotify" id="header-nav" className="animate-right">S p o t i f y</Link>
+                <Link to="Spotify" id="header-nav" className="animate-right">&nbsp;~ ~ ~&nbsp;</Link>
               </div>
             </div>
           </nav>
