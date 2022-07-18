@@ -58,11 +58,13 @@
   #headerNavigation {
     background-color: black;
   }
-  #headerRight, #headerLeft {
+  #headerRight {
     display: flex;
     align-items: center;
-    width: 70vw;
+    width: 60vw;
     justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
   .animate-right {
     -webkit-background-clip: text;

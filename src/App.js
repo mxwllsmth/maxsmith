@@ -11,7 +11,6 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Home2 from './components/Home2';
 import Projects from './components/Projects';
-import Flow from './components/Flow';
 import ScrollToTop from './OpenAtTop';
 import Loader from './loader';
 
@@ -34,14 +33,13 @@ function App() {
           <div id="headerContainerDiv">
             <Header/>
           </div>
-          <div class="container">
+          <div className="container">
             <ScrollToTop />
             <Routes>
               <Route path="/Art" element={<Art/>} />
               <Route path="/Education" element={<Education/>} />
               <Route path="/Experience" element={<Experience/>} />
               <Route path="/Projects" element={<Projects/>} />
-              <Route path="/Flow" element={<Flow/>} />
               <Route path="/" element ={<Home2/>}/>
             </Routes>
           </div>
