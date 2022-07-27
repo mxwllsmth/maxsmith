@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.c7aba1c9.css",
+    "main.css": "/maxsmith/static/css/main.d4ad5208.css",
     "main.js": "/maxsmith/static/js/main.15c3590d.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
@@ -14,7 +14,6 @@
     "static/media/Astro Faceic Print.JPG": "/maxsmith/static/media/Astro Faceic Print.4d260f50ec01f98c27a9.JPG",
     "static/media/Void Print.JPG": "/maxsmith/static/media/Void Print.37b8afcc6b98e7c604f3.JPG",
     "static/media/unicorn.JPG": "/maxsmith/static/media/unicorn.775c8771d91a453dd61d.JPG",
-    "static/media/Screenshot (26).png": "/maxsmith/static/media/Screenshot (26).6f2666518fe9b4eeb67f.png",
     "static/media/motion.JPG": "/maxsmith/static/media/motion.8248af1ee32f98a21036.JPG",
     "static/media/SelfPortrait.JPG": "/maxsmith/static/media/SelfPortrait.fb577894bf0fccc8ed98.JPG",
     "static/media/Screenshot (26).dark.png": "/maxsmith/static/media/Screenshot (26).dark.cd7a7d53fbe3e0445adf.png",
@@ -46,11 +45,11 @@
     "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.f75a967fab0f4ee2061c.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.c7aba1c9.css.map": "/maxsmith/static/css/main.c7aba1c9.css.map",
+    "main.d4ad5208.css.map": "/maxsmith/static/css/main.d4ad5208.css.map",
     "main.15c3590d.js.map": "/maxsmith/static/js/main.15c3590d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7aba1c9.css",
+    "static/css/main.d4ad5208.css",
     "static/js/main.15c3590d.js"
   ]
 }
