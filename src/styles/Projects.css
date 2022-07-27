@@ -97,6 +97,7 @@
 }
 
 #PTLogo {
+  display: inline-block;
   height: 46%;
   width: 46%;
 }
@@ -135,6 +136,46 @@
 #pothole,
 #leet {
   background: linear-gradient(0.25turn, #00000000, #00000095, #00000095, #00000095, #00000000);
+}
+
+#pothole:hover {
+  background-image: url('../images/PotholeTrackerPic.png');
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  animation: movingGradient 10.5s linear infinite alternate;
+  animation-delay: 2s;
+}
+
+#tenmo:hover {
+  background-image: url('../images/TenmoPic.png');
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  animation: movingGradient 10.5s linear infinite alternate;
+  animation-delay: 2s;
+}
+
+#vending:hover {
+  background-image: url('../images/VendingMachinePic.png');
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  animation: movingGradient 10.5s linear infinite alternate;
+  animation-delay: 2s;
+}
+
+#leet:hover {
+  background-image: url('../images/ZigZagPic.png');
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  animation: movingGradient 18.5s linear infinite alternate;
+  animation-delay: 2s;
 }
 
 
