@@ -50,7 +50,6 @@
   border: solid 1.5px;
   border-image: linear-gradient(to top right, transparent 10%, white 50%, transparent 90%) 1;
   background-size: 200% 200%;
-  animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
 }
 
@@ -78,7 +77,6 @@
   border: solid 1.5px;
   border-image: linear-gradient(to top left, transparent 10%, white 50%, transparent 90%) 1;
   background-size: 200% 200%;
-  animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
 }
 
@@ -89,7 +87,6 @@
   background-image: linear-gradient(to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
   color: transparent;
   background-size: 200% 200%;
-  animation: movingGradient 7.5s linear infinite alternate;
 }
 
 #title:hover {
@@ -145,7 +142,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 10.5s linear infinite alternate;
-  animation-delay: 2s;
+  animation-delay: .5s;
 }
 
 #tenmo:hover {
@@ -155,7 +152,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 10.5s linear infinite alternate;
-  animation-delay: 2s;
+  animation-delay: .5s;
 }
 
 #vending:hover {
@@ -165,7 +162,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 10.5s linear infinite alternate;
-  animation-delay: 2s;
+  animation-delay: .5s;
 }
 
 #leet:hover {
@@ -175,7 +172,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 18.5s linear infinite alternate;
-  animation-delay: 2s;
+  animation-delay: .5s;
 }
 
 
