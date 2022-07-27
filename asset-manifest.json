@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.d4ad5208.css",
+    "main.css": "/maxsmith/static/css/main.4f81dc8d.css",
     "main.js": "/maxsmith/static/js/main.15c3590d.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
     "static/media/Mindscape 1 Print.JPG": "/maxsmith/static/media/Mindscape 1 Print.6b7a1fb4a6ea741ddf5d.JPG",
+    "static/media/PotholeTrackerPic.png": "/maxsmith/static/media/PotholeTrackerPic.b0d41b91b36d3db33984.png",
     "static/media/Baba Tequila Print.JPG": "/maxsmith/static/media/Baba Tequila Print.a3e14a3ad066104c71dc.JPG",
     "static/media/Space Face Print.JPG": "/maxsmith/static/media/Space Face Print.dc623fc6663ee6b63815.JPG",
     "static/media/Cogito Print.JPG": "/maxsmith/static/media/Cogito Print.e6f2c07443e01c00e6c5.JPG",
@@ -23,8 +24,11 @@
     "static/media/StocktonLogo-modified.png": "/maxsmith/static/media/StocktonLogo-modified.0fc2f5063c16e3d5389e.png",
     "static/media/backgroundImg.png": "/maxsmith/static/media/backgroundImg.518b93761a8b8c809bb5.png",
     "static/media/GITHUBLOGO-modified.png": "/maxsmith/static/media/GITHUBLOGO-modified.55f03232962a6d3c5dd7.png",
+    "static/media/VendingMachinePic.png": "/maxsmith/static/media/VendingMachinePic.81e3a75a67c255bfe625.png",
+    "static/media/ZigZagPic.png": "/maxsmith/static/media/ZigZagPic.b336671f04257c81394e.png",
     "static/media/PotholeTrackerLogo.png": "/maxsmith/static/media/PotholeTrackerLogo.3e56e0a98fc061b3ae7f.png",
     "static/media/instagramLogo.png": "/maxsmith/static/media/instagramLogo.4e7ab06c21fc3c4922ab.png",
+    "static/media/TenmoPic.png": "/maxsmith/static/media/TenmoPic.811217c8f03ca101094a.png",
     "static/media/githublogo2-modified.png": "/maxsmith/static/media/githublogo2-modified.e670dda710ecfae50f00.png",
     "static/media/Nunito-LightItalic.ttf": "/maxsmith/static/media/Nunito-LightItalic.f25a1c77ffdb2e2b7abe.ttf",
     "static/media/Nunito-MediumItalic.ttf": "/maxsmith/static/media/Nunito-MediumItalic.ea257c8af71fb8772138.ttf",
@@ -45,11 +49,11 @@
     "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.f75a967fab0f4ee2061c.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.d4ad5208.css.map": "/maxsmith/static/css/main.d4ad5208.css.map",
+    "main.4f81dc8d.css.map": "/maxsmith/static/css/main.4f81dc8d.css.map",
     "main.15c3590d.js.map": "/maxsmith/static/js/main.15c3590d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4ad5208.css",
+    "static/css/main.4f81dc8d.css",
     "static/js/main.15c3590d.js"
   ]
 }
