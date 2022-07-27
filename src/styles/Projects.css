@@ -1,5 +1,5 @@
 #projectsPage {
-  background-image: url('../images/Screenshot (26).png');
+  /* background-image: url('../images/Screenshot (26).png'); */
   background-repeat: repeat;
   background-size: contain;
   position: absolute;
@@ -130,11 +130,11 @@
 }
 
 #website,
-#pothole,
 #tenmo,
 #vending,
+#pothole,
 #leet {
-  background: linear-gradient(0.25turn, #00000000, #000000, #000000, #000000, #00000000);
+  background: linear-gradient(0.25turn, #00000000, #00000095, #00000095, #00000095, #00000000);
 }
 
 
