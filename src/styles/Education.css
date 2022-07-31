@@ -17,6 +17,7 @@
     background-size: 200% 200%;
     background-image: linear-gradient(to right, white 0%, rgb(122, 226, 141) 40%, white 60%, rgb(122, 226, 141) 100%);
     border-image: linear-gradient(to right, transparent 0%, rgb(122, 226, 141) 30%, rgb(122, 226, 141) 50%, rgb(122, 226, 141) 70%, transparent 100%) 1;
+    padding-right: 5px;
 }
 
 li {
@@ -29,7 +30,7 @@ li {
     width: 65vw;
     margin: 2% 4% 4% 0%;
     border: solid 1.5px;
-    border-image: linear-gradient(to top left, transparent 10%, white 50%, transparent 90%) 1;
+    border-image: linear-gradient(to top right, transparent 10%, white 40%, rgb(122, 226, 141) 50%, white 60%, transparent 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;
@@ -42,7 +43,7 @@ li {
     width: 65vw;
     margin: 10vh 0 3% 4%;
     border: solid 1.5px;
-    border-image: linear-gradient(to top right, transparent 10%, white 50%, transparent 90%) 1;
+    border-image: linear-gradient(to top left, transparent 10%, white 40%, rgb(122, 226, 141) 50%, white 60%, transparent 90%) 1;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;

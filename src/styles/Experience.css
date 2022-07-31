@@ -86,7 +86,7 @@
   width: 65vw;
   margin: 4% 0 3% 0;
   border: solid 1.5px;
-  border-image: linear-gradient(to top left, transparent 10%, white 50%, transparent 90%) 1;
+  border-image: linear-gradient(to top right, transparent 10%, white 40%, rgb(169, 79, 201) 50%, white 60%, transparent 90%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;

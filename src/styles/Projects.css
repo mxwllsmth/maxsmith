@@ -29,7 +29,7 @@
   width: 70vw;
   margin: 4% 0 2% 0;
   border: solid 1.5px;
-  border-image: linear-gradient(to right, transparent 0%, white 50%, transparent 100%) 1;
+  border-image: linear-gradient(to right, transparent 0%, white 40%, rgb(59, 137, 226) 50%, white 60%, transparent 100%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
@@ -48,11 +48,10 @@
   width: 65vw;
   margin: 2% 4% 2% 0%;
   border: solid 1.5px;
-  border-image: linear-gradient(to top right, transparent 10%, white 50%, transparent 90%) 1;
+  border-image: linear-gradient(to top right, transparent 10%, white 40%, rgb(59, 137, 226) 50%, white 60%, transparent 90%) 1;
   background-size: 200% 200%;
   padding: 0 20px 20px 20px;
 }
-
 
 
 /* Change this selector for whichever project is at the bottom of the page! */
@@ -65,7 +64,7 @@
 #skills {
   padding-top: 10px;
   padding-bottom: 10px;
-  color: rgb(59, 137, 226);
+  color: rgb(107, 165, 231);
 }
 
 #tenmo,
@@ -75,7 +74,7 @@
   width: 65vw;
   margin: 2% 0 2% 4%;
   border: solid 1.5px;
-  border-image: linear-gradient(to top left, transparent 10%, white 50%, transparent 90%) 1;
+  border-image: linear-gradient(to top left, transparent 10%, white 40%, rgb(59, 137, 226) 50%, white 60%, transparent 90%) 1;
   background-size: 200% 200%;
   padding: 0 20px 20px 20px;
 }
@@ -143,7 +142,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 10.5s linear infinite alternate;
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 #tenmo:hover {
@@ -153,7 +152,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 10.5s linear infinite alternate;
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 #vending:hover {
@@ -163,7 +162,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 10.5s linear infinite alternate;
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 #leet:hover {
@@ -173,7 +172,7 @@
   position: relative;
   top: 0;
   animation: movingGradient 18.5s linear infinite alternate;
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 

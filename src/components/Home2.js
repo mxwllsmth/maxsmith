@@ -57,7 +57,7 @@ const Home2 = props => {
   return (
     <div id="allHome">
 
-      <div id="fadeInHomeView" className="reveal active fade-in" display="none">
+      <div id="fadeInHomeView" className="reveal active fade-in-three" display="none">
 
         <img id="landingImg" src={landingImg} alt="backgroundArt" z-index="-1" />
 
