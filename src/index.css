@@ -41,7 +41,7 @@
 }
 
 #topLevel {
-  background-color: rgba(0, 0, 0, 0.368);
+  background-color: rgba(0, 0, 0, 0);
   font-family: 'Nunito', sans-serif;
 }
 
@@ -176,7 +176,7 @@ p {
   animation: fade-out 5s ease-in;
 }
 .active.fade-out-two {
-  animation: fade-out 1.5s ease-in;
+  animation: fade-out .5s ease-in;
 }
 .active.fade-out-three {
   animation: fade-out 3s ease-in;

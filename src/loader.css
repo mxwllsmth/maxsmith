@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1600px) {
+    .loaderGif {
+        height: 300px !important;
+    }
+    .loaderGifDiv {
+        height: 275px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .loaderGif {
+        height: 250px !important;
+    }
+    .loaderGifDiv {
+        height: 230px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .loaderGif {
+        height: 150px !important;
+    }
+    .loaderGifDiv {
+        height: 130px !important;
+    }
+    #loaderAll {
+        margin-left: 0;
+    }
+    .loaderGifDiv {
+        margin-right: 0;
+    }
+}

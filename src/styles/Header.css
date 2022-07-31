@@ -181,7 +181,7 @@
       width: 100vw;
       padding-bottom: auto;
       line-height: 200%;
-      background-color: rgba(0, 0, 0, 0.878);
+      background-color: rgba(0, 0, 0, 0) !important;
       z-index: 1000000000000000;
       height: 100vh;
 
