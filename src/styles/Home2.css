@@ -9,9 +9,6 @@
     overflow-x: hidden;
     background-color: black;
 }
-.iAmAPhone {
-    display: none;
-}
 #mainContainer {
     display: flex;
     flex-direction: column;
@@ -42,7 +39,8 @@
     justify-content: center;
     border-bottom: solid 1px;
     padding: 5% 10% 0 10%;
-    border-image: linear-gradient(to top right, transparent 0%, rgb(135, 18, 178) 5%, rgb(135, 18, 178) 45%, transparent 50%, rgb(135, 18, 178) 55%, rgb(135, 18, 178) 95%, transparent 100%) 1;
+    border-image: linear-gradient(
+      to right, rgb(169, 79, 201) 20%, rgb(59, 137, 226) 40%, rgb(122, 226, 141) 60%, rgb(219, 173, 75) 80%) 1;
     background-size: 100% 200%;
     animation: movingGradient 7.5s linear infinite;
 }
@@ -98,8 +96,14 @@
     font-size: 18px;
 }
 
-#makeItPurple {
-    color: rgb(152, 25, 198);
+#makeItRainbow {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    background-image: linear-gradient(
+      to right, rgb(169, 79, 201) 20%, rgb(59, 137, 226) 40%, rgb(122, 226, 141) 60%, rgb(219, 173, 75) 80%) !important;
+    animation: movingGradient 7.5s linear infinite alternate;
 }
 
 #siteNav {
@@ -140,7 +144,7 @@
 }
 
 #viewResume:hover {
-    color: rgb(192, 100, 225);
+    text-decoration: underline;
 }
 
 #email {
@@ -203,12 +207,6 @@
 
 
 @media only screen and (max-width: 700px) {
-    .iAmAHome {
-        display: none;
-    }
-    .iAmAPhone {
-        display: contents;
-    }
     #homeContainer {
         margin-top: 8%;
         height: fit-content;

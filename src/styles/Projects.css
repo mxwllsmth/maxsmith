@@ -65,7 +65,7 @@
 #skills {
   padding-top: 10px;
   padding-bottom: 10px;
-  color: rgb(201, 111, 234);
+  color: rgb(59, 137, 226);
 }
 
 #tenmo,
@@ -84,9 +84,10 @@
 #title-website {
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
+  background-image: linear-gradient(to right, white 0%, rgb(59, 137, 226) 40%, white 60%, rgb(59, 137, 226) 100%);
   color: transparent;
   background-size: 200% 200%;
+  border-image: linear-gradient(to right, transparent 0%, rgb(59, 137, 226) 30%, rgb(59, 137, 226) 50%, rgb(59, 137, 226) 70%, transparent 100%) 1;
 }
 
 #title:hover {
@@ -242,7 +243,7 @@
     height: 1px;
   }
   .longSkills::-webkit-scrollbar-thumb {
-    background-color: rgb(135, 18, 178);
+    background-color: rgb(59, 137, 226);
     border-radius: 50%;
   }
 

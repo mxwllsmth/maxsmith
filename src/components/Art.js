@@ -27,8 +27,8 @@ const Art = props => {
 
     <div id="artPage">
 
-      <div id="mainArtDisplay">
-        <h2 className="artSubHeader animated reveal fade-in active">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
+      <div id="mainArtDisplay" className="reveal fade-in active">
+        <h2 className="artSubHeader">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
 
         <div className="artwork">
           <div className="reveal fade-left active" id="spDelay">
@@ -214,8 +214,8 @@ const Art = props => {
 
 
 
-      <div id="phoneArtDisplay">
-        <h2 className="artSubHeader animated phoneArtSubHead reveal fade-in active">W e l c o m e &nbsp; t o &nbsp; m y<br/>a r t &nbsp; g a l l e r y</h2>
+      <div id="phoneArtDisplay" className="reveal fade-in active">
+        <h2 className="artSubHeader phoneArtSubHead">W e l c o m e &nbsp; t o &nbsp; m y<br/>a r t &nbsp; g a l l e r y</h2>
 
         <div className="artwork">
           <div className="artInfo">

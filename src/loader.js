@@ -1,4 +1,4 @@
-import loaderImg from "./images/loadingGif4Site.gif"
+import loaderImg from "./images/loader1.gif"
 
 const Loader = () => {
     return (
@@ -13,7 +13,15 @@ const Loader = () => {
       >
         
         <center>
-        <img src={loaderImg} height="200" alt=""/></center>
+          <div
+          style={{
+          height: "400px",
+          overflow: "hidden"
+          }}
+          >
+            <img src={loaderImg} margin-bottom="-500px" overflow="hidden" height="450px" alt=""/>
+          </div>
+        </center>
          </div>
     )
 }

@@ -7,7 +7,7 @@ const Experience = props => {
 
       <div id="techSkillsContainer">
 
-        <div id="tSkillsContainer">
+        <div id="tSkillsContainer" className="reveal fade-in-three active">
           <h2 id="tSkills">T e c h n i c a l &nbsp; S k i l l s</h2>
         </div>
 
@@ -40,7 +40,7 @@ const Experience = props => {
       <div id="brightStarsContainer" className="reveal fade-in-three active">
         <div id="brightStars">
           <div id="subHeader" className="bsgaHeader">
-            <a href="https://brightstarsgym.com/" target="_blank" rel="noopener noreferrer"><h2 id="title" className="bsgaTitle">Bright Stars Gymnastics Academy</h2></a>
+            <a href="https://brightstarsgym.com/" target="_blank" rel="noopener noreferrer"><h2 id="titleExp" className="bsgaTitle">Bright Stars Gymnastics Academy</h2></a>
             <h4 id="dateBSGA">2016 - 2021</h4>
           </div>
           <h2 id="jobTitle">Gymnastics Instructor / Program Director</h2>

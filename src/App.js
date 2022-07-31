@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import './index.css';
 import Header from './components/Header';
 import {
   BrowserRouter,
@@ -20,7 +21,7 @@ function App() {
 
   useEffect(() => {
   
-    setTimeout(() => setLoading(false), 3200);
+    setTimeout(() => setLoading(false), 1750);
   });
 
   return (

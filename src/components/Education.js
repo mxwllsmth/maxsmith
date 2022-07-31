@@ -11,7 +11,7 @@ const Education = props => {
         <div className="reveal fade-in active">
           <div id="techE">
             <div id="subHeader">
-              <a href="https://www.techelevator.com/" target="_blank" rel="noopener noreferrer"><h2 id="title">Tech Elevator</h2></a>
+              <a href="https://www.techelevator.com/" target="_blank" rel="noopener noreferrer"><h2 id="titleEdu">Tech Elevator</h2></a>
               <h4>01/22 - 04/22</h4>
             </div>
             <p className="smallLine">Tech Elevator is a full stack coding bootcamp that teaches students to create dynamic web based software systems.</p>
@@ -47,7 +47,7 @@ const Education = props => {
         <div className="reveal fade-in active">
           <div id="stocktonU">
             <div id="subHeader">
-            <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><h2 id="title">Stockton University</h2></a>
+            <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><h2 id="titleEdu">Stockton University</h2></a>
               <h4>2018 - 2020</h4>
             </div>
             <p className="smallLine">I attended Stockton University for three years in pursuit of a career that felt right for me. Over my time there, I changed my major three times.</p>

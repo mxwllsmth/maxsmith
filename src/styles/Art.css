@@ -12,25 +12,23 @@
     
 }
 .artSubHeader {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, white 0%, rgb(219, 173, 75) 40%, white 60%, rgb(219, 173, 75) 100%) !important;
+    color: transparent;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate !important;
     display: flex;
     justify-content: center;
     margin: 8vh auto 150px auto;
     width: fit-content;
-    padding: 50px 5vw 40px 5vw;
+    padding: 50px 5vw 20px 5vw;
     font-size: 38px;
     font-weight: normal;
+    border-image: linear-gradient(to right, transparent 0%, rgb(219, 173, 75) 30%, rgb(219, 173, 75) 50%, rgb(219, 173, 75) 70%, transparent 100%) 1;
 }
 .phoneArtSubHead {
     background-size: 300% 200% !important;
-}
-.animated {
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(to right, white 0%, white 30%, white 65%, white 100%);
-    color: transparent;
-    background-size: 300% 200%;
-    animation: movingGradient 8s linear infinite alternate-reverse;
-    animation-iteration-count: 1;
 }
 .artwork {
     display: flex;
@@ -42,7 +40,7 @@
     margin-bottom: 40px;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, white 0%, rgb(135, 18, 178) 40%, white 60%, rgb(135, 18, 178) 100%);
+    background-image: linear-gradient(to right, white 0%, rgb(219, 173, 75) 40%, white 60%, rgb(219, 173, 75) 100%);
     color: transparent;
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
@@ -52,6 +50,7 @@
 .date {
     margin-bottom: 200px;
     font-size: 20px;
+    color: rgb(209, 192, 156);
 }
 .artInfo {
     text-align: center;
@@ -66,7 +65,7 @@
     background-clip: padding-box;
 }
 #spDelay {
-    animation-delay: 1.5s;
+    animation-delay: 1s;
     animation-fill-mode: both;
 }
 #spaceFace {

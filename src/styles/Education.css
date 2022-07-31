@@ -10,6 +10,19 @@
     z-index: -1;
 }
 
+#titleEdu {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, white 0%, rgb(122, 226, 141) 40%, white 60%, rgb(122, 226, 141) 100%);
+    border-image: linear-gradient(to right, transparent 0%, rgb(122, 226, 141) 30%, rgb(122, 226, 141) 50%, rgb(122, 226, 141) 70%, transparent 100%) 1;
+}
+
+li {
+    color: rgb(179, 222, 187);
+}
+
 #stocktonU {
     display: flex;
     flex-direction: column;
@@ -160,7 +173,7 @@ a {
         margin-left: 15px;
         margin-bottom: 14px;
         border: solid 1px;
-        border-image: linear-gradient(to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
+        border-image: linear-gradient(to right, transparent 0%, rgb(122, 226, 141) 30%, rgb(122, 226, 141) 50%, rgb(122, 226, 141) 70%, transparent 100%) 1;
         background-size: 200% 200%;
         animation: movingGradient 7.5s linear infinite alternate;
         padding: 0;
@@ -173,7 +186,7 @@ a {
     }
 
     #list::-webkit-scrollbar-thumb {
-        background-color: rgb(135, 18, 178);
+        background-color: rgb(122, 226, 141);
         border-radius: 50%;
     }
 }

@@ -59,7 +59,7 @@ const Home2 = props => {
 
       <div id="fadeOutWelcome" className="reveal active fade-out-two">
 
-        <div id="mainContainer" className="reveal fade-in-five active">
+        <div id="mainContainer" className="reveal fade-in active">
 
           <div id="homeContainer">
 
@@ -80,8 +80,7 @@ const Home2 = props => {
           <div>
             <h1 id="iAmA">Hi,<br />
               My name is Max, <br />
-              and I'm a <span id="makeItPurple" className="iAmAHome">{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</span>
-              <span id="makeItPurple" className="iAmAPhone"><br/>{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</span>
+              and I'm a <span id="makeItRainbow" className="iAmAHome">{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</span>
             </h1>
 
             <p id="aboutMe">Full-stack developer with a background in art and philosophy,<br/>

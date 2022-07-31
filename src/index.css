@@ -80,7 +80,7 @@ h2 {
   font-weight: normal;
   font-size: 30px;
   border-bottom: solid 1px;
-  border-image: linear-gradient(to right, transparent 0%, rgb(135, 18, 178) 30%, rgb(135, 18, 178) 50%, rgb(135, 18, 178) 70%, transparent 100%) 1;
+  border-image: linear-gradient(to right, transparent 0%, rgb(169, 79, 201) 30%, rgb(169, 79, 201) 50%, rgb(169, 79, 201) 70%, transparent 100%) 1;
   background-size: 200% 200%;
   animation: movingGradient 7.5s linear infinite alternate;
 }
@@ -177,6 +177,9 @@ p {
 }
 .active.fade-out-two {
   animation: fade-out 1.5s ease-in;
+}
+.active.fade-out-three {
+  animation: fade-out 3s ease-in;
 }
 
 @keyframes fade-left {

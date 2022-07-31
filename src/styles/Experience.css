@@ -10,6 +10,14 @@
   z-index: -1;
 }
 
+#titleExp {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(169, 79, 201) 40%, white 60%, rgb(169, 79, 201) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+}
+
 #tSkills,
 #pExperience,
 #pExperiencePhone {

@@ -27,10 +27,10 @@ function Header() {
               <h1 id="smith">S m i t h</h1>
             </Link>
             <div id="headerRight">
-              <Link to="Experience" id="header-nav" className="animate-right">Experience</Link>
-              <Link to="Projects" id="header-nav" className="animate-right">Projects</Link>
-              <Link to="Education" id="header-nav" className="animate-right">Education</Link>
-              <Link to="Art" id="header-nav" className="animate-right">Art Gallery</Link>
+              <Link to="Experience" id="header-nav" className="animate-right exp">Experience</Link>
+              <Link to="Projects" id="header-nav" className="animate-right pro">Projects</Link>
+              <Link to="Education" id="header-nav" className="animate-right edu">Education</Link>
+              <Link to="Art" id="header-nav" className="animate-right artGal">Art Gallery</Link>
             </div>
           </nav>
         </header>
@@ -43,10 +43,10 @@ function Header() {
             <div class="dropdown" id="dropdownIDSelector">
               <button id="threeBar" onClick={StartDisplay}>• • •</button>
               <div id="headerNavigation" class="dropdown-content dropdown-content-remove" onClick={StopDisplay}>
-                <Link to="Experience" id="header-nav" className="animate-right">E x p e r i e n c e</Link>
-                <Link to="Projects" id="header-nav" className="animate-right">P r o j e c t s</Link>
-                <Link to="Education" id="header-nav" className="animate-right">E d u c a t i o n</Link>
-                <Link to="Art" id="header-nav" className="animate-right">A r t&nbsp;&nbsp;G a l l e r y</Link>
+                <Link to="Experience" id="header-nav" className="animate-right exp">E x p e r i e n c e</Link>
+                <Link to="Projects" id="header-nav" className="animate-right pro">P r o j e c t s</Link>
+                <Link to="Education" id="header-nav" className="animate-right edu">E d u c a t i o n</Link>
+                <Link to="Art" id="header-nav" className="animate-right artGal">A r t&nbsp;&nbsp;G a l l e r y</Link>
               </div>
             </div>
           </nav>
