@@ -11,6 +11,7 @@ const Loader = () => {
         justifyContent: "center",
         height: "100vh",
         "margin-left": "-100px"
+
       }}
     >
 
