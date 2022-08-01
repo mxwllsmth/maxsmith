@@ -2,7 +2,6 @@
     display: none;
 }
 #artPage {
-    /* background: url('../images/Screenshot (26).png') repeat; */
     background-size: contain;
     position: absolute;
     right: 0;
