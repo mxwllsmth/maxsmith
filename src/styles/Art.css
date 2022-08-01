@@ -9,7 +9,7 @@
     left: 0;
     padding-top: 2vh;
     z-index: -1;
-    
+    margin-top: 5vh;
 }
 .artSubHeader {
     -webkit-background-clip: text;

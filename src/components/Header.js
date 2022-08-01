@@ -14,6 +14,9 @@ function Header() {
     document.querySelector('.dropdown-content').style.justifycontent = "space-evenly";
   }
 
+  const scrollUp = () => {
+      window.scrollTo(0, 0);
+  }
 
   return (
     <div id="Header">
@@ -27,10 +30,10 @@ function Header() {
               <h1 id="smith">S m i t h</h1>
             </Link>
             <div id="headerRight">
-              <Link to="Experience" id="header-nav" className="animate-right exp">Experience</Link>
-              <Link to="Projects" id="header-nav" className="animate-right pro">Projects</Link>
-              <Link to="Education" id="header-nav" className="animate-right edu">Education</Link>
-              <Link to="Art" id="header-nav" className="animate-right artGal">Art Gallery</Link>
+              <Link to="Experience" id="header-nav" className="animate-right exp" onClick={scrollUp}>Experience</Link>
+              <Link to="Projects" id="header-nav" className="animate-right pro" onClick={scrollUp}>Projects</Link>
+              <Link to="Education" id="header-nav" className="animate-right edu" onClick={scrollUp}>Education</Link>
+              <Link to="Art" id="header-nav" className="animate-right artGal" onClick={scrollUp}>Art Gallery</Link>
             </div>
           </nav>
         </header>
