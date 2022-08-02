@@ -31,7 +31,7 @@ function Header() {
             </Link>
             <div id="headerRight">
               <Link to="Experience" id="header-nav" className="animate-right exp" onClick={scrollUp}>Experience</Link>
-              <Link to="Projects" id="header-nav" className="animate-right pro" onClick={scrollUp}>Projects</Link>
+              <Link to="Projects" id="header-nav" className="animate-right pro" onClick={scrollUp}>Portfolio</Link>
               <Link to="Education" id="header-nav" className="animate-right edu" onClick={scrollUp}>Education</Link>
               <Link to="Art" id="header-nav" className="animate-right artGal" onClick={scrollUp}>Art Gallery</Link>
             </div>
@@ -47,7 +47,7 @@ function Header() {
               <button id="threeBar" onClick={StartDisplay}>• • •</button>
               <div id="headerNavigation" class="dropdown-content dropdown-content-remove" onClick={StopDisplay}>
                 <Link to="Experience" id="header-nav" className="animate-right exp">E x p e r i e n c e</Link>
-                <Link to="Projects" id="header-nav" className="animate-right pro">P r o j e c t s</Link>
+                <Link to="Projects" id="header-nav" className="animate-right pro">P o r t f o l i o</Link>
                 <Link to="Education" id="header-nav" className="animate-right edu">E d u c a t i o n</Link>
                 <Link to="Art" id="header-nav" className="animate-right artGal">A r t&nbsp;&nbsp;G a l l e r y</Link>
               </div>
