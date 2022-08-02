@@ -31,8 +31,8 @@ const Projects = props => {
           </div>
           <p>Mob programmed a dynamic full stack web application in a team of five to meet requirements set by a product owner.</p>
           <p className="smallLine" id="completedUsing">This app was completed using the following technologies: </p>
-          <p id="skills" className="longSkills">PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;Java&nbsp;&nbsp;|&nbsp;&nbsp;Vue.js&nbsp;&nbsp;|&nbsp;&nbsp;JavaScript&nbsp;&nbsp;|&nbsp;&nbsp;HTML&nbsp;&nbsp;|&nbsp;&nbsp;CSS&nbsp;&nbsp;|
-            &nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;VS Code&nbsp;&nbsp;|&nbsp;&nbsp;MapBox API&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
+          <p id="skills" className="longSkills">Java&nbsp;&nbsp;|&nbsp;&nbsp;JavaScript&nbsp;&nbsp;|&nbsp;&nbsp;Vue.js&nbsp;&nbsp;|&nbsp;&nbsp;Spring Boot&nbsp;&nbsp;|&nbsp;&nbsp;PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;HTML&nbsp;&nbsp;|&nbsp;&nbsp;CSS&nbsp;&nbsp;|
+            &nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;VS Code&nbsp;&nbsp;|&nbsp;&nbsp;MapBox API&nbsp;&nbsp;|&nbsp;&nbsp;JUnit&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
           <p>The goal of this project was to create a utility application for the city of Philadelphia to manage their potholes. Any person can create an account and
             report a pothole, any person with or without an account can view reported potholes and track their repair status, and an employee/ Admin user can
             update potholes to input severity and date inspected and/or repaired, and delete potholes when necessary.</p>
@@ -51,7 +51,7 @@ const Projects = props => {
           </div>
           <p>Pair programmed a command line application to mimic the functionality of Venmo.</p>
           <p className="smallLine" id="completedUsing">This app was completed using the following technologies: </p>
-          <p id="skills">PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;Java&nbsp;&nbsp;|&nbsp;&nbsp;JUnit&nbsp;&nbsp;|&nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
+          <p id="skills">Java&nbsp;&nbsp;|&nbsp;&nbsp;Spring Boot&nbsp;&nbsp;|&nbsp;&nbsp;PostgreSQL&nbsp;&nbsp;|&nbsp;&nbsp;JUnit&nbsp;&nbsp;|&nbsp;&nbsp;IntelliJ&nbsp;&nbsp;|&nbsp;&nbsp;Postman&nbsp;&nbsp;|&nbsp;&nbsp;pgAdmin 4</p>
           <p>The goal of this project was to mimic the functionality of Venmo by creating a service where a user can request or send money, their transaction will be
             recorded in a database, and their account balances will be updated accordingly.</p>
           <p className="smallLine"></p>
