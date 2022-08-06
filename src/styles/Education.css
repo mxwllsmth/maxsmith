@@ -147,6 +147,14 @@ a {
         display: none;
     }
 
+    #titleEdu {
+        font-size: 22px;
+    }
+
+    #dateEdu {
+        font-size: 12px;
+    }
+
     #techE,
     #stocktonU {
         width: 88vw;

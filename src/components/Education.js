@@ -12,7 +12,7 @@ const Education = props => {
           <div id="techE">
             <div id="subHeader">
               <a href="https://www.techelevator.com/" target="_blank" rel="noopener noreferrer"><h2 id="titleEdu">Tech Elevator</h2></a>
-              <h4>01/22 - 04/22</h4>
+              <h4 className="dateEdu">01/22 - 04/22</h4>
             </div>
             <p className="smallLine">Tech Elevator is a full stack coding bootcamp that teaches students to create dynamic web based software systems.</p>
             <p className="smallLine">This 14-week program provides around 700 hours of developmental education and application in the following technologies:</p>
@@ -48,7 +48,7 @@ const Education = props => {
           <div id="stocktonU">
             <div id="subHeader">
             <a href="https://stockton.edu/" target="_blank" rel="noopener noreferrer"><h2 id="titleEdu">Stockton University</h2></a>
-              <h4>2018 - 2020</h4>
+              <h4 className="dateEdu">2018 - 2020</h4>
             </div>
             <p className="smallLine">I attended Stockton University for three years in pursuit of a career that felt right for me. Over my time there, I changed my major three times.</p>
             <p>My first major was philosophy, and although I decided early on that I no longer wanted to pursue teaching at the collegiate level and changed my major,
