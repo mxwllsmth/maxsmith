@@ -2,6 +2,12 @@ import loaderImg from "./images/loader1SLOW.gif"
 import './loader.css';
 
 const Loader = () => {
+
+  setTimeout(() => {
+    document.querySelector(".hideLoaderGif").style.display="contents";
+    document.querySelector("#mainContainer").style.display="flex";
+  }, 500);
+
   return (
     <div id="loaderAll"
       style={{
@@ -11,11 +17,10 @@ const Loader = () => {
         justifyContent: "center",
         height: "100vh",
         "margin-left": "-100px"
-
       }}
     >
 
-      <center>
+      <center className="hideLoaderGif">
         <div className="loaderGifDiv reveal active fade-in-two"
           style={{
             height: "400px",
@@ -29,7 +34,7 @@ const Loader = () => {
 
       <div id="fadeOutWelcome" className="reveal active fade-out-two">
 
-        <div id="mainContainer" className="reveal fade-in active">
+        <div id="mainContainer" className="reveal fade-in-seven active">
 
           <div id="homeContainer">
 

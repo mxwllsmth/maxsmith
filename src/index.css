@@ -171,6 +171,10 @@ p {
   animation: fade-in .2s ease-in;
 }
 
+.active.fade-in-seven {
+  animation: fade-in 1s ease-in;
+}
+
 .active.fade-out {
   animation: fade-out 5s ease-in;
 }

@@ -10,12 +10,12 @@
     background-color: black;
 }
 #mainContainer {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 88vh;
     animation-fill-mode: both;
+    display: none;
 }
 
 #welcome {
@@ -27,7 +27,7 @@
 }
 
 #fadeOutWelcome {
-    animation-delay: 1.8s;
+    animation-delay: 2.3s;
     animation-fill-mode: both;
 }
 
