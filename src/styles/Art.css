@@ -2,13 +2,15 @@
     display: none;
 }
 #artPage {
-    background-size: contain;
+    background-size: contain !important;
+    background: url('../images/w3.1.dark.jpg');
     position: absolute;
+    top: 0;
     right: 0;
     left: 0;
-    padding-top: 2vh;
+    padding-top: 8vh;
     z-index: -1;
-    margin-top: 5vh;
+    
 }
 .artSubHeader {
     -webkit-background-clip: text;

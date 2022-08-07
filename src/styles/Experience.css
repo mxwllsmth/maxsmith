@@ -1,12 +1,14 @@
 #expPage {
   background-repeat: repeat;
-  background-size: cover;
+  background-size: cover !important;
+  background: url('../images/w2.1.dark.jpg') !important;
   position: absolute;
   left: 0;
   right: 0;
+  top: 0;
   height: fit-content;
   padding-bottom: 2vh;
-  margin-top: 5vh;
+  padding-top: 8vh;
   z-index: -1;
 }
 
@@ -305,7 +307,7 @@
 @media only screen and (max-width: 800px) {
   #expPage {
     background-size: contain;
-    padding-top: 2vh;
+    padding-top: 6vh;
     height: fit-content;
   }
 

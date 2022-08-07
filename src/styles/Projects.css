@@ -1,12 +1,14 @@
 #projectsPage {
   background-repeat: repeat;
-  background-size: contain;
+  background-size: cover !important;
+  background: url('../images/w2.2.dark.jpg');
   position: absolute;
   left: 0;
   right: 0;
-  padding-top: 2vh;
+  top: 0;
+  background-position-x: right !important;
+  padding-top: 8vh;
   z-index: -1;
-  margin-top: 5vh;
 }
 
 #websiteContainer,

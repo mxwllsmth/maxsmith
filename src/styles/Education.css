@@ -1,13 +1,15 @@
 #eduPage {
     background-repeat: repeat;
-    background-size: cover;
+    background-size: cover !important;
+    background: url('../images/w1.dark.png');
     position: absolute;
+    top: 0;
     right: 0;
     left: 0;
-    padding-top: 2vh;
-    height: 92%;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+    height: 100%;
     z-index: -1;
-    margin-top: 5vh;
 }
 
 #titleEdu {
@@ -113,6 +115,12 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (max-height: 1100px) {
+    #eduPage {
+        height: fit-content;
+    }
+}
+
 @media only screen and (max-width: 1600px) {
     #stocktonU {
         margin-bottom: 0;
@@ -120,7 +128,7 @@ a {
 
     #eduPage {
         padding-bottom: 2%;
-        height: 100%;
+        height: fit-content;
     }
 }
 
@@ -203,8 +211,8 @@ a {
 
 @media only screen and (max-width: 600px) {
     #eduPage {
-        background-size: contain;
-        padding-top: 2vh;
+        background-size: cover !important;
+        padding-top: 6vh;
         height: fit-content;
     }
 
