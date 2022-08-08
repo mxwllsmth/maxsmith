@@ -51,7 +51,6 @@
     height: 100%;
     width: 100vw;
     z-index: 20;
-    animation-delay: 1.5s;
     animation-fill-mode: both;
 }
 

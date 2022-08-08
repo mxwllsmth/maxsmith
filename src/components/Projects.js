@@ -6,7 +6,8 @@ import githubLogo from '../images/GITHUBLOGO-modified.png';
 const Projects = props => {
 
   return (
-    <div id="projectsPage">
+
+    <div id="projectsPage" className="reveal active fade-in-three">
 
       <div id="websiteContainer" className="reveal fade-in active">
         <div id="website">
@@ -102,6 +103,7 @@ const Projects = props => {
       </div>
 
     </div>
+    
   );
 
 };

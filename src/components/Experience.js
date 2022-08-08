@@ -4,7 +4,8 @@ import '../styles/Experience.css';
 const Experience = props => {
 
   return (
-    <div id="expPage">
+    
+    <div id="expPage" className="reveal active fade-in-three">
 
       <div id="techSkillsContainer">
 
@@ -60,6 +61,7 @@ const Experience = props => {
       </div>
       
     </div>
+  
   );
 
 };

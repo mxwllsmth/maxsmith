@@ -25,7 +25,9 @@ const Art = props => {
 
     return (
 
-      <div id="artPage">
+      
+
+      <div id="artPage" className="reveal active fade-in-three">
   
         <div id="mainArtDisplay" className="reveal fade-in active">
           <h2 className="artSubHeader">W e l c o m e &nbsp; t o &nbsp; m y &nbsp; a r t &nbsp; g a l l e r y</h2>
@@ -400,6 +402,7 @@ const Art = props => {
         </div>
   
       </div>
+      
     );
 
   

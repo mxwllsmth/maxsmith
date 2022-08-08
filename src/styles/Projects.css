@@ -10,6 +10,7 @@
   top: 0;
   padding-top: 8vh;
   z-index: -1;
+  animation-fill-mode: both;
 }
 
 #websiteContainer,

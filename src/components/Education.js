@@ -6,7 +6,9 @@ import TELogo from '../images/TElogo-modified.png'
 const Education = props => {
   
   return (
-    <div id="eduPage">
+
+   
+    <div id="eduPage" className="reveal active fade-in-three">
 
       <div id="teContainer">
         <div className="reveal fade-in active">
@@ -63,6 +65,7 @@ const Education = props => {
       </div>
 
     </div>
+    
   );
   
 };

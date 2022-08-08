@@ -184,6 +184,9 @@ p {
 .active.fade-out-three {
   animation: fade-out 3s ease-in;
 }
+.active.fade-out-four {
+  animation: fade-out 1.5s ease-in;
+}
 
 @keyframes fade-left {
   0% {

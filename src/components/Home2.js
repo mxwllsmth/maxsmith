@@ -7,7 +7,7 @@ import resume from '../docs/Max Smith- Resume.pdf'
 import landingImg from '../images/backgroundImg.png';
 //import landingImg from '../images/w1.2.png';
 
-const words = ["", " ", "Music Lover", "Artist", "Software Developer."];
+const words = ["", "Music Lover", "Artist", "Software Developer."];
 
 
 const Home2 = props => {
