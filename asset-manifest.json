@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.a49b985a.css",
+    "main.css": "/maxsmith/static/css/main.d86fc0a6.css",
     "main.js": "/maxsmith/static/js/main.74af339a.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
+    "static/media/w1.png": "/maxsmith/static/media/w1.79c785d496213dfb30f0.png",
     "static/media/Mindscape 1 Print.JPG": "/maxsmith/static/media/Mindscape 1 Print.6b7a1fb4a6ea741ddf5d.JPG",
     "static/media/PotholeTrackerPic.png": "/maxsmith/static/media/PotholeTrackerPic.b0d41b91b36d3db33984.png",
     "static/media/Baba Tequila Print.JPG": "/maxsmith/static/media/Baba Tequila Print.a3e14a3ad066104c71dc.JPG",
     "static/media/Space Face Print.JPG": "/maxsmith/static/media/Space Face Print.dc623fc6663ee6b63815.JPG",
-    "static/media/w1.dark.png": "/maxsmith/static/media/w1.dark.41095b6e890e8f4ac824.png",
     "static/media/Cogito Print.JPG": "/maxsmith/static/media/Cogito Print.e6f2c07443e01c00e6c5.JPG",
     "static/media/Heads.JPG": "/maxsmith/static/media/Heads.432bd04c89d7f7f865a9.JPG",
     "static/media/Purple Rain Print.JPG": "/maxsmith/static/media/Purple Rain Print.0837a2e16e741416c62d.JPG",
@@ -18,11 +18,10 @@
     "static/media/w3.1.dark.jpg": "/maxsmith/static/media/w3.1.dark.3867e59bc9af62d789d3.jpg",
     "static/media/unicorn.JPG": "/maxsmith/static/media/unicorn.775c8771d91a453dd61d.JPG",
     "static/media/loader1SLOW.gif": "/maxsmith/static/media/loader1SLOW.1b5486b76453983da960.gif",
+    "static/media/w10.2.jpg": "/maxsmith/static/media/w10.2.22cc8264e285325b3985.jpg",
     "static/media/motion.JPG": "/maxsmith/static/media/motion.8248af1ee32f98a21036.JPG",
     "static/media/SelfPortrait.JPG": "/maxsmith/static/media/SelfPortrait.fb577894bf0fccc8ed98.JPG",
     "static/media/Portrait.JPG": "/maxsmith/static/media/Portrait.f70fe7f941cb4add4f8d.JPG",
-    "static/media/w2.1.dark.jpg": "/maxsmith/static/media/w2.1.dark.9ef03a50073fa1befea2.jpg",
-    "static/media/w2.2.dark.jpg": "/maxsmith/static/media/w2.2.dark.b2a6376494b7eb1f7a6d.jpg",
     "static/media/TElogo-modified.png": "/maxsmith/static/media/TElogo-modified.4b59bb8503c588cd220d.png",
     "static/media/StocktonLogo-modified.png": "/maxsmith/static/media/StocktonLogo-modified.0fc2f5063c16e3d5389e.png",
     "static/media/backgroundImg.png": "/maxsmith/static/media/backgroundImg.518b93761a8b8c809bb5.png",
@@ -52,11 +51,11 @@
     "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.9f098ccb3ec65708a095.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.a49b985a.css.map": "/maxsmith/static/css/main.a49b985a.css.map",
+    "main.d86fc0a6.css.map": "/maxsmith/static/css/main.d86fc0a6.css.map",
     "main.74af339a.js.map": "/maxsmith/static/js/main.74af339a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a49b985a.css",
+    "static/css/main.d86fc0a6.css",
     "static/js/main.74af339a.js"
   ]
 }
