@@ -5,7 +5,6 @@ import instagramLogo from '../images/instagramLogo.png';
 import githubLogo2 from '../images/githublogo2-modified.png';
 import resume from '../docs/Max Smith- Resume.pdf'
 import landingImg from '../images/backgroundImg.png';
-//import landingImg from '../images/w1.2.png';
 
 const words = ["", "Music Lover", "Artist", "Software Developer."];
 
@@ -60,7 +59,7 @@ const Home2 = props => {
 
       <div id="fadeInHomeView" className="reveal active fade-in-three" display="none">
 
-        <img id="landingImg" src={landingImg} alt="backgroundArt" z-index="-1" />
+        <img id="landingImg" src={landingImg} alt="backgroundArt" z-index="-1"/>
 
         <div id="homeMain">
           
