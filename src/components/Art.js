@@ -23,7 +23,6 @@ import heads from '../images/Heads.JPG';
 
 const Art = props => {
 
-  if(document.readyState === 'ready' || document.readyState === 'complete') {
     return (
 
       <div id="artPage">
@@ -402,7 +401,6 @@ const Art = props => {
   
       </div>
     );
-  } 
 
   
 };

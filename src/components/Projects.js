@@ -5,8 +5,6 @@ import githubLogo from '../images/GITHUBLOGO-modified.png';
 
 const Projects = props => {
 
-  if(document.readyState === 'ready' || document.readyState === 'complete') {
-
   return (
     <div id="projectsPage">
 
@@ -106,8 +104,6 @@ const Projects = props => {
     </div>
   );
 
-  }
-  
 };
 
 export default Projects;

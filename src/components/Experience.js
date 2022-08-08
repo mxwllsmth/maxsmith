@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Experience.css';
 
 const Experience = props => {
-  if(document.readyState === 'ready' || document.readyState === 'complete') {
+
   return (
     <div id="expPage">
 
@@ -61,7 +61,7 @@ const Experience = props => {
       
     </div>
   );
-  }
+
 };
 
 export default Experience;
