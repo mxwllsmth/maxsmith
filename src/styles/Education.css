@@ -1,14 +1,13 @@
 #eduPage {
     background-repeat: repeat;
     background-size: cover !important;
-    background: url('../images/w1.dark.png');
+    background: url('../images/w1.png');
     position: absolute;
-    top: 0;
-    right: 0;
     left: 0;
+    right: 0;
+    top: 0;
     padding-top: 8vh;
     padding-bottom: 2vh;
-    height: 100%;
     z-index: -1;
 }
 
@@ -36,8 +35,10 @@ li {
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;
-    background: linear-gradient(0.25turn, #00000000, #00000095, #00000095, #00000095, #00000000);
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.56), transparent);
+    backdrop-filter: blur(1px);
 }
+
 
 #techE {
     display: flex;
@@ -49,7 +50,8 @@ li {
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite alternate;
     padding: 0 20px 20px 20px;
-    background: linear-gradient(0.25turn, #00000000, #00000095, #00000095, #00000095, #00000000);
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.56), transparent);
+    backdrop-filter: blur(1px);
 }
 
 #subHeader {
@@ -115,9 +117,14 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (max-height: 1100px) {
+@media only screen and (min-width: 800px) {
     #eduPage {
-        height: fit-content;
+        height: 100vh !important;
+    }
+}
+@media only screen and (max-height: 1000px) {
+    #eduPage {
+        height: fit-content !important;
     }
 }
 
@@ -128,7 +135,6 @@ a {
 
     #eduPage {
         padding-bottom: 2%;
-        height: fit-content;
     }
 }
 
@@ -213,7 +219,6 @@ a {
     #eduPage {
         background-size: cover !important;
         padding-top: 6vh;
-        height: fit-content;
     }
 
     #stocktonU {

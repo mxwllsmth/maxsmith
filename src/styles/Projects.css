@@ -1,12 +1,12 @@
 #projectsPage {
   background-repeat: repeat;
   background-size: cover !important;
-  background: url('../images/w2.2.dark.jpg');
+  background: url('../images/w10.2.jpg');
   position: absolute;
+  background-position: left;
   left: 0;
   right: 0;
   top: 0;
-  background-position-x: right !important;
   padding-top: 8vh;
   z-index: -1;
 }
@@ -134,7 +134,8 @@
 #vending,
 #pothole,
 #leet {
-  background: linear-gradient(0.25turn, #00000000, #00000095, #00000095, #00000095, #00000000);
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.56), transparent);
+  backdrop-filter: blur(1px);
 }
 
 #pothole:hover {
@@ -282,7 +283,7 @@
 
 @media only screen and (max-width: 600px) {
   #projectsPage {
-    padding-top: 4vh;
+    padding-top: 6vh;
   }
 
   #websiteDesc {
