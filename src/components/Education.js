@@ -4,6 +4,7 @@ import StocktonLogo from '../images/StocktonLogo-modified.png'
 import TELogo from '../images/TElogo-modified.png'
 
 const Education = props => {
+  if(document.readyState === 'ready' || document.readyState === 'complete') {
   return (
     <div id="eduPage">
 
@@ -63,6 +64,7 @@ const Education = props => {
 
     </div>
   );
+  }
 };
 
 export default Education;

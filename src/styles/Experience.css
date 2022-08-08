@@ -1,0 +1,339 @@
+#expPage {
+  background-repeat: repeat;
+  background-size: cover !important;
+  background: url('../images/w10.2.jpg');
+  position: absolute;
+  background-position: right;
+  right: 0 !important;
+  top: 0;
+  left: 0;
+  padding-top: 8vh;
+  padding-bottom: 2vh;
+  z-index: -1;
+}
+
+#titleExp {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(169, 79, 201) 40%, white 60%, rgb(169, 79, 201) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+}
+
+#tSkills,
+#pExperience,
+#pExperiencePhone {
+  text-align: center;
+  width: 30vw;
+  margin: 45px 0 0 35px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(186, 131, 206) 40%, white 60%, rgb(186, 131, 206) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+  font-style: italic;
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+#pExperience {
+  margin: 100px 0 0 0;
+  text-align: center;
+  width: 100vw;
+}
+
+#pExperiencePhone {
+  display: none;
+}
+
+#tSkillsContainer {
+  display: flex;
+  height: fit-content;
+  margin-top: 10%;
+}
+
+#techSkillsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0;
+}
+
+#skillsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vw;
+  margin-top: 6%;
+  font-size: 20px;
+  flex-wrap: wrap;
+  height: 28vh;
+  width: 58vw;
+  overflow-x: hidden;
+}
+
+#skill {
+  margin-top: 20px;
+  margin-right: 5vw;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(186, 131, 206) 40%, white 60%, rgb(186, 131, 206) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+}
+
+#brightStars {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  margin: 4% 0 3% 0;
+  border: solid 1.5px;
+  border-image: linear-gradient(to top right, transparent 10%, white 40%, rgb(169, 79, 201) 50%, white 60%, transparent 90%) 1;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+  padding: 0 20px 20px 20px;
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.56), transparent);
+  backdrop-filter: blur(1px);
+  font-size: 16.5px;
+}
+
+#brightStarsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#jobTitle {
+  border: none;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, white 0%, rgb(186, 131, 206) 40%, white 60%, rgb(186, 131, 206) 100%);
+  color: transparent;
+  background-size: 200% 200%;
+  animation: movingGradient 7.5s linear infinite alternate;
+  font-style: italic;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.skillJAVA {
+  animation-delay: 1.5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillJS {
+  animation-delay: 1.75s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillJSX {
+  animation-delay: 2s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillPSQL {
+  animation-delay: 2.25s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillRESTAPI {
+  animation-delay: 2.5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillOOP {
+  animation-delay: 2.75s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillREACT {
+  animation-delay: 3s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillVUE {
+  animation-delay: 3.25s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillHTML {
+  animation-delay: 3.5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillCSS {
+  animation-delay: 3.75s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillRD {
+  animation-delay: 4s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillJSON {
+  animation-delay: 4.25s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillGIT {
+  animation-delay: 4.5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillUNIT {
+  animation-delay: 4.75s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillSPRING {
+  animation-delay: 5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillINTELLIJ {
+  animation-delay: 5.25s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillVSCODE {
+  animation-delay: 5.5s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillPGADMIN {
+  animation-delay: 5.75s !important;
+  animation-fill-mode: both !important;
+}
+
+.skillPOSTMAN {
+  animation-delay: 6s !important;
+  animation-fill-mode: both !important;
+}
+
+@media only screen and (max-width: 1600px) {
+  #skill {
+    margin-right: 100px;
+  }
+  #skillsContainer {
+    height: 32vh;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #tSkills {
+    width: 20vw;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #expPage {
+    height: 100%;
+  }
+
+  #techSkillsContainer {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  #tSkillsContainer {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  #tSkills,
+  #pExperience {
+    margin: 35px auto 20px auto;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  #skillsContainer {
+    font-size: 14px;
+    width: 88vw;
+    margin: 10px auto 10px auto;
+    height: 260px;
+    left: 0;
+    right: 0;
+    justify-content: space-evenly;
+  }
+
+  #skill {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+    width: fit-content;
+    flex: 1;
+    left: 0;
+    right: 0;
+  }
+
+  #brightStarsContainer {
+    font-size: 13px;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  #brightStars {
+    font-size: 13px;
+    width: 88vw;
+    margin: 5px;
+  }
+
+  #dateBSGA {
+    font-size: 12px;
+  }
+
+  .bsgaHeader {
+    flex-direction: column !important;
+    padding: 0 !important;
+    align-items: flex-start !important;
+  }
+
+  .bsgaTitle {
+    font-size: 18.5px !important;
+    margin-bottom: 0px !important;
+  }
+
+  #jobTitle {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #expPage {
+    background-size: contain;
+    padding-top: 6vh;
+    height: fit-content;
+  }
+
+  #brightStars {
+    margin-bottom: 4vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  #pExperience {
+    display: none;
+  }
+
+  #pExperiencePhone {
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+  }
+  #pExperiencePhone {
+    margin: 35px auto 20px auto;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    font-size: 22px;
+  }
+
+}
