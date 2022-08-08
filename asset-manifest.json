@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/maxsmith/static/css/main.dda2e4bb.css",
+    "main.css": "/maxsmith/static/css/main.a015bd1d.css",
     "main.js": "/maxsmith/static/js/main.d4af5b70.js",
     "static/media/Boundless Print.JPG": "/maxsmith/static/media/Boundless Print.b0ffbaeff0c6601871ae.JPG",
     "static/media/P.L.U.R. Print.JPG": "/maxsmith/static/media/P.L.U.R. Print.936d9f1b78f2d0509fa3.JPG",
-    "static/media/w1.png": "/maxsmith/static/media/w1.79c785d496213dfb30f0.png",
     "static/media/Mindscape 1 Print.JPG": "/maxsmith/static/media/Mindscape 1 Print.6b7a1fb4a6ea741ddf5d.JPG",
     "static/media/PotholeTrackerPic.png": "/maxsmith/static/media/PotholeTrackerPic.b0d41b91b36d3db33984.png",
     "static/media/Baba Tequila Print.JPG": "/maxsmith/static/media/Baba Tequila Print.a3e14a3ad066104c71dc.JPG",
@@ -18,13 +17,15 @@
     "static/media/w3.1.dark.jpg": "/maxsmith/static/media/w3.1.dark.3867e59bc9af62d789d3.jpg",
     "static/media/unicorn.JPG": "/maxsmith/static/media/unicorn.775c8771d91a453dd61d.JPG",
     "static/media/loader1SLOW.gif": "/maxsmith/static/media/loader1SLOW.1b5486b76453983da960.gif",
-    "static/media/w10.2.jpg": "/maxsmith/static/media/w10.2.22cc8264e285325b3985.jpg",
+    "static/media/b1.1.blue.jpg": "/maxsmith/static/media/b1.1.blue.3a643595c4b8f2d553f2.jpg",
+    "static/media/b1.1.purple.jpg": "/maxsmith/static/media/b1.1.purple.ee3d94795b1231458ccc.jpg",
     "static/media/motion.JPG": "/maxsmith/static/media/motion.8248af1ee32f98a21036.JPG",
     "static/media/SelfPortrait.JPG": "/maxsmith/static/media/SelfPortrait.fb577894bf0fccc8ed98.JPG",
     "static/media/Portrait.JPG": "/maxsmith/static/media/Portrait.f70fe7f941cb4add4f8d.JPG",
     "static/media/TElogo-modified.png": "/maxsmith/static/media/TElogo-modified.4b59bb8503c588cd220d.png",
     "static/media/StocktonLogo-modified.png": "/maxsmith/static/media/StocktonLogo-modified.0fc2f5063c16e3d5389e.png",
     "static/media/backgroundImg.png": "/maxsmith/static/media/backgroundImg.518b93761a8b8c809bb5.png",
+    "static/media/b1.green.jpg": "/maxsmith/static/media/b1.green.370f1edf3a4d56217562.jpg",
     "static/media/GITHUBLOGO-modified.png": "/maxsmith/static/media/GITHUBLOGO-modified.55f03232962a6d3c5dd7.png",
     "static/media/VendingMachinePic.png": "/maxsmith/static/media/VendingMachinePic.81e3a75a67c255bfe625.png",
     "static/media/ZigZagPic.png": "/maxsmith/static/media/ZigZagPic.b336671f04257c81394e.png",
@@ -51,11 +52,11 @@
     "static/media/Max Smith- Resume.pdf": "/maxsmith/static/media/Max Smith- Resume.9f098ccb3ec65708a095.pdf",
     "static/media/linkedinLogo.png": "/maxsmith/static/media/linkedinLogo.3617581be53d39d39fa0.png",
     "index.html": "/maxsmith/index.html",
-    "main.dda2e4bb.css.map": "/maxsmith/static/css/main.dda2e4bb.css.map",
+    "main.a015bd1d.css.map": "/maxsmith/static/css/main.a015bd1d.css.map",
     "main.d4af5b70.js.map": "/maxsmith/static/js/main.d4af5b70.js.map"
   },
   "entrypoints": [
-    "static/css/main.dda2e4bb.css",
+    "static/css/main.a015bd1d.css",
     "static/js/main.d4af5b70.js"
   ]
 }
