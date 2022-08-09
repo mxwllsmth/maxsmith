@@ -90,9 +90,12 @@
   border: solid 1.5px;
   border-image: linear-gradient(to top right, transparent 10%, white 40%, rgb(169, 79, 201) 50%, white 60%, transparent 90%) 1;
   background-size: 200% 200%;
-  animation: movingGradient 7.5s linear infinite alternate;
   padding: 0 20px 20px 20px;
-  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.56), transparent);
+  background: -moz-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.602) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.602) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -o-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.602) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.602) 0%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.602) 0%, rgba(255, 255, 255, 0) 100%);
   backdrop-filter: blur(1px);
   font-size: 16.5px;
 }
@@ -215,6 +218,7 @@
   #skill {
     margin-right: 100px;
   }
+
   #skillsContainer {
     height: 32vh;
   }
@@ -328,6 +332,7 @@
     text-align: center;
     margin: 10px auto 10px auto;
   }
+
   #pExperiencePhone {
     margin: 35px auto 20px auto;
     padding: 0;
